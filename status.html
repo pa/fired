@@ -134,7 +134,7 @@ footer { color: var(--muted); font-size: .8rem; }
   </section>
 
   <section class="card">
-    <h2>Wrong actions on unseen messages: brain vs keyword rules</h2>
+    <h2>Wrong changes to GitHub on unseen messages: brain vs keyword rules</h2>
     <div class="bench" id="bench"></div>
   </section>
 
@@ -199,14 +199,14 @@ function renderState(s) {
   const kw = s.bench.keywords, LBL = { test: "Held-out", persona_terse: "Terse dev",
     persona_polite: "Polite Brit", persona_hinglish: "Hinglish" };
   if (kw) {
-    const max = Math.max(...Object.values(kw).map(v => v["keyword rules"].wrong), 0.01);
+    const max = Math.max(...Object.values(kw).map(v => v["keyword rules"].harmful), 0.01);
     $("bench").replaceChildren(...Object.entries(kw).map(([k, v]) => {
       const row = el("div", "brow"); row.append(el("div", "label", LBL[k] || k));
       for (const [who, d, color] of [["Brain", v.brain, "var(--good)"],
                                      ["Rules", v["keyword rules"], "var(--bad)"]]) {
         const bar = el("div", "bar"); const tr = el("div", "track"); const f = el("div", "fill");
-        f.style.width = (d.wrong / max * 100) + "%"; f.style.background = color; tr.append(f);
-        bar.append(tr, el("span", "val num", `${who} ${pct(d.wrong, 1)}`));
+        f.style.width = Math.max(d.harmful / max * 100, d.harmful ? 1 : 0) + "%"; f.style.background = color; tr.append(f);
+        bar.append(tr, el("span", "val num", `${who} ${pct(d.harmful, 1)}`));
         row.append(bar);
       }
       return row; }));

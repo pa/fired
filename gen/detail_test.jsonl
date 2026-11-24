@@ -1,0 +1,125 @@
+{"text": "has anyone grabbed #4 yet", "detail": "assignee"}
+{"text": "who's on the hook for #17?", "detail": "assignee"}
+{"text": "is #22 sitting in anybody's queue or still orphaned", "detail": "assignee"}
+{"text": "whose plate is #8 on", "detail": "assignee"}
+{"text": "#31 owner?", "detail": "assignee"}
+{"text": "did somebody claim #13 or is it up for grabs", "detail": "assignee"}
+{"text": "who's tackling #5", "detail": "assignee"}
+{"text": "I'm wondering if anyone on the team has picked up #29, it's been sitting there forever and I'd hate to start on it if somebody's already deep into it", "detail": "assignee"}
+{"text": "who got stuck with #19 lol", "detail": "assignee"}
+{"text": "need to know who to ping about #36", "detail": "assignee"}
+{"text": "#2 assigned to anyone?", "detail": "assignee"}
+{"text": "which human is responsible for #14", "detail": "assignee"}
+{"text": "anybody working on #27 right now?", "detail": "assignee"}
+{"text": "tell me who owns #11", "detail": "assignee"}
+{"text": "is #38 unassigned", "detail": "assignee"}
+{"text": "who has dibs on #7", "detail": "assignee"}
+{"text": "Hey, quick one: has #33 been handed to someone, or should I take it myself?", "detail": "assignee"}
+{"text": "who's driving #21", "detail": "assignee"}
+{"text": "anyone handling #3?", "detail": "assignee"}
+{"text": "#40 - who's it with", "detail": "assignee"}
+{"text": "who did we give #16 to", "detail": "assignee"}
+{"text": "is there a person attached to #9 or nah", "detail": "assignee"}
+{"text": "whose job is #25 supposed to be", "detail": "assignee"}
+{"text": "who's been put on #12", "detail": "assignee"}
+{"text": "looking for the dev responsible for #34, anyone know", "detail": "assignee"}
+{"text": "what's #3 tagged as", "detail": "labels"}
+{"text": "labels on #18?", "detail": "labels"}
+{"text": "is #26 marked as a bug", "detail": "labels"}
+{"text": "does #10 carry the 'good first issue' tag", "detail": "labels"}
+{"text": "how's #6 been categorised", "detail": "labels"}
+{"text": "show me the stickers on #37", "detail": "labels"}
+{"text": "did anyone slap priority:high on #15", "detail": "labels"}
+{"text": "I'm triaging and need to see how #23 got classified, what tags does it have right now, if any at all", "detail": "labels"}
+{"text": "#1 tags", "detail": "labels"}
+{"text": "is #30 flagged as documentation or enhancement or something else", "detail": "labels"}
+{"text": "has #20 been given the wontfix label", "detail": "labels"}
+{"text": "what category did #35 land in", "detail": "labels"}
+{"text": "any tags on #28?", "detail": "labels"}
+{"text": "is #14 tagged urgent", "detail": "labels"}
+{"text": "rattle off the labels for #32", "detail": "labels"}
+{"text": "is #5 labelled frontend", "detail": "labels"}
+{"text": "what kind of ticket is #24 according to its tags", "detail": "labels"}
+{"text": "#39 got any labels yet or is it bare", "detail": "labels"}
+{"text": "which tags are stuck on #11", "detail": "labels"}
+{"text": "does #8 have a 'help wanted' label", "detail": "labels"}
+{"text": "pull up the label list for #13", "detail": "labels"}
+{"text": "is #19 flagged security", "detail": "labels"}
+{"text": "how did we label #2", "detail": "labels"}
+{"text": "what badges does #21 wear", "detail": "labels"}
+{"text": "#17 labelled?", "detail": "labels"}
+{"text": "is #12 shipping in the next release", "detail": "milestone"}
+{"text": "which milestone is #7 under", "detail": "milestone"}
+{"text": "when's #25 landing, what version", "detail": "milestone"}
+{"text": "#33 milestone?", "detail": "milestone"}
+{"text": "will #4 make v2.0", "detail": "milestone"}
+{"text": "what release train is #16 on", "detail": "milestone"}
+{"text": "is #29 part of the beta milestone or got pushed out", "detail": "milestone"}
+{"text": "I told a customer that #22 would go out with the March release, can you check which milestone it's actually been put in because I don't want to be wrong", "detail": "milestone"}
+{"text": "target version for #10?", "detail": "milestone"}
+{"text": "is #36 slotted for 1.4", "detail": "milestone"}
+{"text": "which sprint bucket did #3 go in", "detail": "milestone"}
+{"text": "#18 part of any milestone", "detail": "milestone"}
+{"text": "when does #31 ship", "detail": "milestone"}
+{"text": "what drop is #6 targeted at", "detail": "milestone"}
+{"text": "has #27 been scheduled for a release yet", "detail": "milestone"}
+{"text": "did #1 slip to the next milestone", "detail": "milestone"}
+{"text": "which version gets #38", "detail": "milestone"}
+{"text": "is #9 on the roadmap for the launch milestone", "detail": "milestone"}
+{"text": "release for #20?", "detail": "milestone"}
+{"text": "are we putting #15 in the MVP milestone", "detail": "milestone"}
+{"text": "what's the ETA milestone on #34", "detail": "milestone"}
+{"text": "is #23 scoped to the Q4 release", "detail": "milestone"}
+{"text": "which cut does #40 belong to", "detail": "milestone"}
+{"text": "#26 going out in what version", "detail": "milestone"}
+{"text": "milestone for #14 please", "detail": "milestone"}
+{"text": "did #25 ever get sorted", "detail": "state"}
+{"text": "is #8 still open", "detail": "state"}
+{"text": "#30 closed?", "detail": "state"}
+{"text": "has #12 been fixed", "detail": "state"}
+{"text": "can I stop worrying about #19, is it done", "detail": "state"}
+{"text": "did someone finally knock out #5", "detail": "state"}
+{"text": "is #37 resolved or still broken", "detail": "state"}
+{"text": "I remember we talked about #21 last week and I think it got wrapped up but honestly I'm not sure, is it closed out by now", "detail": "state"}
+{"text": "#2 still a thing?", "detail": "state"}
+{"text": "are we still waiting on #28", "detail": "state"}
+{"text": "did #16 get shut", "detail": "state"}
+{"text": "is #33 dead or alive", "detail": "state"}
+{"text": "status of #11, open or closed", "detail": "state"}
+{"text": "has #24 been put to bed", "detail": "state"}
+{"text": "was #35 reopened", "detail": "state"}
+{"text": "is #7 sorted", "detail": "state"}
+{"text": "did the fix for #13 land, can we close it", "detail": "state"}
+{"text": "#39 - fixed yet?", "detail": "state"}
+{"text": "is #4 wrapped", "detail": "state"}
+{"text": "is #22 still outstanding", "detail": "state"}
+{"text": "tell me if #17 is already resolved", "detail": "state"}
+{"text": "is #32 still live or did it get closed", "detail": "state"}
+{"text": "did #10 get done", "detail": "state"}
+{"text": "#6 over and done with?", "detail": "state"}
+{"text": "is #26 shut or still active", "detail": "state"}
+{"text": "gimme the rundown on #9", "detail": "none"}
+{"text": "what's #14 about", "detail": "none"}
+{"text": "show me #3", "detail": "none"}
+{"text": "pull up #27", "detail": "none"}
+{"text": "#18", "detail": "none"}
+{"text": "can you explain #31 to me like I'm new here", "detail": "none"}
+{"text": "I keep seeing #6 mentioned in standups and have zero context, can you walk me through what it is and what's going on with it", "detail": "none"}
+{"text": "what's the deal with #22", "detail": "none"}
+{"text": "open up #1 for me", "detail": "none"}
+{"text": "tl;dr #36", "detail": "none"}
+{"text": "give me the full picture on #20", "detail": "none"}
+{"text": "look at #11 for me", "detail": "none"}
+{"text": "summarise #38", "detail": "none"}
+{"text": "what is #15 even", "detail": "none"}
+{"text": "fetch #29", "detail": "none"}
+{"text": "can I see #8?", "detail": "none"}
+{"text": "break down #34 for me", "detail": "none"}
+{"text": "need context on #2 before the meeting", "detail": "none"}
+{"text": "what's going on in #40", "detail": "none"}
+{"text": "let me read #25", "detail": "none"}
+{"text": "info on #13?", "detail": "none"}
+{"text": "describe #19", "detail": "none"}
+{"text": "what does #5 say", "detail": "none"}
+{"text": "bring up issue #23 please", "detail": "none"}
+{"text": "tell me about #37", "detail": "none"}

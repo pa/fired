@@ -37,6 +37,10 @@ RULES = [  # (intent, regex) in priority order
 ]
 
 
+READ_ONLY = {"whats_on_fire", "list_issues", "search_issues", "show_issue", "help", "brain_status",
+             "other", "ASK"}
+
+
 def rules(text):
     t = text.lower()
     return next((intent for intent, rx in RULES if re.search(rx, t)), None)
@@ -52,9 +56,12 @@ def score(name, rows, model):
     out = {"messages": len(rows)}
     for label, pred, act in (("keyword rules", kw, kw_act), ("brain", br, br_act)):
         right, acts, wrong = np.mean(pred == y), act.mean(), np.mean(act & (pred != y))
-        print(f"  {label:13} right overall {right:5.1%}   acts on {acts:5.1%}   wrong actions {wrong:5.1%}")
+        # the wrong actions that matter most: ones that change something in GitHub
+        harmful = np.mean(act & (pred != y) & ~np.isin(pred, list(READ_ONLY)))
+        print(f"  {label:13} right overall {right:5.1%}   acts on {acts:5.1%}   wrong actions {wrong:5.1%}"
+              f"   of which change GitHub {harmful:5.1%}")
         out[label] = {"right": round(float(right), 3), "acts": round(float(acts), 3),
-                      "wrong": round(float(wrong), 3)}
+                      "wrong": round(float(wrong), 3), "harmful": round(float(harmful), 3)}
     return out
 
 

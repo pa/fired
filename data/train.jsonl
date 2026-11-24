@@ -1588,5 +1588,129 @@
 {"text": "add comment on 5: new issue for this coming soon", "intent": "comment_issue"}
 {"text": "note on #11: file a bug upstream", "intent": "comment_issue"}
 {"text": "post to #20: any update on this?", "intent": "comment_issue"}
+{"text": "who's on #12?", "intent": "show_issue"}
+{"text": "is anyone working on #7", "intent": "show_issue"}
+{"text": "who owns issue 23", "intent": "show_issue"}
+{"text": "has anybody picked up #31 yet?", "intent": "show_issue"}
+{"text": "who is handling #4", "intent": "show_issue"}
+{"text": "whos responsible for #19", "intent": "show_issue"}
+{"text": "#15 assignee?", "intent": "show_issue"}
+{"text": "is #22 assigned to anyone", "intent": "show_issue"}
+{"text": "can you tell me who's working on issue #8?", "intent": "show_issue"}
+{"text": "is @priya on #33 or is it unowned", "intent": "show_issue"}
+{"text": "who took #17", "intent": "show_issue"}
+{"text": "owner of 29?", "intent": "show_issue"}
+{"text": "did anyone claim #2", "intent": "show_issue"}
+{"text": "who do I ask about #36? who's got it", "intent": "show_issue"}
+{"text": "whos assigned on #11", "intent": "show_issue"}
+{"text": "is #5 still unassigned?", "intent": "show_issue"}
+{"text": "is somebody on this one? #27", "intent": "show_issue"}
+{"text": "tell me who is looking at #14 right now", "intent": "show_issue"}
+{"text": "is @marcus handling #38?", "intent": "show_issue"}
+{"text": "who has #9 on their plate", "intent": "show_issue"}
+{"text": "whos doing #21", "intent": "show_issue"}
+{"text": "does #30 have an owner", "intent": "show_issue"}
+{"text": "anyone picked up 16?", "intent": "show_issue"}
+{"text": "who's the dri for #25", "intent": "show_issue"}
+{"text": "Could you let me know who is assigned to issue #3, please?", "intent": "show_issue"}
+{"text": "what labels does #12 have?", "intent": "show_issue"}
+{"text": "is #7 a bug", "intent": "show_issue"}
+{"text": "labels on 23", "intent": "show_issue"}
+{"text": "is #31 marked p0?", "intent": "show_issue"}
+{"text": "what tags are on issue #4", "intent": "show_issue"}
+{"text": "does #19 have the needs-triage label", "intent": "show_issue"}
+{"text": "how is #15 labeled", "intent": "show_issue"}
+{"text": "is 22 tagged as enhancement or bug?", "intent": "show_issue"}
+{"text": "show me the labels for #8", "intent": "show_issue"}
+{"text": "is #33 flagged stale", "intent": "show_issue"}
+{"text": "#17 labels?", "intent": "show_issue"}
+{"text": "whats the priority label on #29", "intent": "show_issue"}
+{"text": "is this a question or a bug? #2", "intent": "show_issue"}
+{"text": "has #36 been labeled yet", "intent": "show_issue"}
+{"text": "tags for #11 please", "intent": "show_issue"}
+{"text": "is #5 p0", "intent": "show_issue"}
+{"text": "does issue 27 have any labels at all", "intent": "show_issue"}
+{"text": "what is #14 tagged with", "intent": "show_issue"}
+{"text": "is #38 an enhancement?", "intent": "show_issue"}
+{"text": "which labels got applied to #9", "intent": "show_issue"}
+{"text": "is #21 considered a bug", "intent": "show_issue"}
+{"text": "need to know if #30 is still needs-triage", "intent": "show_issue"}
+{"text": "list the labels on #16", "intent": "show_issue"}
+{"text": "whats #25 labelled as", "intent": "show_issue"}
+{"text": "Could you check whether #3 carries the p0 label?", "intent": "show_issue"}
+{"text": "which milestone is #12 in?", "intent": "show_issue"}
+{"text": "what release will #7 ship in", "intent": "show_issue"}
+{"text": "is #23 in v2.0", "intent": "show_issue"}
+{"text": "milestone for 31?", "intent": "show_issue"}
+{"text": "is #4 targeted for v2.1", "intent": "show_issue"}
+{"text": "when does #19 ship", "intent": "show_issue"}
+{"text": "is #15 part of the march release?", "intent": "show_issue"}
+{"text": "what version is #22 planned for", "intent": "show_issue"}
+{"text": "does #8 have a milestone", "intent": "show_issue"}
+{"text": "which release is issue 33 going out with", "intent": "show_issue"}
+{"text": "#17 milestone", "intent": "show_issue"}
+{"text": "is #29 slated for v2.0 or v2.1", "intent": "show_issue"}
+{"text": "will #2 make the march release", "intent": "show_issue"}
+{"text": "what milestone did we put #36 in", "intent": "show_issue"}
+{"text": "which release does #11 belong to", "intent": "show_issue"}
+{"text": "has #5 been added to a milestone yet?", "intent": "show_issue"}
+{"text": "what release is 27 scheduled for", "intent": "show_issue"}
+{"text": "is #14 going into v2.1?", "intent": "show_issue"}
+{"text": "tell me the milestone on #38", "intent": "show_issue"}
+{"text": "which version will #9 land in", "intent": "show_issue"}
+{"text": "is #21 in the next release", "intent": "show_issue"}
+{"text": "do we have #30 in any milestone", "intent": "show_issue"}
+{"text": "what release train is #16 on", "intent": "show_issue"}
+{"text": "Could you tell me which milestone #25 is attached to?", "intent": "show_issue"}
+{"text": "is #3 a v2.0 item", "intent": "show_issue"}
+{"text": "is #12 open?", "intent": "show_issue"}
+{"text": "is #7 closed", "intent": "show_issue"}
+{"text": "did #23 get fixed", "intent": "show_issue"}
+{"text": "status of 31?", "intent": "show_issue"}
+{"text": "is #4 resolved yet", "intent": "show_issue"}
+{"text": "is #19 still open", "intent": "show_issue"}
+{"text": "has #15 been closed?", "intent": "show_issue"}
+{"text": "is #22 done", "intent": "show_issue"}
+{"text": "#8 open or closed", "intent": "show_issue"}
+{"text": "is issue 33 still active", "intent": "show_issue"}
+{"text": "was #17 fixed", "intent": "show_issue"}
+{"text": "is #29 resolved or not", "intent": "show_issue"}
+{"text": "did anyone close #2", "intent": "show_issue"}
+{"text": "is #36 still a problem or is it closed", "intent": "show_issue"}
+{"text": "state of #11", "intent": "show_issue"}
+{"text": "is #5 fixed yet?", "intent": "show_issue"}
+{"text": "is 27 still open", "intent": "show_issue"}
+{"text": "check if #14 is closed", "intent": "show_issue"}
+{"text": "has #38 been resolved", "intent": "show_issue"}
+{"text": "whats the status of #9, open or closed", "intent": "show_issue"}
+{"text": "is #21 done yet", "intent": "show_issue"}
+{"text": "is #30 still alive or did it get closed", "intent": "show_issue"}
+{"text": "did we ship the fix for #16, is it closed", "intent": "show_issue"}
+{"text": "Could you confirm whether #25 is still open?", "intent": "show_issue"}
+{"text": "is #3 closed already", "intent": "show_issue"}
+{"text": "show me #12", "intent": "show_issue"}
+{"text": "what is #7 about?", "intent": "show_issue"}
+{"text": "give me details on 23", "intent": "show_issue"}
+{"text": "pull up #31", "intent": "show_issue"}
+{"text": "summarise #4", "intent": "show_issue"}
+{"text": "tell me about issue #19", "intent": "show_issue"}
+{"text": "#15", "intent": "show_issue"}
+{"text": "can you explain #22 to me", "intent": "show_issue"}
+{"text": "look up #8", "intent": "show_issue"}
+{"text": "whats #33", "intent": "show_issue"}
+{"text": "get me #17", "intent": "show_issue"}
+{"text": "what's going on with #29?", "intent": "show_issue"}
+{"text": "open up issue 2", "intent": "show_issue"}
+{"text": "give me a rundown of #36", "intent": "show_issue"}
+{"text": "details for #11 please", "intent": "show_issue"}
+{"text": "i need to understand #5, what is it", "intent": "show_issue"}
+{"text": "show issue 27", "intent": "show_issue"}
+{"text": "tl;dr of #14", "intent": "show_issue"}
+{"text": "fetch #38", "intent": "show_issue"}
+{"text": "what does #9 say", "intent": "show_issue"}
+{"text": "can you pull up the issue #21 for me", "intent": "show_issue"}
+{"text": "brief me on #30", "intent": "show_issue"}
+{"text": "whats issue #16 all about", "intent": "show_issue"}
+{"text": "Could you show me issue #25, I haven't seen it yet?", "intent": "show_issue"}
 {"text": "sort out the untagged issues", "intent": "triage"}
 {"text": "what's the weather", "intent": "other"}

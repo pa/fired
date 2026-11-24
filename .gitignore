@@ -5,3 +5,6 @@ stats.json
 lessons.json
 data/jev_cache.json
 data_v1/
+SUBMISSION.md
+seed_demo.py
+detail.pkl

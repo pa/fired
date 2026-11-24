@@ -98,10 +98,15 @@ def call(method, url, body=None):
     return json.loads(raw) if raw else {}
 
 
-def say(text, thread=None):
+def say(text, thread=None, why=None):
+    """Post a reply. `why` goes on its own line in Slack's small grey context text."""
     # Reply in the message's thread and show it in the channel too, so it's hard to miss.
     extra = {"thread_ts": thread, "reply_broadcast": True} if thread else {}
-    call("POST", f"{SLACK}/chat.postMessage", {"channel": CHANNEL, "text": text, **extra})
+    if why:
+        extra["blocks"] = [{"type": "section", "text": {"type": "mrkdwn", "text": text[:2900]}},
+                           {"type": "context", "elements": [{"type": "mrkdwn", "text": why[:2900]}]}]
+    call("POST", f"{SLACK}/chat.postMessage", {"channel": CHANNEL, "text": text, **extra,
+                                               "unfurl_links": False, "unfurl_media": False})
 
 
 def gh(method, path, body=None):
@@ -141,12 +146,12 @@ def decide(text):
     for word, intent in lessons.items():
         if word in words:
             record("lesson", t)
-            return intent, f"lesson: '{word}' means {intent}", [], "lesson"
+            return intent, f"📝 *Lesson* · you taught me '{word}' means {intent}", [], "lesson"
     intent, conf, reasons = predict(model, text)
     if conf >= THRESHOLD:
         record("brain", t)
-        why = ", ".join(f"'{w}' +{s:.2f}" for w, s in reasons) or "overall wording"
-        return intent, f"brain {conf:.0%} in {ms(t):.1f} ms, because {why}", [], "brain"
+        words = "  ".join(f"`{w}` +{s:.2f}" for w, s in reasons) or "overall wording"
+        return intent, f"🧠 *Brain* · {conf:.0%} sure · {ms(t):.1f} ms · {words}", [], "brain"
     t = time.perf_counter()
     a = jev(text, {"intent": {
         "type": "choice",
@@ -154,12 +159,14 @@ def decide(text):
         "criteria": {k: v["description"] for k, v in INTENTS.items()}}})["intent"]
     if a["confidence"] >= JEV_MIN:
         record("jev", t)
-        return a["choice"], (f"brain unsure ({intent} {conf:.0%}), Jev chose it "
-                             f"{a['confidence']:.0%} in {ms(t):.0f} ms"), [], "jev"
+        return a["choice"], (f"⚖️ *Jev* · {a['confidence']:.0%} sure · {ms(t):.0f} ms · "
+                             f"the brain was only {conf:.0%} sure (guessed {intent})"), [], "jev"
     stats["asked"] += 1
     probs = model.predict_proba([normalise(text)])[0]
     top = [a["choice"]] + list(model.classes_[np.argsort(-probs)[:3]])
-    return None, "", list(dict.fromkeys(top))[:3], "asked"
+    why = (f"🧠 Brain {conf:.0%} sure · ⚖️ Jev {a['confidence']:.0%} sure · "
+           "both too unsure to act, so I'm asking")
+    return None, why, list(dict.fromkeys(top))[:3], "asked"
 
 
 # --- acting on GitHub -----------------------------------------------------
@@ -199,6 +206,34 @@ def set_state(num, state, reason):
     gh("PATCH", f"/issues/{num}", {"state": state, "state_reason": reason})
 
 
+DETAIL_FILE = HERE / "detail.pkl"  # second model: which detail a question asks about
+detail_model = pickle.loads(DETAIL_FILE.read_bytes()) if DETAIL_FILE.exists() else None
+
+
+def field_answer(text, i):
+    """(answer line or None, note for the grey line). The detail model decides which
+    detail the question is about; below THRESHOLD we just show the whole issue."""
+    if detail_model is None:
+        return None, ""
+    t = time.perf_counter()
+    detail, conf, reasons = predict(detail_model, text)
+    words = "  ".join(f"`{w}` +{s:.2f}" for w, s in reasons) or "overall wording"
+    note = f"🔎 *Detail model* · {detail} {conf:.0%} · {ms(t):.1f} ms · {words}"
+    if detail == "none" or conf < THRESHOLD:
+        return None, note
+    n = i["number"]
+    if detail == "assignee":
+        people = [f"@{a['login']}" for a in i["assignees"]]
+        return (f"#{n} is assigned to {', '.join(people)}." if people else f"Nobody is assigned to #{n}."), note
+    if detail == "labels":
+        tags = ", ".join(l["name"] for l in i["labels"])
+        return (f"#{n} is labelled {tags}." if tags else f"#{n} has no labels."), note
+    if detail == "milestone":
+        m = (i.get("milestone") or {}).get("title")
+        return (f"#{n} is in {m}." if m else f"#{n} isn't in a milestone."), note
+    return f"#{n} is {i['state']}.", note
+
+
 def act(intent, text, ts):
     num, nums, user, quote, labels = parse(text)
     if intent in NEEDS_NUMBER and not num:
@@ -228,8 +263,10 @@ def act(intent, text, ts):
         i = gh("GET", f"/issues/{num}")
         who = ", ".join(a["login"] for a in i["assignees"]) or "nobody"
         ms_ = (i.get("milestone") or {}).get("title", "none")
-        return (f"{line(i)}\n{i['state']}, assigned to {who}, milestone {ms_}\n"
-                f"{(i['body'] or '')[:300]}\n{i['html_url']}")
+        details = (f"{line(i)}\n{i['state']}, assigned to {who}, milestone {ms_}\n"
+                   f"{(i['body'] or '')[:300]}\n{i['html_url']}")
+        answer, note = field_answer(text, i)
+        return (f"*{answer}*\n{details}" if answer else details), note
     if intent == "create_issue":
         title = quote or re.sub(r"^(please |pls |can you |could you )?(create|open|file|raise|log|"
                                 r"add|make|new)( an?| new)*( issue| bug| ticket)?( for| about| saying)?"
@@ -414,9 +451,9 @@ def status_text():
     table = "\n".join([f"{'Decided by':<12}{'Msgs':>6}{'Avg time':>11}"] +
                       [f"{s:<12}{c:>6}{a:>11}" for s, c, a in rows])
     kw = (bench("keywords") or {}).get("test")
-    bench_line = (f"\nHeld-out test: brain {kw['brain']['right']:.0%} right, {kw['brain']['wrong']:.1%} "
-                  f"wrong actions; keyword rules {kw['keyword rules']['right']:.0%} right, "
-                  f"{kw['keyword rules']['wrong']:.1%} wrong") if kw else ""
+    bench_line = (f"\nUnseen messages: brain {kw['brain']['right']:.0%} right, {kw['brain']['harmful']:.1%} "
+                  f"wrong changes to GitHub; keyword rules {kw['keyword rules']['right']:.0%} right, "
+                  f"{kw['keyword rules']['harmful']:.1%} wrong changes") if kw else ""
     points = [c["id"] for c in checkpoints() if c.get("comment", "").startswith("before lesson")]
     return (f"*Fired status* since {stats['since']}: {n} messages\n```{table}```\n"
             f"Claude calls at runtime: 0 (Anthropic gateway: HTTP {code})\n"
@@ -496,8 +533,11 @@ def run(intent, text, why, ts):
         reply = act(intent, text, ts)
     except urllib.error.HTTPError as e:
         reply = f"GitHub said {e.code}: {e.read()[:200].decode(errors='replace')}"
+    note = ""
+    if isinstance(reply, tuple):  # an action can add its own line to the explanation
+        reply, note = reply
     if reply:
-        say(f"{reply}\n_{intent} · {why}_", ts)
+        say(reply, ts, f"`{intent}` · {why}" + (f"\n{note}" if note else ""))
 
 
 def handle(text, ts):
@@ -514,7 +554,7 @@ def handle(text, ts):
     pending[ts] = {"kind": "ask", "text": text, "options": options}
     say("I'm not sure what you mean. Reply with a number:\n"
         + "\n".join(f"{n}. {o.replace('_', ' ')}" for n, o in enumerate(options, 1))
-        + "\nor *no* to drop it.", ts)
+        + "\nor *no* to drop it.", ts, why)
 
 
 def answer(thread, p, reply):
@@ -532,7 +572,7 @@ def answer(thread, p, reply):
                  if reply in (str(n), o, o.replace("_", " "))), None)
     if not pick:
         return say("Dropped it.", thread)
-    run(pick, p["text"], "you told me", thread)
+    run(pick, p["text"], "🙋 *You* picked it", thread)
 
 
 ANSWER = re.compile(r"^\s*(yes|y|yep|ok|go|no|n|nope|\d)\s*[.!]?\s*$", re.I)

@@ -38,6 +38,15 @@ test = rows("test_*.jsonl")
 personas = {w: rows(f"persona_{w}.jsonl") for w in ("terse", "polite", "hinglish")}
 held = {r["text"].lower() for r in test} | {r["text"].lower() for p in personas.values() for r in p}
 train = rows("train_*.jsonl") + rows("contrast.jsonl")
+# Questions about one issue's details (who's on it, labels, milestone, open?) are show_issue to
+# the brain. Take 25 per detail class from the detail model's training phrases, so show_issue
+# learns those phrasings without swamping the other intents.
+detail_rows = [json.loads(l) for l in (GEN / "detail_train.jsonl").read_text().splitlines() if l.strip()]
+per_class: dict[str, int] = {}
+for r in detail_rows:
+    if per_class.get(r["detail"], 0) < 25:
+        per_class[r["detail"]] = per_class.get(r["detail"], 0) + 1
+        train.append({"text": r["text"].strip(), "intent": "show_issue"})
 train += [{"text": e, "intent": k} for k, v in INTENTS.items() for e in v["examples"]]
 before = len(train)
 seen, train = set(), [r for r in train if r["text"].lower() not in held]

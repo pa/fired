@@ -1,0 +1,350 @@
+{"text": "who's on #12?", "detail": "assignee"}
+{"text": "is anyone working on #7", "detail": "assignee"}
+{"text": "who owns issue 23", "detail": "assignee"}
+{"text": "has anybody picked up #31 yet?", "detail": "assignee"}
+{"text": "who is handling #4", "detail": "assignee"}
+{"text": "whos responsible for #19", "detail": "assignee"}
+{"text": "#15 assignee?", "detail": "assignee"}
+{"text": "is #22 assigned to anyone", "detail": "assignee"}
+{"text": "can you tell me who's working on issue #8?", "detail": "assignee"}
+{"text": "is @priya on #33 or is it unowned", "detail": "assignee"}
+{"text": "who took #17", "detail": "assignee"}
+{"text": "owner of 29?", "detail": "assignee"}
+{"text": "did anyone claim #2", "detail": "assignee"}
+{"text": "who do I ask about #36? who's got it", "detail": "assignee"}
+{"text": "whos assigned on #11", "detail": "assignee"}
+{"text": "is #5 still unassigned?", "detail": "assignee"}
+{"text": "is somebody on this one? #27", "detail": "assignee"}
+{"text": "tell me who is looking at #14 right now", "detail": "assignee"}
+{"text": "is @marcus handling #38?", "detail": "assignee"}
+{"text": "who has #9 on their plate", "detail": "assignee"}
+{"text": "whos doing #21", "detail": "assignee"}
+{"text": "does #30 have an owner", "detail": "assignee"}
+{"text": "anyone picked up 16?", "detail": "assignee"}
+{"text": "who's the dri for #25", "detail": "assignee"}
+{"text": "Could you let me know who is assigned to issue #3, please?", "detail": "assignee"}
+{"text": "who is on it for #40", "detail": "assignee"}
+{"text": "is #18 being worked on by anyone", "detail": "assignee"}
+{"text": "who got #6", "detail": "assignee"}
+{"text": "assigned to whom? #13", "detail": "assignee"}
+{"text": "need to know who's fixing #34, who owns it?", "detail": "assignee"}
+{"text": "show me the assignee for #1", "detail": "assignee"}
+{"text": "whos got #26", "detail": "assignee"}
+{"text": "is anybody on #39 or should I take it", "detail": "assignee"}
+{"text": "who's in charge of #10", "detail": "assignee"}
+{"text": "is @dana working on #20?", "detail": "assignee"}
+{"text": "who is the person responsible for #35", "detail": "assignee"}
+{"text": "#28 who's on it", "detail": "assignee"}
+{"text": "wondering if anyone has taken ownership of #24", "detail": "assignee"}
+{"text": "who's been given #37?", "detail": "assignee"}
+{"text": "is there an owner on issue 32", "detail": "assignee"}
+{"text": "who is currently handling issue number 12", "detail": "assignee"}
+{"text": "waht's the assignee on #8", "detail": "assignee"}
+{"text": "whos working on #15 rn", "detail": "assignee"}
+{"text": "has #29 been picked up by someone", "detail": "assignee"}
+{"text": "tell me who owns #4", "detail": "assignee"}
+{"text": "Is @li-wei the one on #31?", "detail": "assignee"}
+{"text": "who'd I ping about #22? who's got it", "detail": "assignee"}
+{"text": "anyone looking into #7", "detail": "assignee"}
+{"text": "who is this assigned to, #19", "detail": "assignee"}
+{"text": "owner for 33 please", "detail": "assignee"}
+{"text": "is #17 up for grabs or does someone have it", "detail": "assignee"}
+{"text": "which dev is on #2", "detail": "assignee"}
+{"text": "who's taking care of #36", "detail": "assignee"}
+{"text": "is #11 unclaimed?", "detail": "assignee"}
+{"text": "give me the name of whoever is working on #23", "detail": "assignee"}
+{"text": "who was #5 handed to", "detail": "assignee"}
+{"text": "any takers on #27 yet, or is someone already on it", "detail": "assignee"}
+{"text": "who's driving #14", "detail": "assignee"}
+{"text": "is it assigned? issue 38", "detail": "assignee"}
+{"text": "who's #9 with", "detail": "assignee"}
+{"text": "who are we waiting on for #21, who owns it", "detail": "assignee"}
+{"text": "#30 is somebody on this?", "detail": "assignee"}
+{"text": "whos the owner of #16?", "detail": "assignee"}
+{"text": "did @sam pick up #25", "detail": "assignee"}
+{"text": "who is working on this ticket, #3", "detail": "assignee"}
+{"text": "I want to know who has #40 assigned", "detail": "assignee"}
+{"text": "assignee of #18", "detail": "assignee"}
+{"text": "whose issue is #6", "detail": "assignee"}
+{"text": "who has been put on #13?", "detail": "assignee"}
+{"text": "is anyone responsible for #34 yet", "detail": "assignee"}
+{"text": "what labels does #12 have?", "detail": "labels"}
+{"text": "is #7 a bug", "detail": "labels"}
+{"text": "labels on 23", "detail": "labels"}
+{"text": "is #31 marked p0?", "detail": "labels"}
+{"text": "what tags are on issue #4", "detail": "labels"}
+{"text": "does #19 have the needs-triage label", "detail": "labels"}
+{"text": "how is #15 labeled", "detail": "labels"}
+{"text": "is 22 tagged as enhancement or bug?", "detail": "labels"}
+{"text": "show me the labels for #8", "detail": "labels"}
+{"text": "is #33 flagged stale", "detail": "labels"}
+{"text": "#17 labels?", "detail": "labels"}
+{"text": "whats the priority label on #29", "detail": "labels"}
+{"text": "is this a question or a bug? #2", "detail": "labels"}
+{"text": "has #36 been labeled yet", "detail": "labels"}
+{"text": "tags for #11 please", "detail": "labels"}
+{"text": "is #5 p0", "detail": "labels"}
+{"text": "does issue 27 have any labels at all", "detail": "labels"}
+{"text": "what is #14 tagged with", "detail": "labels"}
+{"text": "is #38 an enhancement?", "detail": "labels"}
+{"text": "which labels got applied to #9", "detail": "labels"}
+{"text": "is #21 considered a bug", "detail": "labels"}
+{"text": "need to know if #30 is still needs-triage", "detail": "labels"}
+{"text": "list the labels on #16", "detail": "labels"}
+{"text": "whats #25 labelled as", "detail": "labels"}
+{"text": "Could you check whether #3 carries the p0 label?", "detail": "labels"}
+{"text": "is #40 labeled as a bug or just a question", "detail": "labels"}
+{"text": "any tags on #18?", "detail": "labels"}
+{"text": "got the stale label? #6", "detail": "labels"}
+{"text": "what category is #13 filed under, which labels", "detail": "labels"}
+{"text": "is #34 high priority label-wise, p0 or not", "detail": "labels"}
+{"text": "labels of issue number 1", "detail": "labels"}
+{"text": "whats the label on #26", "detail": "labels"}
+{"text": "is #39 tagged bug", "detail": "labels"}
+{"text": "has someone added labels to #10", "detail": "labels"}
+{"text": "does 20 have the enhancement tag", "detail": "labels"}
+{"text": "what tags does this one have, #35", "detail": "labels"}
+{"text": "is #28 triaged yet, does it still carry needs-triage", "detail": "labels"}
+{"text": "waht labels are on #24", "detail": "labels"}
+{"text": "is #37 a p0?", "detail": "labels"}
+{"text": "show tags on 32", "detail": "labels"}
+{"text": "what type of issue is #12, bug or enhancement label", "detail": "labels"}
+{"text": "is #8 marked stale?", "detail": "labels"}
+{"text": "check the labels for #15", "detail": "labels"}
+{"text": "does #29 have a priority tag", "detail": "labels"}
+{"text": "tell me the tags on #4", "detail": "labels"}
+{"text": "is #31 flagged as a bug?", "detail": "labels"}
+{"text": "which labels are attached to #22", "detail": "labels"}
+{"text": "does #7 have any label like p0 or bug", "detail": "labels"}
+{"text": "#19 tagged?", "detail": "labels"}
+{"text": "how's #33 categorized label wise", "detail": "labels"}
+{"text": "is issue 17 labeled question", "detail": "labels"}
+{"text": "pls tell me what tags #2 has", "detail": "labels"}
+{"text": "does #36 have the stale label on it", "detail": "labels"}
+{"text": "what labels did we put on #11", "detail": "labels"}
+{"text": "is 5 an enhancement", "detail": "labels"}
+{"text": "are there labels on #27", "detail": "labels"}
+{"text": "is #14 a bug report per its labels", "detail": "labels"}
+{"text": "whats #38 tagged", "detail": "labels"}
+{"text": "does #9 carry needs-triage", "detail": "labels"}
+{"text": "label check on #21", "detail": "labels"}
+{"text": "is #30 p0 priority?", "detail": "labels"}
+{"text": "what are the tags for #16", "detail": "labels"}
+{"text": "has #25 got the bug label", "detail": "labels"}
+{"text": "which milestone is #12 in?", "detail": "milestone"}
+{"text": "what release will #7 ship in", "detail": "milestone"}
+{"text": "is #23 in v2.0", "detail": "milestone"}
+{"text": "milestone for 31?", "detail": "milestone"}
+{"text": "is #4 targeted for v2.1", "detail": "milestone"}
+{"text": "when does #19 ship", "detail": "milestone"}
+{"text": "is #15 part of the march release?", "detail": "milestone"}
+{"text": "what version is #22 planned for", "detail": "milestone"}
+{"text": "does #8 have a milestone", "detail": "milestone"}
+{"text": "which release is issue 33 going out with", "detail": "milestone"}
+{"text": "#17 milestone", "detail": "milestone"}
+{"text": "is #29 slated for v2.0 or v2.1", "detail": "milestone"}
+{"text": "will #2 make the march release", "detail": "milestone"}
+{"text": "what milestone did we put #36 in", "detail": "milestone"}
+{"text": "which release does #11 belong to", "detail": "milestone"}
+{"text": "has #5 been added to a milestone yet?", "detail": "milestone"}
+{"text": "what release is 27 scheduled for", "detail": "milestone"}
+{"text": "is #14 going into v2.1?", "detail": "milestone"}
+{"text": "tell me the milestone on #38", "detail": "milestone"}
+{"text": "which version will #9 land in", "detail": "milestone"}
+{"text": "is #21 in the next release", "detail": "milestone"}
+{"text": "do we have #30 in any milestone", "detail": "milestone"}
+{"text": "what release train is #16 on", "detail": "milestone"}
+{"text": "Could you tell me which milestone #25 is attached to?", "detail": "milestone"}
+{"text": "is #3 a v2.0 item", "detail": "milestone"}
+{"text": "when is #40 due to ship, which release", "detail": "milestone"}
+{"text": "waht milestone is #18 under", "detail": "milestone"}
+{"text": "is #6 part of v2.1", "detail": "milestone"}
+{"text": "which milestone does issue 13 sit in", "detail": "milestone"}
+{"text": "ships in what version, #34", "detail": "milestone"}
+{"text": "milestone of issue number 1", "detail": "milestone"}
+{"text": "is #26 in the march release or later", "detail": "milestone"}
+{"text": "what release is #39 targeting", "detail": "milestone"}
+{"text": "did #10 get pushed to v2.1", "detail": "milestone"}
+{"text": "is 20 on the v2.0 milestone", "detail": "milestone"}
+{"text": "which sprint or release is #35 in, milestone wise", "detail": "milestone"}
+{"text": "what's the target release for #28", "detail": "milestone"}
+{"text": "is #24 scheduled for any release yet", "detail": "milestone"}
+{"text": "does #37 ship with v2.0?", "detail": "milestone"}
+{"text": "show milestone for 32", "detail": "milestone"}
+{"text": "which release will #12 go out in, v2.0 or later", "detail": "milestone"}
+{"text": "what milestone is this in, #8", "detail": "milestone"}
+{"text": "is #15 gated on a milestone", "detail": "milestone"}
+{"text": "pls check which release #29 is planned for", "detail": "milestone"}
+{"text": "was #4 moved out of the march release", "detail": "milestone"}
+{"text": "which milestone has #22", "detail": "milestone"}
+{"text": "is #7 on the roadmap for v2.1", "detail": "milestone"}
+{"text": "#19 in which release?", "detail": "milestone"}
+{"text": "is issue 33 part of any milestone", "detail": "milestone"}
+{"text": "what version does #17 target", "detail": "milestone"}
+{"text": "does #2 belong to v2.0", "detail": "milestone"}
+{"text": "need the release #36 is going out in", "detail": "milestone"}
+{"text": "whats #11 milestoned to", "detail": "milestone"}
+{"text": "is 5 shipping in march", "detail": "milestone"}
+{"text": "milestone check on #27", "detail": "milestone"}
+{"text": "what milestone is #14 tied to", "detail": "milestone"}
+{"text": "which release does #38 fall under", "detail": "milestone"}
+{"text": "is #9 in v2.1 or still unscheduled", "detail": "milestone"}
+{"text": "will #21 be in the next version", "detail": "milestone"}
+{"text": "which milestone for #30", "detail": "milestone"}
+{"text": "what release is #16 targeted at", "detail": "milestone"}
+{"text": "is #25 in the v2.0 milestone", "detail": "milestone"}
+{"text": "is #12 open?", "detail": "state"}
+{"text": "is #7 closed", "detail": "state"}
+{"text": "did #23 get fixed", "detail": "state"}
+{"text": "status of 31?", "detail": "state"}
+{"text": "is #4 resolved yet", "detail": "state"}
+{"text": "is #19 still open", "detail": "state"}
+{"text": "has #15 been closed?", "detail": "state"}
+{"text": "is #22 done", "detail": "state"}
+{"text": "#8 open or closed", "detail": "state"}
+{"text": "is issue 33 still active", "detail": "state"}
+{"text": "was #17 fixed", "detail": "state"}
+{"text": "is #29 resolved or not", "detail": "state"}
+{"text": "did anyone close #2", "detail": "state"}
+{"text": "is #36 still a problem or is it closed", "detail": "state"}
+{"text": "state of #11", "detail": "state"}
+{"text": "is #5 fixed yet?", "detail": "state"}
+{"text": "is 27 still open", "detail": "state"}
+{"text": "check if #14 is closed", "detail": "state"}
+{"text": "has #38 been resolved", "detail": "state"}
+{"text": "whats the status of #9, open or closed", "detail": "state"}
+{"text": "is #21 done yet", "detail": "state"}
+{"text": "is #30 still alive or did it get closed", "detail": "state"}
+{"text": "did we ship the fix for #16, is it closed", "detail": "state"}
+{"text": "Could you confirm whether #25 is still open?", "detail": "state"}
+{"text": "is #3 closed already", "detail": "state"}
+{"text": "is #40 open", "detail": "state"}
+{"text": "waht's the status on #18, is it open", "detail": "state"}
+{"text": "is #6 completed?", "detail": "state"}
+{"text": "has issue 13 been fixed", "detail": "state"}
+{"text": "still open? #34", "detail": "state"}
+{"text": "is #1 resolved", "detail": "state"}
+{"text": "is #26 closed or open rn", "detail": "state"}
+{"text": "did #39 get closed out", "detail": "state"}
+{"text": "is the bug in #10 fixed yet", "detail": "state"}
+{"text": "is 20 open still", "detail": "state"}
+{"text": "is #35 finished", "detail": "state"}
+{"text": "open/closed for #28", "detail": "state"}
+{"text": "has #24 been dealt with, is it closed", "detail": "state"}
+{"text": "is #37 still unresolved?", "detail": "state"}
+{"text": "status on 32 pls", "detail": "state"}
+{"text": "is #12 fixed or still broken", "detail": "state"}
+{"text": "is #8 done and closed?", "detail": "state"}
+{"text": "did #15 get resolved", "detail": "state"}
+{"text": "is #29 still open or was it closed last week", "detail": "state"}
+{"text": "closed? #4", "detail": "state"}
+{"text": "is #22 still in play", "detail": "state"}
+{"text": "has #7 been marked as done", "detail": "state"}
+{"text": "just checking if #19 is still open", "detail": "state"}
+{"text": "is issue 33 resolved", "detail": "state"}
+{"text": "is #17 open or did someone close it", "detail": "state"}
+{"text": "did #2 get fixed in the end", "detail": "state"}
+{"text": "whats the state of #36", "detail": "state"}
+{"text": "is #11 closed", "detail": "state"}
+{"text": "is 5 still open?", "detail": "state"}
+{"text": "has #27 been solved", "detail": "state"}
+{"text": "is #14 still being tracked as open", "detail": "state"}
+{"text": "is #38 done", "detail": "state"}
+{"text": "was #9 closed", "detail": "state"}
+{"text": "is #21 resolved yet or not", "detail": "state"}
+{"text": "is #30 fixed", "detail": "state"}
+{"text": "tell me if #16 is open or closed", "detail": "state"}
+{"text": "is #25 still active", "detail": "state"}
+{"text": "show me #12", "detail": "none"}
+{"text": "what is #7 about?", "detail": "none"}
+{"text": "give me details on 23", "detail": "none"}
+{"text": "pull up #31", "detail": "none"}
+{"text": "summarise #4", "detail": "none"}
+{"text": "tell me about issue #19", "detail": "none"}
+{"text": "#15", "detail": "none"}
+{"text": "can you explain #22 to me", "detail": "none"}
+{"text": "look up #8", "detail": "none"}
+{"text": "whats #33", "detail": "none"}
+{"text": "get me #17", "detail": "none"}
+{"text": "what's going on with #29?", "detail": "none"}
+{"text": "open up issue 2", "detail": "none"}
+{"text": "give me a rundown of #36", "detail": "none"}
+{"text": "details for #11 please", "detail": "none"}
+{"text": "i need to understand #5, what is it", "detail": "none"}
+{"text": "show issue 27", "detail": "none"}
+{"text": "tl;dr of #14", "detail": "none"}
+{"text": "fetch #38", "detail": "none"}
+{"text": "what does #9 say", "detail": "none"}
+{"text": "can you pull up the issue #21 for me", "detail": "none"}
+{"text": "brief me on #30", "detail": "none"}
+{"text": "whats issue #16 all about", "detail": "none"}
+{"text": "Could you show me issue #25, I haven't seen it yet?", "detail": "none"}
+{"text": "describe #3", "detail": "none"}
+{"text": "info on #40", "detail": "none"}
+{"text": "waht is #18", "detail": "none"}
+{"text": "view #6", "detail": "none"}
+{"text": "catch me up on issue 13", "detail": "none"}
+{"text": "show me what #34 is", "detail": "none"}
+{"text": "issue #1 details", "detail": "none"}
+{"text": "let me see #26", "detail": "none"}
+{"text": "what's the deal with #39", "detail": "none"}
+{"text": "read me #10", "detail": "none"}
+{"text": "show me 20", "detail": "none"}
+{"text": "explain issue #35", "detail": "none"}
+{"text": "overview of #28 pls", "detail": "none"}
+{"text": "what's #24 about, someone mentioned it in standup", "detail": "none"}
+{"text": "give me the full picture on #37", "detail": "none"}
+{"text": "pull 32 up", "detail": "none"}
+{"text": "can i see #12?", "detail": "none"}
+{"text": "summary of issue #8", "detail": "none"}
+{"text": "whats this issue #15 about", "detail": "none"}
+{"text": "look at #29 for me", "detail": "none"}
+{"text": "I keep hearing about #4, what is it", "detail": "none"}
+{"text": "show me the issue #22", "detail": "none"}
+{"text": "need the details of #7", "detail": "none"}
+{"text": "issue 19?", "detail": "none"}
+{"text": "break down #33 for me", "detail": "none"}
+{"text": "pull the ticket for #17", "detail": "none"}
+{"text": "sum up #2 quickly", "detail": "none"}
+{"text": "what is issue #36 and why does it matter", "detail": "none"}
+{"text": "show #11", "detail": "none"}
+{"text": "tell me what 5 is", "detail": "none"}
+{"text": "give me everything on #27", "detail": "none"}
+{"text": "whats in #14", "detail": "none"}
+{"text": "open #38 and tell me what it is", "detail": "none"}
+{"text": "can you summarize #9", "detail": "none"}
+{"text": "show me details about #21", "detail": "none"}
+{"text": "lookup 30", "detail": "none"}
+{"text": "what's #16 about?", "detail": "none"}
+{"text": "pull up issue #25 please", "detail": "none"}
+{"text": "does #13 have a label yet", "detail": "labels"}
+{"text": "what labels are on issue 24", "detail": "labels"}
+{"text": "is #3 tagged p0 or needs-triage", "detail": "labels"}
+{"text": "has #20 been tagged as a bug", "detail": "labels"}
+{"text": "what tag did we give #35", "detail": "labels"}
+{"text": "is #1 labelled enhancement", "detail": "labels"}
+{"text": "labels for #28 pls", "detail": "labels"}
+{"text": "is #13 scheduled for v2.0", "detail": "milestone"}
+{"text": "what milestone does #24 have", "detail": "milestone"}
+{"text": "which release is #3 in", "detail": "milestone"}
+{"text": "is #20 in the march release", "detail": "milestone"}
+{"text": "has #35 been milestoned", "detail": "milestone"}
+{"text": "what version does #1 ship in", "detail": "milestone"}
+{"text": "#28 which milestone?", "detail": "milestone"}
+{"text": "is #10 targeted at v2.1 or v2.0", "detail": "milestone"}
+{"text": "is #13 open or closed", "detail": "state"}
+{"text": "has #24 been fixed", "detail": "state"}
+{"text": "is #3 still open?", "detail": "state"}
+{"text": "did #20 get resolved", "detail": "state"}
+{"text": "is #35 closed", "detail": "state"}
+{"text": "#1 done?", "detail": "state"}
+{"text": "is issue 28 still active", "detail": "state"}
+{"text": "is #10 fixed yet", "detail": "state"}
+{"text": "show me #13", "detail": "none"}
+{"text": "what is issue 24", "detail": "none"}
+{"text": "details on #3", "detail": "none"}
+{"text": "pull up #20", "detail": "none"}
+{"text": "tell me about #35", "detail": "none"}
+{"text": "whats #1 about", "detail": "none"}
+{"text": "summarise 28", "detail": "none"}
+{"text": "give me an overview of #10", "detail": "none"}
