@@ -1,0 +1,176 @@
+{"text": "yaar what is on fire right now, pls tell", "intent": "whats_on_fire"}
+{"text": "any p0 bugs open currently? show na", "intent": "whats_on_fire"}
+{"text": "kuch urgent hai kya, pls do the needful and tell me the critical ones", "intent": "whats_on_fire"}
+{"text": "production me kya jal raha hai yaar", "intent": "whats_on_fire"}
+{"text": "show me all the p0s only, nothing else", "intent": "whats_on_fire"}
+{"text": "anything critical broken right now? tell fast pls", "intent": "whats_on_fire"}
+{"text": "kya kya burning hai today, list the urgent bugs", "intent": "whats_on_fire"}
+{"text": "yaar are there any blockers or p0 issues pending, check na", "intent": "whats_on_fire"}
+{"text": "list all open issues pls", "intent": "list_issues"}
+{"text": "show me issues assigned to me only", "intent": "list_issues"}
+{"text": "yaar bugs ki list de do na", "intent": "list_issues"}
+{"text": "pls show all issues with label enhancement", "intent": "list_issues"}
+{"text": "what all issues are assigned to @ravi, list kar do", "intent": "list_issues"}
+{"text": "closed issues dikhao yaar, milestone v2.0 ke", "intent": "list_issues"}
+{"text": "my issues kya kya hai, show na", "intent": "list_issues"}
+{"text": "list issues raised by @meena pls", "intent": "list_issues"}
+{"text": "show #12 pls", "intent": "show_issue"}
+{"text": "yaar #7 ka detail dikhao na", "intent": "show_issue"}
+{"text": "what is issue 25 about, tell me itself", "intent": "show_issue"}
+{"text": "open #3 and show details pls do the needful", "intent": "show_issue"}
+{"text": "#18 me kya likha hai, show kar do", "intent": "show_issue"}
+{"text": "give me details of issue 31 only", "intent": "show_issue"}
+{"text": "yaar what is #40 exactly, explain na", "intent": "show_issue"}
+{"text": "pls show me issue #9 status and description", "intent": "show_issue"}
+{"text": "file a bug: login page crashing on safari, pls do the needful", "intent": "create_issue"}
+{"text": "new issue kar do: add csv export for reports", "intent": "create_issue"}
+{"text": "yaar create a ticket for the typo in readme na", "intent": "create_issue"}
+{"text": "open an issue: dark mode not saving after refresh", "intent": "create_issue"}
+{"text": "pls raise a bug, search bar returns empty results on mobile", "intent": "create_issue"}
+{"text": "ek naya issue banao: upgrade node to 20", "intent": "create_issue"}
+{"text": "log a ticket for slow dashboard loading yaar", "intent": "create_issue"}
+{"text": "new issue: webhook retries not working, create it itself pls", "intent": "create_issue"}
+{"text": "label #3 as bug pls", "intent": "label_issue"}
+{"text": "yaar tag 5 with enhancement na", "intent": "label_issue"}
+{"text": "mark #9 as p0 only, do the needful", "intent": "label_issue"}
+{"text": "add label needs-triage to #14 kar do", "intent": "label_issue"}
+{"text": "#22 pe documentation label laga do", "intent": "label_issue"}
+{"text": "pls put the bug label on issue 17", "intent": "label_issue"}
+{"text": "tag #30 as good-first-issue yaar", "intent": "label_issue"}
+{"text": "mark 11 p1 itself pls", "intent": "label_issue"}
+{"text": "assign #2 to @pa pls", "intent": "assign_issue"}
+{"text": "yaar give 4 to me only", "intent": "assign_issue"}
+{"text": "put @ana on #10 na, kar do", "intent": "assign_issue"}
+{"text": "#15 ko @ravi ko assign kar do pls do the needful", "intent": "assign_issue"}
+{"text": "assign issue 21 to @meena itself", "intent": "assign_issue"}
+{"text": "me hi lunga #8, assign it to me yaar", "intent": "assign_issue"}
+{"text": "pls make @sam the owner of #33", "intent": "assign_issue"}
+{"text": "give #6 to @dev_kumar na", "intent": "assign_issue"}
+{"text": "comment on #1: looking into it pls", "intent": "comment_issue"}
+{"text": "reply to 6 saying fixed in main only", "intent": "comment_issue"}
+{"text": "yaar tell #9 we are on it, comment kar do", "intent": "comment_issue"}
+{"text": "add a comment on #12: can you share the logs na", "intent": "comment_issue"}
+{"text": "#20 pe likh do ki fix next release me jayega", "intent": "comment_issue"}
+{"text": "pls comment on issue 5, need more info on steps to reproduce", "intent": "comment_issue"}
+{"text": "post a note on #27: will check tomorrow itself", "intent": "comment_issue"}
+{"text": "write on #3 that this is blocked on the api team yaar", "intent": "comment_issue"}
+{"text": "close #6 pls", "intent": "close_issue"}
+{"text": "this one is done only, close 4 na", "intent": "close_issue"}
+{"text": "yaar shut issue 10, it is fixed", "intent": "close_issue"}
+{"text": "#13 ho gaya, close kar do pls do the needful", "intent": "close_issue"}
+{"text": "fix merge ho gaya so close #19 itself", "intent": "close_issue"}
+{"text": "pls close issue 28, resolved", "intent": "close_issue"}
+{"text": "kar do close #2 yaar, work complete", "intent": "close_issue"}
+{"text": "close 36 na, its done now", "intent": "close_issue"}
+{"text": "reopen #6 pls", "intent": "reopen_issue"}
+{"text": "yaar bring back issue 4 na", "intent": "reopen_issue"}
+{"text": "6 is not fixed only, open it again", "intent": "reopen_issue"}
+{"text": "#11 phir se open kar do pls, bug is still there", "intent": "reopen_issue"}
+{"text": "pls reopen issue 23 itself, closed by mistake", "intent": "reopen_issue"}
+{"text": "yaar issue 15 ka fix kaam nahi kiya, reopen kar do", "intent": "reopen_issue"}
+{"text": "open #38 again na, customer reported it back", "intent": "reopen_issue"}
+{"text": "do the needful and reopen #8 yaar", "intent": "reopen_issue"}
+{"text": "close the stale ones pls", "intent": "close_stale"}
+{"text": "yaar clean up old issues na, kar do", "intent": "close_stale"}
+{"text": "sweep everything that has gone stale only", "intent": "close_stale"}
+{"text": "purane issues sab close kar do pls do the needful", "intent": "close_stale"}
+{"text": "pls close all inactive issues in one go itself", "intent": "close_stale"}
+{"text": "bahut stale issues pade hai yaar, clean kar do", "intent": "close_stale"}
+{"text": "close all old tickets nobody touched na", "intent": "close_stale"}
+{"text": "do a cleanup of stale issues pls", "intent": "close_stale"}
+{"text": "triage new issues pls", "intent": "triage"}
+{"text": "yaar sort out the untagged issues na", "intent": "triage"}
+{"text": "label whatever came in today, do the needful", "intent": "triage"}
+{"text": "naye issues ko triage kar do only", "intent": "triage"}
+{"text": "pls go through unlabelled issues and tag them itself", "intent": "triage"}
+{"text": "kuch naye issues aaye hai, label laga do yaar", "intent": "triage"}
+{"text": "run triage on the new ones na", "intent": "triage"}
+{"text": "pls sort the fresh issues, no labels on them yet", "intent": "triage"}
+{"text": "undo pls", "intent": "undo"}
+{"text": "yaar revert that na", "intent": "undo"}
+{"text": "no no, take that back only", "intent": "undo"}
+{"text": "galti ho gayi, undo kar do", "intent": "undo"}
+{"text": "pls undo the last thing you did itself", "intent": "undo"}
+{"text": "wo wapas kar do yaar, last action undo", "intent": "undo"}
+{"text": "wrong issue pe kiya, revert it pls do the needful", "intent": "undo"}
+{"text": "cancel that last change na", "intent": "undo"}
+{"text": "rewind to v3 pls", "intent": "rewind_brain"}
+{"text": "go back to yesterday's brain only", "intent": "rewind_brain"}
+{"text": "yaar forget what you learned today na", "intent": "rewind_brain"}
+{"text": "pls roll back your model to the earlier version itself", "intent": "rewind_brain"}
+{"text": "purana brain wapas lao yaar, v2 pe jao", "intent": "rewind_brain"}
+{"text": "your model got dumb after the last update, rewind kar do", "intent": "rewind_brain"}
+{"text": "revert your brain to v5 pls do the needful", "intent": "rewind_brain"}
+{"text": "aaj ka seekha sab bhool ja, go back one version na", "intent": "rewind_brain"}
+{"text": "how smart are you yaar", "intent": "brain_status"}
+{"text": "which brain version are you on pls", "intent": "brain_status"}
+{"text": "how many llm calls have you made till now only", "intent": "brain_status"}
+{"text": "tera accuracy kitna hai, tell na", "intent": "brain_status"}
+{"text": "pls show your model version and accuracy", "intent": "brain_status"}
+{"text": "kitne llm calls hue today itself, tell me", "intent": "brain_status"}
+{"text": "yaar which version of the model is running right now", "intent": "brain_status"}
+{"text": "brain status pls, how accurate are you", "intent": "brain_status"}
+{"text": "help pls", "intent": "help"}
+{"text": "yaar what can you do na", "intent": "help"}
+{"text": "commands kya kya hai, tell me only", "intent": "help"}
+{"text": "pls tell me what all you can do for the repo", "intent": "help"}
+{"text": "kya kar sakte ho tum yaar, list the commands", "intent": "help"}
+{"text": "how to use you, help kar do", "intent": "help"}
+{"text": "show me the commands itself pls", "intent": "help"}
+{"text": "what all things are supported here na", "intent": "help"}
+{"text": "remove the bug label from #3 pls", "intent": "remove_label"}
+{"text": "yaar drop needs-triage from 6 na", "intent": "remove_label"}
+{"text": "#9 is not p0 anymore only, untag it", "intent": "remove_label"}
+{"text": "#14 se enhancement label hata do pls do the needful", "intent": "remove_label"}
+{"text": "pls take off the wontfix label from issue 20 itself", "intent": "remove_label"}
+{"text": "wrong label laga diya tha on #7, remove kar do yaar", "intent": "remove_label"}
+{"text": "untag p1 from #26 na", "intent": "remove_label"}
+{"text": "remove label documentation from 33 pls", "intent": "remove_label"}
+{"text": "unassign @sam from #2 pls", "intent": "unassign_issue"}
+{"text": "yaar take me off 4 na", "intent": "unassign_issue"}
+{"text": "@ana is not working on #10 anymore only", "intent": "unassign_issue"}
+{"text": "#16 se @ravi ko hata do pls do the needful", "intent": "unassign_issue"}
+{"text": "remove me from issue 29 itself, no time yaar", "intent": "unassign_issue"}
+{"text": "pls unassign @meena from #8 na", "intent": "unassign_issue"}
+{"text": "mujhe #21 se unassign kar do yaar", "intent": "unassign_issue"}
+{"text": "take @pa off #35 pls, he moved to other project", "intent": "unassign_issue"}
+{"text": "#9 is a dupe of #2 yaar", "intent": "close_duplicate"}
+{"text": "close 5 as duplicate of 3 pls", "intent": "close_duplicate"}
+{"text": "this is the same as #1 only, close #8", "intent": "close_duplicate"}
+{"text": "#17 and #12 same hai na, close 17 as duplicate", "intent": "close_duplicate"}
+{"text": "pls mark #24 duplicate of #6 itself", "intent": "close_duplicate"}
+{"text": "yaar #30 already reported in #19, close it as dupe kar do", "intent": "close_duplicate"}
+{"text": "dupe of #4, close #13 pls do the needful", "intent": "close_duplicate"}
+{"text": "close 22 as a duplicate of #11 na", "intent": "close_duplicate"}
+{"text": "close #7 as won't fix pls", "intent": "close_not_planned"}
+{"text": "we are not doing 5 only, close it", "intent": "close_not_planned"}
+{"text": "yaar mark #4 not planned na", "intent": "close_not_planned"}
+{"text": "#18 nahi karenge hum, close as wontfix kar do", "intent": "close_not_planned"}
+{"text": "pls close issue 26 as not planned itself", "intent": "close_not_planned"}
+{"text": "this feature is not on roadmap yaar, close #32 as won't fix", "intent": "close_not_planned"}
+{"text": "mark 14 as not planned pls do the needful", "intent": "close_not_planned"}
+{"text": "decided to skip #39, close it na, not planned", "intent": "close_not_planned"}
+{"text": "any issues about safari? check pls", "intent": "search_issues"}
+{"text": "yaar search for csv na", "intent": "search_issues"}
+{"text": "is there a ticket mentioning webhooks only", "intent": "search_issues"}
+{"text": "login wale issues dhundo pls", "intent": "search_issues"}
+{"text": "pls find issues with timeout in the title itself", "intent": "search_issues"}
+{"text": "kya koi issue hai about dark mode yaar, search kar do", "intent": "search_issues"}
+{"text": "search issues for oauth pls do the needful", "intent": "search_issues"}
+{"text": "any ticket talking about memory leak na", "intent": "search_issues"}
+{"text": "put #3 in v2.1 pls", "intent": "set_milestone"}
+{"text": "yaar milestone 6 for the march release na", "intent": "set_milestone"}
+{"text": "move #9 to v2.0 only", "intent": "set_milestone"}
+{"text": "#12 ko v3.0 milestone me daal do pls do the needful", "intent": "set_milestone"}
+{"text": "pls add issue 27 to the beta milestone itself", "intent": "set_milestone"}
+{"text": "set milestone of #19 as v1.5 yaar", "intent": "set_milestone"}
+{"text": "#34 april release me jayega, milestone laga do na", "intent": "set_milestone"}
+{"text": "shift 21 to milestone v2.2 pls", "intent": "set_milestone"}
+{"text": "what's the weather in bangalore yaar", "intent": "other"}
+{"text": "tell me a joke pls", "intent": "other"}
+{"text": "book a flight to goa na", "intent": "other"}
+{"text": "yaar aaj lunch me kya khana chahiye", "intent": "other"}
+{"text": "who won the cricket match yesterday only", "intent": "other"}
+{"text": "pls send an email to my manager, do the needful", "intent": "other"}
+{"text": "kya tum mujhse dosti karoge yaar, just kidding", "intent": "other"}
+{"text": "translate this paragraph to hindi itself pls", "intent": "other"}

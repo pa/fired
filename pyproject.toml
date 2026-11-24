@@ -1,0 +1,13 @@
+[project]
+name = "fired"
+version = "0.1.0"
+description = "A GitHub agent whose LLM teaches it once, then gets fired."
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6",
+    "scikit-learn>=1.5",
+]
+
+[project.optional-dependencies]
+# Only for teach.py, the first API-based teach step. The agent never imports it.
+api-teach = ["anthropic>=1.0"]

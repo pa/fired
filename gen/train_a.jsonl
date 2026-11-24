@@ -1,0 +1,360 @@
+{"text": "what's on fire?", "intent": "whats_on_fire"}
+{"text": "anything burning right now", "intent": "whats_on_fire"}
+{"text": "show me the p0s", "intent": "whats_on_fire"}
+{"text": "any fires today?", "intent": "whats_on_fire"}
+{"text": "whats burning", "intent": "whats_on_fire"}
+{"text": "is anything critical open right now", "intent": "whats_on_fire"}
+{"text": "what's the most urgent thing in the repo", "intent": "whats_on_fire"}
+{"text": "any p0 bugs?", "intent": "whats_on_fire"}
+{"text": "fire check", "intent": "whats_on_fire"}
+{"text": "are we on fire", "intent": "whats_on_fire"}
+{"text": "what's broken right now?", "intent": "whats_on_fire"}
+{"text": "anything urgent I should know about before standup", "intent": "whats_on_fire"}
+{"text": "critical issues?", "intent": "whats_on_fire"}
+{"text": "p0s", "intent": "whats_on_fire"}
+{"text": "show me whatever is on fire", "intent": "whats_on_fire"}
+{"text": "hey, is prod burning down or are we good?", "intent": "whats_on_fire"}
+{"text": "give me the emergencies", "intent": "whats_on_fire"}
+{"text": "what needs attention asap", "intent": "whats_on_fire"}
+{"text": "any showstoppers before the v2.0 release?", "intent": "whats_on_fire"}
+{"text": "whats on fire rn", "intent": "whats_on_fire"}
+{"text": "list the critical bugs", "intent": "whats_on_fire"}
+{"text": "anything blowing up?", "intent": "whats_on_fire"}
+{"text": "urgent stuff?", "intent": "whats_on_fire"}
+{"text": "any outages or p0 tickets open", "intent": "whats_on_fire"}
+{"text": "what are the hot issues right now", "intent": "whats_on_fire"}
+{"text": "burning issues", "intent": "whats_on_fire"}
+{"text": "could you tell me what's most critical at the moment?", "intent": "whats_on_fire"}
+{"text": "what is on fire this morning", "intent": "whats_on_fire"}
+{"text": "any p0 or sev1 stuff open?", "intent": "whats_on_fire"}
+{"text": "show fires", "intent": "whats_on_fire"}
+{"text": "anything that needs fixing immediately", "intent": "whats_on_fire"}
+{"text": "are there any critical bugs live", "intent": "whats_on_fire"}
+{"text": "whats on fier", "intent": "whats_on_fire"}
+{"text": "tell me about the fires please", "intent": "whats_on_fire"}
+{"text": "what's the worst thing open right now?", "intent": "whats_on_fire"}
+{"text": "dropping in, any p0 open?", "intent": "whats_on_fire"}
+{"text": "everything ok or is something on fire", "intent": "whats_on_fire"}
+{"text": "need the urgent list", "intent": "whats_on_fire"}
+{"text": "which bugs are critical", "intent": "whats_on_fire"}
+{"text": "p0 status?", "intent": "whats_on_fire"}
+{"text": "anything we need to drop everything for", "intent": "whats_on_fire"}
+{"text": "what's smoking", "intent": "whats_on_fire"}
+{"text": "are there emergencies in the tracker", "intent": "whats_on_fire"}
+{"text": "customers are screaming, what's currently broken?", "intent": "whats_on_fire"}
+{"text": "show critical", "intent": "whats_on_fire"}
+{"text": "what is urgent", "intent": "whats_on_fire"}
+{"text": "anyting on fire?", "intent": "whats_on_fire"}
+{"text": "any fire drills I should know about", "intent": "whats_on_fire"}
+{"text": "top priority problems right now?", "intent": "whats_on_fire"}
+{"text": "show me the red alerts", "intent": "whats_on_fire"}
+{"text": "pls show the p0 issues, someone pinged me", "intent": "whats_on_fire"}
+{"text": "what's currently on fire in the repo", "intent": "whats_on_fire"}
+{"text": "anything critical for the march release?", "intent": "whats_on_fire"}
+{"text": "blockers? the really bad kind", "intent": "whats_on_fire"}
+{"text": "whats the damage today", "intent": "whats_on_fire"}
+{"text": "any hair-on-fire issues", "intent": "whats_on_fire"}
+{"text": "which issues are urgent", "intent": "whats_on_fire"}
+{"text": "is there a p0 open", "intent": "whats_on_fire"}
+{"text": "give me a fire report", "intent": "whats_on_fire"}
+{"text": "what should we be panicking about", "intent": "whats_on_fire"}
+{"text": "list open issues", "intent": "list_issues"}
+{"text": "show all bugs", "intent": "list_issues"}
+{"text": "what's assigned to me", "intent": "list_issues"}
+{"text": "my issues", "intent": "list_issues"}
+{"text": "list issues", "intent": "list_issues"}
+{"text": "show me everything assigned to @pa", "intent": "list_issues"}
+{"text": "closed issues", "intent": "list_issues"}
+{"text": "what's open in v2.1?", "intent": "list_issues"}
+{"text": "list the enhancements", "intent": "list_issues"}
+{"text": "all issues with the question label", "intent": "list_issues"}
+{"text": "show me open issues for the march release milestone", "intent": "list_issues"}
+{"text": "issues by @ana", "intent": "list_issues"}
+{"text": "what issues did I open?", "intent": "list_issues"}
+{"text": "show stale issues", "intent": "list_issues"}
+{"text": "list all needs-triage issues", "intent": "list_issues"}
+{"text": "can you list what's open?", "intent": "list_issues"}
+{"text": "what's @sam working on", "intent": "list_issues"}
+{"text": "open bugs", "intent": "list_issues"}
+{"text": "give me the list of issues in v2.0", "intent": "list_issues"}
+{"text": "show recently closed issues", "intent": "list_issues"}
+{"text": "issues", "intent": "list_issues"}
+{"text": "which issues are unassigned?", "intent": "list_issues"}
+{"text": "pull up my open tickets", "intent": "list_issues"}
+{"text": "what are all the open enhancements", "intent": "list_issues"}
+{"text": "list bugs assigned to @ana", "intent": "list_issues"}
+{"text": "show issues labelled bug", "intent": "list_issues"}
+{"text": "what's on my plate", "intent": "list_issues"}
+{"text": "show me all open issues please", "intent": "list_issues"}
+{"text": "lsit issues", "intent": "list_issues"}
+{"text": "everything in the v2.1 milestone", "intent": "list_issues"}
+{"text": "all closed bugs", "intent": "list_issues"}
+{"text": "what did @sam file this week", "intent": "list_issues"}
+{"text": "show open questions", "intent": "list_issues"}
+{"text": "get me the backlog", "intent": "list_issues"}
+{"text": "what tickets are open", "intent": "list_issues"}
+{"text": "list everything assigned to me", "intent": "list_issues"}
+{"text": "how many open issues are there and what are they", "intent": "list_issues"}
+{"text": "show closed issues in v2.0", "intent": "list_issues"}
+{"text": "show me issues with no assignee", "intent": "list_issues"}
+{"text": "open issues by label enhancement", "intent": "list_issues"}
+{"text": "list tickets for @pa", "intent": "list_issues"}
+{"text": "all open", "intent": "list_issues"}
+{"text": "yo what's open right now", "intent": "list_issues"}
+{"text": "show me whats assigned to me pls", "intent": "list_issues"}
+{"text": "list the needs-triage ones", "intent": "list_issues"}
+{"text": "which bugs are still open?", "intent": "list_issues"}
+{"text": "give me a list of the issues I'm assigned", "intent": "list_issues"}
+{"text": "browse open issues", "intent": "list_issues"}
+{"text": "show the issues opened by @ana", "intent": "list_issues"}
+{"text": "list all", "intent": "list_issues"}
+{"text": "bugs in the march release", "intent": "list_issues"}
+{"text": "list the first page of issues", "intent": "list_issues"}
+{"text": "what's in the tracker", "intent": "list_issues"}
+{"text": "what issues are assigned to @sam", "intent": "list_issues"}
+{"text": "show me the open enhancements for v2.1", "intent": "list_issues"}
+{"text": "list questions", "intent": "list_issues"}
+{"text": "show everything that's been closed", "intent": "list_issues"}
+{"text": "my open bugs", "intent": "list_issues"}
+{"text": "show issues", "intent": "list_issues"}
+{"text": "open tickets please", "intent": "list_issues"}
+{"text": "show #12", "intent": "show_issue"}
+{"text": "what's issue 4 about", "intent": "show_issue"}
+{"text": "details on #7", "intent": "show_issue"}
+{"text": "show 15", "intent": "show_issue"}
+{"text": "open issue #22 for me", "intent": "show_issue"}
+{"text": "tell me about #9", "intent": "show_issue"}
+{"text": "what is #31?", "intent": "show_issue"}
+{"text": "#18", "intent": "show_issue"}
+{"text": "pull up #3", "intent": "show_issue"}
+{"text": "can you show me the details of issue 27", "intent": "show_issue"}
+{"text": "what's #14 about", "intent": "show_issue"}
+{"text": "show issue 8", "intent": "show_issue"}
+{"text": "give me the rundown on #25", "intent": "show_issue"}
+{"text": "what's the status of #6", "intent": "show_issue"}
+{"text": "view #11", "intent": "show_issue"}
+{"text": "details for issue #19 please", "intent": "show_issue"}
+{"text": "whats issue 2 say", "intent": "show_issue"}
+{"text": "read me #33", "intent": "show_issue"}
+{"text": "get issue 40", "intent": "show_issue"}
+{"text": "what does 13 say?", "intent": "show_issue"}
+{"text": "info on #5", "intent": "show_issue"}
+{"text": "show me ticket 21", "intent": "show_issue"}
+{"text": "I need the full description of #17", "intent": "show_issue"}
+{"text": "who's on #10 and what is it", "intent": "show_issue"}
+{"text": "look at #29", "intent": "show_issue"}
+{"text": "issue 1 details", "intent": "show_issue"}
+{"text": "#36 what is it", "intent": "show_issue"}
+{"text": "sho #12", "intent": "show_issue"}
+{"text": "expand #16", "intent": "show_issue"}
+{"text": "what was #24 again", "intent": "show_issue"}
+{"text": "describe issue 7", "intent": "show_issue"}
+{"text": "open up 38 and tell me what it is", "intent": "show_issue"}
+{"text": "show me what #20 is about", "intent": "show_issue"}
+{"text": "remind me what #35 was", "intent": "show_issue"}
+{"text": "ticket #26 info", "intent": "show_issue"}
+{"text": "whats in issue 30", "intent": "show_issue"}
+{"text": "show the body of #39", "intent": "show_issue"}
+{"text": "details of 32", "intent": "show_issue"}
+{"text": "hey can you pull up issue #23, someone mentioned it", "intent": "show_issue"}
+{"text": "what's the deal with #28", "intent": "show_issue"}
+{"text": "issue #34 please", "intent": "show_issue"}
+{"text": "show me #37", "intent": "show_issue"}
+{"text": "summary of #12", "intent": "show_issue"}
+{"text": "what's this issue 15 about", "intent": "show_issue"}
+{"text": "gimme #9", "intent": "show_issue"}
+{"text": "check issue 4", "intent": "show_issue"}
+{"text": "full details on #21", "intent": "show_issue"}
+{"text": "what is 6", "intent": "show_issue"}
+{"text": "describe #3", "intent": "show_issue"}
+{"text": "show me the details for #13", "intent": "show_issue"}
+{"text": "i want to read issue 18", "intent": "show_issue"}
+{"text": "whats #1 about", "intent": "show_issue"}
+{"text": "display #27", "intent": "show_issue"}
+{"text": "what's up with issue #14, what does it describe", "intent": "show_issue"}
+{"text": "see #5", "intent": "show_issue"}
+{"text": "issue #11 content", "intent": "show_issue"}
+{"text": "any issues about safari?", "intent": "search_issues"}
+{"text": "search for csv", "intent": "search_issues"}
+{"text": "is there a ticket mentioning webhooks", "intent": "search_issues"}
+{"text": "find issues about login", "intent": "search_issues"}
+{"text": "search oauth", "intent": "search_issues"}
+{"text": "do we have an issue for dark mode?", "intent": "search_issues"}
+{"text": "anything about timeouts", "intent": "search_issues"}
+{"text": "search issues for 'rate limit'", "intent": "search_issues"}
+{"text": "has anyone reported the pagination problem already?", "intent": "search_issues"}
+{"text": "find tickets that mention docker", "intent": "search_issues"}
+{"text": "grep issues for memory leak", "intent": "search_issues"}
+{"text": "is there already a ticket about slow uploads", "intent": "search_issues"}
+{"text": "look for issues with the word migration", "intent": "search_issues"}
+{"text": "search: websocket", "intent": "search_issues"}
+{"text": "any tickets on the checkout page?", "intent": "search_issues"}
+{"text": "find anything related to s3", "intent": "search_issues"}
+{"text": "did anyone file something about emojis breaking the parser", "intent": "search_issues"}
+{"text": "search for crash on startup", "intent": "search_issues"}
+{"text": "any issue mentioning kubernetes?", "intent": "search_issues"}
+{"text": "serach for ssl", "intent": "search_issues"}
+{"text": "look up issues about the sidebar", "intent": "search_issues"}
+{"text": "is there an issue that talks about unicode", "intent": "search_issues"}
+{"text": "find 'null pointer'", "intent": "search_issues"}
+{"text": "anything on password reset?", "intent": "search_issues"}
+{"text": "search issues mentioning stripe", "intent": "search_issues"}
+{"text": "are there tickets with typo in the title", "intent": "search_issues"}
+{"text": "find me issues about the cli", "intent": "search_issues"}
+{"text": "any bug reports about image resizing", "intent": "search_issues"}
+{"text": "search for cors", "intent": "search_issues"}
+{"text": "do any issues mention redis", "intent": "search_issues"}
+{"text": "can you search the tracker for 'flaky test'", "intent": "search_issues"}
+{"text": "anything about ios", "intent": "search_issues"}
+{"text": "issues containing the word cache", "intent": "search_issues"}
+{"text": "is there a ticket about notifications not firing", "intent": "search_issues"}
+{"text": "search for api key", "intent": "search_issues"}
+{"text": "find duplicates of the logout bug by keyword: logout", "intent": "search_issues"}
+{"text": "any mention of postgres in the issues?", "intent": "search_issues"}
+{"text": "look for 'dark theme' in issues", "intent": "search_issues"}
+{"text": "whether someone has raised the broken export before", "intent": "search_issues"}
+{"text": "search sso", "intent": "search_issues"}
+{"text": "find issues that say timezone", "intent": "search_issues"}
+{"text": "anything about performance regressions?", "intent": "search_issues"}
+{"text": "text search: invoice", "intent": "search_issues"}
+{"text": "is there an issue on ratelimiting for the api", "intent": "search_issues"}
+{"text": "check if there's a ticket regarding slack integration", "intent": "search_issues"}
+{"text": "search for typo", "intent": "search_issues"}
+{"text": "do we have a bug about the date picker", "intent": "search_issues"}
+{"text": "pls search issues for graphql", "intent": "search_issues"}
+{"text": "find tickets about gdpr", "intent": "search_issues"}
+{"text": "any issue titles with 'timeout'", "intent": "search_issues"}
+{"text": "search the issues for mentions of firefox", "intent": "search_issues"}
+{"text": "which issues talk about the onboarding flow", "intent": "search_issues"}
+{"text": "look for anything about lazy loading", "intent": "search_issues"}
+{"text": "find 'segfault'", "intent": "search_issues"}
+{"text": "has this been filed before: images not loading on mobile", "intent": "search_issues"}
+{"text": "search for refund", "intent": "search_issues"}
+{"text": "any threads or tickets about sorting", "intent": "search_issues"}
+{"text": "issues that mention jwt?", "intent": "search_issues"}
+{"text": "search for broken links", "intent": "search_issues"}
+{"text": "file a bug: login broken on safari", "intent": "create_issue"}
+{"text": "new issue: add csv export", "intent": "create_issue"}
+{"text": "open a ticket for the typo in the docs", "intent": "create_issue"}
+{"text": "create an issue: search bar ignores accents", "intent": "create_issue"}
+{"text": "new bug: app crashes when uploading a 50mb file", "intent": "create_issue"}
+{"text": "file a ticket, dark mode toggle doesn't persist", "intent": "create_issue"}
+{"text": "open an issue titled Add rate limiting to the public api", "intent": "create_issue"}
+{"text": "create issue: readme has wrong install command", "intent": "create_issue"}
+{"text": "log a bug: password reset email never arrives", "intent": "create_issue"}
+{"text": "new issue add support for webp images", "intent": "create_issue"}
+{"text": "can you open an issue about the broken pagination on the users page", "intent": "create_issue"}
+{"text": "raise a ticket: deploy script fails on windows", "intent": "create_issue"}
+{"text": "file an issue for flaky checkout test", "intent": "create_issue"}
+{"text": "make a new issue: tooltip overlaps footer", "intent": "create_issue"}
+{"text": "open ticket: add dark mode to settings page", "intent": "create_issue"}
+{"text": "new feature request: bulk delete in admin", "intent": "create_issue"}
+{"text": "create: sidebar flickers on resize", "intent": "create_issue"}
+{"text": "file bug - 500 error when email has a plus sign", "intent": "create_issue"}
+{"text": "add an issue for upgrading to node 22", "intent": "create_issue"}
+{"text": "open a bug for the broken avatar upload", "intent": "create_issue"}
+{"text": "issue: typo in the pricing page headline", "intent": "create_issue"}
+{"text": "new ticket pls: add keyboard shortcuts for navigation", "intent": "create_issue"}
+{"text": "we need an issue for improving cold start time", "intent": "create_issue"}
+{"text": "creat issue: export button does nothing", "intent": "create_issue"}
+{"text": "file a bug: notifications duplicate on refresh", "intent": "create_issue"}
+{"text": "open an issue to track migrating off moment.js", "intent": "create_issue"}
+{"text": "log a ticket: calendar shows wrong timezone for users in india", "intent": "create_issue"}
+{"text": "new issue: support sso login via okta", "intent": "create_issue"}
+{"text": "could you file an issue that the cli help text is out of date?", "intent": "create_issue"}
+{"text": "bug report: the modal can't be closed with escape", "intent": "create_issue"}
+{"text": "start a new issue called Refactor auth middleware", "intent": "create_issue"}
+{"text": "file: spinner never disappears after save", "intent": "create_issue"}
+{"text": "new issue - webhook retries not working", "intent": "create_issue"}
+{"text": "open a ticket, the docs link to a 404 page", "intent": "create_issue"}
+{"text": "write up an issue for slow dashboard load", "intent": "create_issue"}
+{"text": "create a bug: signup form accepts empty names", "intent": "create_issue"}
+{"text": "enhancement request: allow sorting by last updated", "intent": "create_issue"}
+{"text": "new issue: cannot paste images into comment box", "intent": "create_issue"}
+{"text": "file a question issue: how do we handle multi-tenant configs?", "intent": "create_issue"}
+{"text": "open an issue: broken css on the pricing table", "intent": "create_issue"}
+{"text": "pls make a ticket for adding a health check endpoint", "intent": "create_issue"}
+{"text": "new bug: image carousel skips every other slide", "intent": "create_issue"}
+{"text": "issue title: support exporting reports as pdf", "intent": "create_issue"}
+{"text": "file a bug that search returns stale results", "intent": "create_issue"}
+{"text": "open new issue: add retry logic to the sync job", "intent": "create_issue"}
+{"text": "can u create a ticket for the 404 on /billing", "intent": "create_issue"}
+{"text": "new issue: logout button missing on mobile", "intent": "create_issue"}
+{"text": "raise an issue about the unreadable error messages in the installer", "intent": "create_issue"}
+{"text": "file new ticket: update contributing guide", "intent": "create_issue"}
+{"text": "add issue: dependency audit warns about lodash", "intent": "create_issue"}
+{"text": "open a bug, safari scroll jumps on long lists", "intent": "create_issue"}
+{"text": "new issue: let users change their display name", "intent": "create_issue"}
+{"text": "create a ticket titled Investigate memory spike in worker", "intent": "create_issue"}
+{"text": "file an issue: favicon missing on staging", "intent": "create_issue"}
+{"text": "help", "intent": "help"}
+{"text": "what can you do", "intent": "help"}
+{"text": "commands?", "intent": "help"}
+{"text": "help me", "intent": "help"}
+{"text": "what are you able to do?", "intent": "help"}
+{"text": "list your commands", "intent": "help"}
+{"text": "how do I use you", "intent": "help"}
+{"text": "what commands do you support", "intent": "help"}
+{"text": "show me what you can do", "intent": "help"}
+{"text": "help?", "intent": "help"}
+{"text": "what can I ask you?", "intent": "help"}
+{"text": "how does this bot work", "intent": "help"}
+{"text": "usage", "intent": "help"}
+{"text": "what do you do", "intent": "help"}
+{"text": "i'm new here, what can this bot do", "intent": "help"}
+{"text": "can you tell me what commands are available?", "intent": "help"}
+{"text": "hlep", "intent": "help"}
+{"text": "give me the help menu", "intent": "help"}
+{"text": "what are your features", "intent": "help"}
+{"text": "how do i talk to you", "intent": "help"}
+{"text": "what's supported", "intent": "help"}
+{"text": "options?", "intent": "help"}
+{"text": "i don't know what to type, help", "intent": "help"}
+{"text": "show help", "intent": "help"}
+{"text": "what can you help with", "intent": "help"}
+{"text": "cheat sheet please", "intent": "help"}
+{"text": "how do I get started with this bot", "intent": "help"}
+{"text": "what are you for?", "intent": "help"}
+{"text": "list of things you can do", "intent": "help"}
+{"text": "man", "intent": "help"}
+{"text": "what stuff can you handle", "intent": "help"}
+{"text": "hey what can you do for me", "intent": "help"}
+{"text": "need help using this", "intent": "help"}
+{"text": "what are the available actions", "intent": "help"}
+{"text": "how do I use this thing?", "intent": "help"}
+{"text": "can you explain what you're capable of", "intent": "help"}
+{"text": "help pls", "intent": "help"}
+{"text": "what do I say to make you do things", "intent": "help"}
+{"text": "show me your capabilities", "intent": "help"}
+{"text": "what commands exist", "intent": "help"}
+{"text": "whats this bot for", "intent": "help"}
+{"text": "how can you help me", "intent": "help"}
+{"text": "instructions?", "intent": "help"}
+{"text": "what's the syntax for talking to you", "intent": "help"}
+{"text": "help me understand what you can do with issues", "intent": "help"}
+{"text": "?", "intent": "help"}
+{"text": "give me a rundown of your commands", "intent": "help"}
+{"text": "so what exactly do you do around here", "intent": "help"}
+{"text": "show me the menu", "intent": "help"}
+{"text": "what are all the things i can ask", "intent": "help"}
+{"text": "docs for this bot?", "intent": "help"}
+{"text": "i'm lost, what can you do", "intent": "help"}
+{"text": "how to use", "intent": "help"}
+{"text": "what tasks do you support", "intent": "help"}
+{"text": "tell me what you're good at", "intent": "help"}
+{"text": "list of commands pls", "intent": "help"}
+{"text": "how do you work, what do I type", "intent": "help"}
+{"text": "help with commands", "intent": "help"}
+{"text": "what can this bot do for our repo", "intent": "help"}
+{"text": "what are my options with you", "intent": "help"}
+{"text": "find issues that mention the word latency", "intent": "search_issues"}
+{"text": "what is issue #2 about exactly", "intent": "show_issue"}
+{"text": "open #38 and show me", "intent": "show_issue"}
+{"text": "show me the details of 10", "intent": "show_issue"}
+{"text": "tell me what ticket 19 is", "intent": "show_issue"}
+{"text": "new issue: search page shows no results for numbers", "intent": "create_issue"}
+{"text": "file a bug: avatar looks stretched on retina screens", "intent": "create_issue"}
+{"text": "open an issue: add a changelog page", "intent": "create_issue"}
+{"text": "create a ticket for the broken rss feed", "intent": "create_issue"}
+{"text": "new bug: csv import drops the last row", "intent": "create_issue"}
+{"text": "file an issue to add a staging banner", "intent": "create_issue"}

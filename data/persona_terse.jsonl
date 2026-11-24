@@ -1,0 +1,176 @@
+{"text": "whats on fire rn", "intent": "whats_on_fire"}
+{"text": "any p0s open", "intent": "whats_on_fire"}
+{"text": "anything burning", "intent": "whats_on_fire"}
+{"text": "show me the criticals pls", "intent": "whats_on_fire"}
+{"text": "what is broken rn", "intent": "whats_on_fire"}
+{"text": "fires rn", "intent": "whats_on_fire"}
+{"text": "any sev1 stuff open", "intent": "whats_on_fire"}
+{"text": "whats actually on fire today", "intent": "whats_on_fire"}
+{"text": "list open iss", "intent": "list_issues"}
+{"text": "show all bugs pls", "intent": "list_issues"}
+{"text": "whats assigned to me rn", "intent": "list_issues"}
+{"text": "my issues", "intent": "list_issues"}
+{"text": "list everything @ana has", "intent": "list_issues"}
+{"text": "show closed iss from @sam", "intent": "list_issues"}
+{"text": "list iss in v2.1", "intent": "list_issues"}
+{"text": "open iss labelled enhancement pls", "intent": "list_issues"}
+{"text": "show #12", "intent": "show_issue"}
+{"text": "whats #7 about", "intent": "show_issue"}
+{"text": "details on 23 pls", "intent": "show_issue"}
+{"text": "pull up iss 4", "intent": "show_issue"}
+{"text": "open #31 for me", "intent": "show_issue"}
+{"text": "whats going on with #18", "intent": "show_issue"}
+{"text": "show me 9", "intent": "show_issue"}
+{"text": "gimme the rundown on #25", "intent": "show_issue"}
+{"text": "new iss: login 500s on safari", "intent": "create_issue"}
+{"text": "file a bug csv export drops last row", "intent": "create_issue"}
+{"text": "open a ticket for the typo in readme", "intent": "create_issue"}
+{"text": "create iss add dark mode", "intent": "create_issue"}
+{"text": "new iss webhook retries never stop", "intent": "create_issue"}
+{"text": "make an iss for flaky ci on main", "intent": "create_issue"}
+{"text": "file it: search box lags rn", "intent": "create_issue"}
+{"text": "iss pls: rename config flag to something sane", "intent": "create_issue"}
+{"text": "label #3 bug", "intent": "label_issue"}
+{"text": "tag 5 enhancement", "intent": "label_issue"}
+{"text": "mark #9 p0", "intent": "label_issue"}
+{"text": "slap needs-triage on #14", "intent": "label_issue"}
+{"text": "add the docs label to 22", "intent": "label_issue"}
+{"text": "#17 is a bug label it", "intent": "label_issue"}
+{"text": "tag #8 p1 pls", "intent": "label_issue"}
+{"text": "put performance label on #30", "intent": "label_issue"}
+{"text": "assign #2 to @pa", "intent": "assign_issue"}
+{"text": "give 4 to me", "intent": "assign_issue"}
+{"text": "put @ana on #10", "intent": "assign_issue"}
+{"text": "#13 goes to @sam", "intent": "assign_issue"}
+{"text": "@leo take #21", "intent": "assign_issue"}
+{"text": "assign 6 to me pls", "intent": "assign_issue"}
+{"text": "hand #19 to @maya", "intent": "assign_issue"}
+{"text": "@raj gets #35", "intent": "assign_issue"}
+{"text": "comment on #1 looking into it", "intent": "comment_issue"}
+{"text": "reply to 6 saying fixed in main", "intent": "comment_issue"}
+{"text": "tell #9 we are on it", "intent": "comment_issue"}
+{"text": "say on #12 cant repro rn", "intent": "comment_issue"}
+{"text": "drop a comment on 15: shipping tmrw", "intent": "comment_issue"}
+{"text": "note on #27 waiting on @sam", "intent": "comment_issue"}
+{"text": "post on #3 pls retest on latest", "intent": "comment_issue"}
+{"text": "tell 20 its fixed in v2.1", "intent": "comment_issue"}
+{"text": "close #6", "intent": "close_issue"}
+{"text": "this ones done close 4", "intent": "close_issue"}
+{"text": "shut iss 10 its fixed", "intent": "close_issue"}
+{"text": "yeet #11", "intent": "close_issue"}
+{"text": "kill #16 shipped already", "intent": "close_issue"}
+{"text": "close 28 pls", "intent": "close_issue"}
+{"text": "ship it and close #2", "intent": "close_issue"}
+{"text": "done with #33 close it", "intent": "close_issue"}
+{"text": "reopen #6", "intent": "reopen_issue"}
+{"text": "bring back iss 4", "intent": "reopen_issue"}
+{"text": "6 isnt fixed open it again", "intent": "reopen_issue"}
+{"text": "unyeet #11", "intent": "reopen_issue"}
+{"text": "#16 is back reopen it", "intent": "reopen_issue"}
+{"text": "reopen 22 pls", "intent": "reopen_issue"}
+{"text": "iss 9 broke again reopen", "intent": "reopen_issue"}
+{"text": "revive #38", "intent": "reopen_issue"}
+{"text": "close the stale ones", "intent": "close_stale"}
+{"text": "nuke all the old iss", "intent": "close_stale"}
+{"text": "sweep everything thats gone stale", "intent": "close_stale"}
+{"text": "yeet stale iss rn", "intent": "close_stale"}
+{"text": "clean up old iss pls", "intent": "close_stale"}
+{"text": "kill every stale ticket", "intent": "close_stale"}
+{"text": "nuke anything untouched for ages", "intent": "close_stale"}
+{"text": "close all the dusty iss", "intent": "close_stale"}
+{"text": "triage new iss", "intent": "triage"}
+{"text": "sort out the untagged ones", "intent": "triage"}
+{"text": "label whatever came in", "intent": "triage"}
+{"text": "triage rn pls", "intent": "triage"}
+{"text": "go through the new iss and tag them", "intent": "triage"}
+{"text": "handle the unlabelled stuff", "intent": "triage"}
+{"text": "triage the inbox", "intent": "triage"}
+{"text": "sort the new tickets pls", "intent": "triage"}
+{"text": "undo", "intent": "undo"}
+{"text": "revert that", "intent": "undo"}
+{"text": "no take that back", "intent": "undo"}
+{"text": "undo that pls", "intent": "undo"}
+{"text": "nope undo", "intent": "undo"}
+{"text": "yeet that last action", "intent": "undo"}
+{"text": "take it back", "intent": "undo"}
+{"text": "undo last thing", "intent": "undo"}
+{"text": "rewind to v3", "intent": "rewind_brain"}
+{"text": "go back to yesterdays brain", "intent": "rewind_brain"}
+{"text": "forget what you learned today", "intent": "rewind_brain"}
+{"text": "rewind brain pls", "intent": "rewind_brain"}
+{"text": "roll back to v2", "intent": "rewind_brain"}
+{"text": "nuke the latest brain", "intent": "rewind_brain"}
+{"text": "revert your model to last week", "intent": "rewind_brain"}
+{"text": "rewind to the old version rn", "intent": "rewind_brain"}
+{"text": "how smart are you", "intent": "brain_status"}
+{"text": "which brain version are you on", "intent": "brain_status"}
+{"text": "how many llm calls have you made", "intent": "brain_status"}
+{"text": "whats your accuracy rn", "intent": "brain_status"}
+{"text": "brain status", "intent": "brain_status"}
+{"text": "what model version is this", "intent": "brain_status"}
+{"text": "how many llm calls today", "intent": "brain_status"}
+{"text": "are you on v4 or v5", "intent": "brain_status"}
+{"text": "help", "intent": "help"}
+{"text": "what can you do", "intent": "help"}
+{"text": "commands?", "intent": "help"}
+{"text": "what do you do rn", "intent": "help"}
+{"text": "help pls", "intent": "help"}
+{"text": "list your commands", "intent": "help"}
+{"text": "how do i use you", "intent": "help"}
+{"text": "what can i ask you", "intent": "help"}
+{"text": "remove the bug label from #3", "intent": "remove_label"}
+{"text": "drop needs-triage from 6", "intent": "remove_label"}
+{"text": "#9 isnt p0 anymore untag it", "intent": "remove_label"}
+{"text": "untag #14 enhancement", "intent": "remove_label"}
+{"text": "yeet the p1 label off #22", "intent": "remove_label"}
+{"text": "take docs label off 18", "intent": "remove_label"}
+{"text": "strip the bug tag from #30", "intent": "remove_label"}
+{"text": "#7 not a bug remove the label", "intent": "remove_label"}
+{"text": "unassign @sam from #2", "intent": "unassign_issue"}
+{"text": "take me off 4", "intent": "unassign_issue"}
+{"text": "@ana isnt working on #10 anymore", "intent": "unassign_issue"}
+{"text": "unassign #13", "intent": "unassign_issue"}
+{"text": "remove @leo from #21", "intent": "unassign_issue"}
+{"text": "drop @pa off #6", "intent": "unassign_issue"}
+{"text": "take @raj off 35 pls", "intent": "unassign_issue"}
+{"text": "i am off #19 unassign me", "intent": "unassign_issue"}
+{"text": "#9 is a dupe of #2", "intent": "close_duplicate"}
+{"text": "close 5 as duplicate of 3", "intent": "close_duplicate"}
+{"text": "same as #1 close #8", "intent": "close_duplicate"}
+{"text": "#14 dupes #12 kill it", "intent": "close_duplicate"}
+{"text": "yeet #20 its a dupe of #7", "intent": "close_duplicate"}
+{"text": "close #26 as dup of #4", "intent": "close_duplicate"}
+{"text": "dupe of 11 close 29", "intent": "close_duplicate"}
+{"text": "#31 is the same as #15 close as duplicate", "intent": "close_duplicate"}
+{"text": "close #7 as wont fix", "intent": "close_not_planned"}
+{"text": "were not doing 5 close it", "intent": "close_not_planned"}
+{"text": "mark #4 not planned", "intent": "close_not_planned"}
+{"text": "wontfix #18", "intent": "close_not_planned"}
+{"text": "kill #23 not planned", "intent": "close_not_planned"}
+{"text": "nuke 12 as wont fix", "intent": "close_not_planned"}
+{"text": "not happening close #36", "intent": "close_not_planned"}
+{"text": "close #9 not planned pls", "intent": "close_not_planned"}
+{"text": "any iss about safari", "intent": "search_issues"}
+{"text": "search for csv", "intent": "search_issues"}
+{"text": "is there a ticket mentioning webhooks", "intent": "search_issues"}
+{"text": "find iss with timeout in it", "intent": "search_issues"}
+{"text": "grep iss for oauth", "intent": "search_issues"}
+{"text": "anything about dark mode in the iss", "intent": "search_issues"}
+{"text": "search iss for memory leak pls", "intent": "search_issues"}
+{"text": "any tickets on rate limiting", "intent": "search_issues"}
+{"text": "put #3 in v2.1", "intent": "set_milestone"}
+{"text": "milestone 6 for the march release", "intent": "set_milestone"}
+{"text": "move #9 to v2.0", "intent": "set_milestone"}
+{"text": "#14 goes in v3.0", "intent": "set_milestone"}
+{"text": "add 22 to the beta milestone", "intent": "set_milestone"}
+{"text": "ship #17 in v2.1", "intent": "set_milestone"}
+{"text": "set milestone v2.2 on #30", "intent": "set_milestone"}
+{"text": "bump #11 to the next release", "intent": "set_milestone"}
+{"text": "whats the weather", "intent": "other"}
+{"text": "tell me a joke", "intent": "other"}
+{"text": "book a flight to goa", "intent": "other"}
+{"text": "whats for lunch", "intent": "other"}
+{"text": "who won the game last night", "intent": "other"}
+{"text": "remind me to call mom", "intent": "other"}
+{"text": "play some lofi", "intent": "other"}
+{"text": "how do i cook rice rn", "intent": "other"}

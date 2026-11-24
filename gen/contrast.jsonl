@@ -1,0 +1,350 @@
+{"text": "remove the bug label from #3", "intent": "remove_label"}
+{"text": "take the p0 label off #12", "intent": "remove_label"}
+{"text": "untag #7 from needs-triage", "intent": "remove_label"}
+{"text": "drop label stale from 15", "intent": "remove_label"}
+{"text": "#9 shouldn't be labeled enhancement anymore", "intent": "remove_label"}
+{"text": "pls remove the question tag on issue 22", "intent": "remove_label"}
+{"text": "unlabel #4 bug", "intent": "remove_label"}
+{"text": "rm needs-triage from #31", "intent": "remove_label"}
+{"text": "get the p0 label off of 18", "intent": "remove_label"}
+{"text": "can you take bug off #27, it's not a bug", "intent": "remove_label"}
+{"text": "strip the stale label from #5", "intent": "remove_label"}
+{"text": "#14 is no longer a p0, remove the label", "intent": "remove_label"}
+{"text": "remve the enhancment label from 8", "intent": "remove_label"}
+{"text": "clear the needs-triage tag on #19", "intent": "remove_label"}
+{"text": "label p0 on #11 is wrong, take it off", "intent": "remove_label"}
+{"text": "take the label bug away from #36", "intent": "remove_label"}
+{"text": "delete the stale tag from issue 2", "intent": "remove_label"}
+{"text": "tag question on #6 shouldn't be there, remove it", "intent": "remove_label"}
+{"text": "un-tag 20 as enhancement", "intent": "remove_label"}
+{"text": "could you please remove the p0 label from #33", "intent": "remove_label"}
+{"text": "drop bug from #1", "intent": "remove_label"}
+{"text": "take stale off 40", "intent": "remove_label"}
+{"text": "remove label needs-triage, #25", "intent": "remove_label"}
+{"text": "#17 doesn't need the question label now, remove it", "intent": "remove_label"}
+{"text": "get rid of the enhancement tag on 13", "intent": "remove_label"}
+{"text": "add the bug label to #3", "intent": "label_issue"}
+{"text": "label #12 as p0", "intent": "label_issue"}
+{"text": "tag #7 with needs-triage", "intent": "label_issue"}
+{"text": "put label stale on 15", "intent": "label_issue"}
+{"text": "#9 should be labeled enhancement", "intent": "label_issue"}
+{"text": "pls add the question tag to issue 22", "intent": "label_issue"}
+{"text": "label #4 bug", "intent": "label_issue"}
+{"text": "mark #31 needs-triage", "intent": "label_issue"}
+{"text": "slap a p0 label on 18", "intent": "label_issue"}
+{"text": "can you tag #27 as bug, it's broken", "intent": "label_issue"}
+{"text": "add stale label to #5", "intent": "label_issue"}
+{"text": "#14 is a p0 now, label it", "intent": "label_issue"}
+{"text": "add the enhancment label to 8", "intent": "label_issue"}
+{"text": "give #19 the needs-triage tag", "intent": "label_issue"}
+{"text": "label p0 on #11, it's urgent", "intent": "label_issue"}
+{"text": "put the label bug on #36", "intent": "label_issue"}
+{"text": "add stale tag to issue 2", "intent": "label_issue"}
+{"text": "tag question on #6 please", "intent": "label_issue"}
+{"text": "tag 20 as enhancement", "intent": "label_issue"}
+{"text": "could you please add the p0 label to #33", "intent": "label_issue"}
+{"text": "bug on #1", "intent": "label_issue"}
+{"text": "label 40 stale", "intent": "label_issue"}
+{"text": "apply label needs-triage, #25", "intent": "label_issue"}
+{"text": "#17 needs the question label now", "intent": "label_issue"}
+{"text": "stick an enhancement tag on 13", "intent": "label_issue"}
+{"text": "unassign @sam from #2", "intent": "unassign_issue"}
+{"text": "take me off #4", "intent": "unassign_issue"}
+{"text": "@ana isn't working on #10 anymore", "intent": "unassign_issue"}
+{"text": "remove @bob as assignee on 12", "intent": "unassign_issue"}
+{"text": "pls take @lee off issue 7", "intent": "unassign_issue"}
+{"text": "drop @kim from #15", "intent": "unassign_issue"}
+{"text": "unassign me from 21", "intent": "unassign_issue"}
+{"text": "@raj is off #9, remove him", "intent": "unassign_issue"}
+{"text": "take #3 away from @sam", "intent": "unassign_issue"}
+{"text": "can you unassign @dev from #18", "intent": "unassign_issue"}
+{"text": "un-assign @mia #22", "intent": "unassign_issue"}
+{"text": "@tom no longer owns #30, release it", "intent": "unassign_issue"}
+{"text": "pull @ana off of #5", "intent": "unassign_issue"}
+{"text": "remove me as the assignee on #14", "intent": "unassign_issue"}
+{"text": "#8 shouldn't be assigned to @bob any more", "intent": "unassign_issue"}
+{"text": "unasign @kim from 11", "intent": "unassign_issue"}
+{"text": "get @raj off #27", "intent": "unassign_issue"}
+{"text": "take @sam off the assignees for #33", "intent": "unassign_issue"}
+{"text": "i'm not working on #6 anymore, take me off", "intent": "unassign_issue"}
+{"text": "clear the assignee on #19", "intent": "unassign_issue"}
+{"text": "@lee can come off 25", "intent": "unassign_issue"}
+{"text": "remove @mia from #40", "intent": "unassign_issue"}
+{"text": "take @tom off 1 please", "intent": "unassign_issue"}
+{"text": "free up #16, @sam is no longer on it", "intent": "unassign_issue"}
+{"text": "stop assigning @ana to #13, remove her", "intent": "unassign_issue"}
+{"text": "assign @sam to #2", "intent": "assign_issue"}
+{"text": "put me on #4", "intent": "assign_issue"}
+{"text": "@ana is working on #10 now", "intent": "assign_issue"}
+{"text": "add @bob as assignee on 12", "intent": "assign_issue"}
+{"text": "pls give @lee issue 7", "intent": "assign_issue"}
+{"text": "hand @kim #15", "intent": "assign_issue"}
+{"text": "assign me to 21", "intent": "assign_issue"}
+{"text": "@raj is on #9, assign him", "intent": "assign_issue"}
+{"text": "give #3 to @sam", "intent": "assign_issue"}
+{"text": "can you assign @dev to #18", "intent": "assign_issue"}
+{"text": "assign @mia #22", "intent": "assign_issue"}
+{"text": "@tom now owns #30, assign it", "intent": "assign_issue"}
+{"text": "put @ana on #5", "intent": "assign_issue"}
+{"text": "make me the assignee on #14", "intent": "assign_issue"}
+{"text": "#8 should be assigned to @bob", "intent": "assign_issue"}
+{"text": "asign @kim to 11", "intent": "assign_issue"}
+{"text": "get @raj on #27", "intent": "assign_issue"}
+{"text": "add @sam to the assignees for #33", "intent": "assign_issue"}
+{"text": "i'll work on #6, put me on it", "intent": "assign_issue"}
+{"text": "set the assignee on #19 to @lee", "intent": "assign_issue"}
+{"text": "@lee can take 25", "intent": "assign_issue"}
+{"text": "assign @mia to #40", "intent": "assign_issue"}
+{"text": "give @tom 1 please", "intent": "assign_issue"}
+{"text": "#16 is @sam's now", "intent": "assign_issue"}
+{"text": "start assigning @ana to #13", "intent": "assign_issue"}
+{"text": "close #9 as a duplicate of #2", "intent": "close_duplicate"}
+{"text": "#5 is a dupe of #3, close it", "intent": "close_duplicate"}
+{"text": "shut #12, same as #7", "intent": "close_duplicate"}
+{"text": "close 14 as duplicate", "intent": "close_duplicate"}
+{"text": "#20 duplicates #4, close it out", "intent": "close_duplicate"}
+{"text": "this is the same issue as #1, close #8", "intent": "close_duplicate"}
+{"text": "close #17 as dup of #11", "intent": "close_duplicate"}
+{"text": "pls close issue 22 since it's a dupe of #19", "intent": "close_duplicate"}
+{"text": "mark #30 as duplicate of #6 and close", "intent": "close_duplicate"}
+{"text": "#25 is already tracked in #10, close as dupe", "intent": "close_duplicate"}
+{"text": "closing 33 as a duplicate of 2", "intent": "close_duplicate"}
+{"text": "dup of #15 - close #28", "intent": "close_duplicate"}
+{"text": "close #3, it's a copy of #21", "intent": "close_duplicate"}
+{"text": "can you close 18 as a dupe of 16", "intent": "close_duplicate"}
+{"text": "#6 and #13 are the same, close #6 as dupe", "intent": "close_duplicate"}
+{"text": "clsoe #39 as duplicate of #12", "intent": "close_duplicate"}
+{"text": "close this one, duplicate of #24", "intent": "close_duplicate"}
+{"text": "#35 is a repeat of #9, close it", "intent": "close_duplicate"}
+{"text": "close it as a duplicate of #27", "intent": "close_duplicate"}
+{"text": "same bug as #4, close 31 as dup", "intent": "close_duplicate"}
+{"text": "shut 26 as dupe of 8", "intent": "close_duplicate"}
+{"text": "#11 was already reported in #5, close it", "intent": "close_duplicate"}
+{"text": "close issue #37, duplicate of #14", "intent": "close_duplicate"}
+{"text": "mark 2 as duplicate of #1", "intent": "close_duplicate"}
+{"text": "dupe: close #19 in favor of #23", "intent": "close_duplicate"}
+{"text": "close #7 as won't fix", "intent": "close_not_planned"}
+{"text": "we're not doing 5, close it", "intent": "close_not_planned"}
+{"text": "mark #4 not planned", "intent": "close_not_planned"}
+{"text": "close #12 as not planned", "intent": "close_not_planned"}
+{"text": "#20 is a wontfix, close it", "intent": "close_not_planned"}
+{"text": "pls close issue 9, we won't do this", "intent": "close_not_planned"}
+{"text": "close #15, not planned for us", "intent": "close_not_planned"}
+{"text": "closing 22 as not planned", "intent": "close_not_planned"}
+{"text": "close 31, we decided against it", "intent": "close_not_planned"}
+{"text": "can you close #9 as wont fix", "intent": "close_not_planned"}
+{"text": "#3 is out of scope, close it as not planned", "intent": "close_not_planned"}
+{"text": "close #28, won't be done", "intent": "close_not_planned"}
+{"text": "shut #18, not going to happen", "intent": "close_not_planned"}
+{"text": "clsoe 14 as wont fix", "intent": "close_not_planned"}
+{"text": "close the issue 36, we're not building it", "intent": "close_not_planned"}
+{"text": "#25 is declined, close it", "intent": "close_not_planned"}
+{"text": "close #1 as not planned", "intent": "close_not_planned"}
+{"text": "mark #40 as won't fix and close it", "intent": "close_not_planned"}
+{"text": "we're not going to fix #13, close it", "intent": "close_not_planned"}
+{"text": "close this one, it's not planned", "intent": "close_not_planned"}
+{"text": "wontfix: close #17", "intent": "close_not_planned"}
+{"text": "close issue #8 as not planned please", "intent": "close_not_planned"}
+{"text": "#33 is by design, close as won't fix", "intent": "close_not_planned"}
+{"text": "close #21, no plans to do it in v2.1", "intent": "close_not_planned"}
+{"text": "close 5, we're skipping it", "intent": "close_not_planned"}
+{"text": "close #6, it's fixed", "intent": "close_issue"}
+{"text": "this one is done, close 4", "intent": "close_issue"}
+{"text": "shut issue 10, it's fixed", "intent": "close_issue"}
+{"text": "close #12 as completed", "intent": "close_issue"}
+{"text": "#20 is resolved, close it", "intent": "close_issue"}
+{"text": "pls close issue 7, shipped in v2.0", "intent": "close_issue"}
+{"text": "close #15 since we merged the fix", "intent": "close_issue"}
+{"text": "closing 22, all done", "intent": "close_issue"}
+{"text": "close 31, done and dusted", "intent": "close_issue"}
+{"text": "can you close #9, it's finished", "intent": "close_issue"}
+{"text": "#3 is fixed in main, close it", "intent": "close_issue"}
+{"text": "close #28 as done", "intent": "close_issue"}
+{"text": "shut #18, works now", "intent": "close_issue"}
+{"text": "clsoe 14 it's fixed", "intent": "close_issue"}
+{"text": "close the issue 36 we shipped it", "intent": "close_issue"}
+{"text": "#25 is complete, close it", "intent": "close_issue"}
+{"text": "close #1", "intent": "close_issue"}
+{"text": "mark #40 as fixed and close it", "intent": "close_issue"}
+{"text": "we fixed #13, you can close it", "intent": "close_issue"}
+{"text": "close this one, the bug is gone", "intent": "close_issue"}
+{"text": "resolved: close #17", "intent": "close_issue"}
+{"text": "close issue #8 as done please", "intent": "close_issue"}
+{"text": "#33 is done, shut it", "intent": "close_issue"}
+{"text": "close #21 now that it's released in v2.1", "intent": "close_issue"}
+{"text": "close 5, fix is merged", "intent": "close_issue"}
+{"text": "close #9 as duplicate, we're not doing it twice", "intent": "close_duplicate"}
+{"text": "#5 won't get its own fix, it's a dupe of #3", "intent": "close_duplicate"}
+{"text": "close #12 as a dupe, not going to track it separately", "intent": "close_duplicate"}
+{"text": "close 14 as not a separate issue, same as #6", "intent": "close_duplicate"}
+{"text": "#20 is already covered by #4, close as duplicate", "intent": "close_duplicate"}
+{"text": "mark #7 as dup of #2, not planned on its own", "intent": "close_duplicate"}
+{"text": "close #17 as duplicate, won't fix twice", "intent": "close_duplicate"}
+{"text": "close issue 22 as dupe of #19, no need for two", "intent": "close_duplicate"}
+{"text": "#30 is a duplicate of #6, mark it and close", "intent": "close_duplicate"}
+{"text": "close #25 as dupe of #10, we're not doing both", "intent": "close_duplicate"}
+{"text": "closing 33 as duplicate of 2, not planned", "intent": "close_duplicate"}
+{"text": "#28 is the same as #15, won't be done separately, close as dupe", "intent": "close_duplicate"}
+{"text": "close #3 as a dupe of #21, shut it", "intent": "close_duplicate"}
+{"text": "close 18 as duplicate of 16 not as won't fix", "intent": "close_duplicate"}
+{"text": "#6 is same as #13, close #6 as dupe", "intent": "close_duplicate"}
+{"text": "dupe of #24, close this one", "intent": "close_duplicate"}
+{"text": "close #35 as a duplicate, tracked in #9 so not planned here", "intent": "close_duplicate"}
+{"text": "close #31 as dup of #4, nothing else needed", "intent": "close_duplicate"}
+{"text": "close 26 as dupe of 8, won't do it again", "intent": "close_duplicate"}
+{"text": "#11 already reported in #5, close it as duplicate", "intent": "close_duplicate"}
+{"text": "close issue #37 as duplicate of #14", "intent": "close_duplicate"}
+{"text": "mark 2 duplicate of #1 and close", "intent": "close_duplicate"}
+{"text": "same as #12, close #39 as a dupe", "intent": "close_duplicate"}
+{"text": "close #19 as dupe of #23, we're not planning two", "intent": "close_duplicate"}
+{"text": "#16 duplicates #32, shut it as dupe", "intent": "close_duplicate"}
+{"text": "any issues about safari?", "intent": "search_issues"}
+{"text": "search for csv", "intent": "search_issues"}
+{"text": "is there a ticket mentioning webhooks", "intent": "search_issues"}
+{"text": "find issues that mention timeout", "intent": "search_issues"}
+{"text": "show me issues containing oauth", "intent": "search_issues"}
+{"text": "list issues about login", "intent": "search_issues"}
+{"text": "any open issues that talk about dark mode?", "intent": "search_issues"}
+{"text": "search issues for 'memory leak'", "intent": "search_issues"}
+{"text": "which issues mention the s3 bucket", "intent": "search_issues"}
+{"text": "look for tickets about pagination", "intent": "search_issues"}
+{"text": "do we have an issue on websockets", "intent": "search_issues"}
+{"text": "find bugs that mention crash", "intent": "search_issues"}
+{"text": "issues with 'rate limit' in the title", "intent": "search_issues"}
+{"text": "anything in the issues about slack notifications", "intent": "search_issues"}
+{"text": "serch for issues mentioning docker", "intent": "search_issues"}
+{"text": "show all issues about export", "intent": "search_issues"}
+{"text": "grep issues for typescript", "intent": "search_issues"}
+{"text": "is there already an issue for mobile layout", "intent": "search_issues"}
+{"text": "find open issues mentioning stripe", "intent": "search_issues"}
+{"text": "what issues talk about safari login", "intent": "search_issues"}
+{"text": "look up tickets with 'null pointer'", "intent": "search_issues"}
+{"text": "list the issues that mention billing", "intent": "search_issues"}
+{"text": "search closed issues for webhook", "intent": "search_issues"}
+{"text": "any tickets that mention the api change", "intent": "search_issues"}
+{"text": "find enhancement issues about csv import", "intent": "search_issues"}
+{"text": "any issues similar to the one in #12?", "intent": "search_issues"}
+{"text": "find issues like #5 about login", "intent": "search_issues"}
+{"text": "is there another ticket mentioning what #7 describes", "intent": "search_issues"}
+{"text": "search for issues that mention the error from #3", "intent": "search_issues"}
+{"text": "which issues mention #9", "intent": "search_issues"}
+{"text": "anything else about the crash in issue 4", "intent": "search_issues"}
+{"text": "look for other tickets about the thing in #14", "intent": "search_issues"}
+{"text": "search issues for #20's title words", "intent": "search_issues"}
+{"text": "find issues referencing #2", "intent": "search_issues"}
+{"text": "do any issues mention #31", "intent": "search_issues"}
+{"text": "is there a ticket that mentions issue 8", "intent": "search_issues"}
+{"text": "search for issues that mention the same timeout as #11", "intent": "search_issues"}
+{"text": "find tickets that talk about what #6 is about", "intent": "search_issues"}
+{"text": "any issues about the #17 bug?", "intent": "search_issues"}
+{"text": "search issues mentioning safari, like issue 22", "intent": "search_issues"}
+{"text": "which tickets reference #25", "intent": "search_issues"}
+{"text": "look for issues that mention #1 in the body", "intent": "search_issues"}
+{"text": "are there issues about the problem in 13", "intent": "search_issues"}
+{"text": "search for the other issue about this webhook thing in #19", "intent": "search_issues"}
+{"text": "find anything mentioning #36", "intent": "search_issues"}
+{"text": "searh for tickets mentioning #28", "intent": "search_issues"}
+{"text": "any issue that mentions issue 33 or csv", "intent": "search_issues"}
+{"text": "what other issues talk about #16's problem", "intent": "search_issues"}
+{"text": "find issues containing the text from #40", "intent": "search_issues"}
+{"text": "is there an issue about the thing #10 is about", "intent": "search_issues"}
+{"text": "put #3 in v2.1", "intent": "set_milestone"}
+{"text": "milestone 6 for v2.0", "intent": "set_milestone"}
+{"text": "move #9 to v2.0", "intent": "set_milestone"}
+{"text": "add #12 to the v2.1 milestone", "intent": "set_milestone"}
+{"text": "set the milestone on #7 to v2.0", "intent": "set_milestone"}
+{"text": "tag #15 for v2.1 release", "intent": "set_milestone"}
+{"text": "mark #22 as v2.0", "intent": "set_milestone"}
+{"text": "label #18 with milestone v2.1", "intent": "set_milestone"}
+{"text": "put 31 in the v2.0 milestone", "intent": "set_milestone"}
+{"text": "pls move issue 4 to v2.1", "intent": "set_milestone"}
+{"text": "#20 is going out in v2.0, tag it", "intent": "set_milestone"}
+{"text": "schedule #9 for v2.1", "intent": "set_milestone"}
+{"text": "add #28 to v2.0", "intent": "set_milestone"}
+{"text": "mielstone v2.1 for #14", "intent": "set_milestone"}
+{"text": "tag 36 as v2.1", "intent": "set_milestone"}
+{"text": "#25 belongs in the v2.0 release, label it", "intent": "set_milestone"}
+{"text": "assign #1 to milestone v2.1", "intent": "set_milestone"}
+{"text": "bump #40 to v2.1", "intent": "set_milestone"}
+{"text": "mark #13 for the v2.0 release", "intent": "set_milestone"}
+{"text": "can you put #33 into v2.0", "intent": "set_milestone"}
+{"text": "set #17 milestone v2.1", "intent": "set_milestone"}
+{"text": "#8 should ship in v2.0, mark it", "intent": "set_milestone"}
+{"text": "file #21 under v2.1", "intent": "set_milestone"}
+{"text": "label 5 v2.0, the release milestone", "intent": "set_milestone"}
+{"text": "move #11 from v2.0 to v2.1", "intent": "set_milestone"}
+{"text": "reopen #6", "intent": "reopen_issue"}
+{"text": "bring back issue 4", "intent": "reopen_issue"}
+{"text": "6 isn't fixed, open it again", "intent": "reopen_issue"}
+{"text": "reopen issue #12, it's still broken", "intent": "reopen_issue"}
+{"text": "#20 is not actually done, reopen it", "intent": "reopen_issue"}
+{"text": "pls reopen 7", "intent": "reopen_issue"}
+{"text": "open #15 again, the fix didn't work", "intent": "reopen_issue"}
+{"text": "reopening 22", "intent": "reopen_issue"}
+{"text": "the bug is back, reopen #31", "intent": "reopen_issue"}
+{"text": "can you reopen #9, it regressed", "intent": "reopen_issue"}
+{"text": "#3 was closed by mistake, reopen it", "intent": "reopen_issue"}
+{"text": "undo the close on #28", "intent": "reopen_issue"}
+{"text": "re-open #18", "intent": "reopen_issue"}
+{"text": "reopne 14", "intent": "reopen_issue"}
+{"text": "close was wrong on 36, open it back up", "intent": "reopen_issue"}
+{"text": "#25 isn't resolved, reopen", "intent": "reopen_issue"}
+{"text": "reopen #1 please", "intent": "reopen_issue"}
+{"text": "mark #40 as open again", "intent": "reopen_issue"}
+{"text": "we closed #13 too early, reopen it", "intent": "reopen_issue"}
+{"text": "this one is not done, reopen", "intent": "reopen_issue"}
+{"text": "unclose #17", "intent": "reopen_issue"}
+{"text": "reopen issue #8, closed it by accident", "intent": "reopen_issue"}
+{"text": "#33 came back, open it again", "intent": "reopen_issue"}
+{"text": "reopen #21 since the fix got reverted", "intent": "reopen_issue"}
+{"text": "bring #5 back, it's not fixed", "intent": "reopen_issue"}
+{"text": "list open issues", "intent": "list_issues"}
+{"text": "show all bugs", "intent": "list_issues"}
+{"text": "what's assigned to me", "intent": "list_issues"}
+{"text": "list all bugs for v2.0", "intent": "list_issues"}
+{"text": "show me open bugs assigned to @sam", "intent": "list_issues"}
+{"text": "list issues labeled enhancement", "intent": "list_issues"}
+{"text": "every issue in v2.1", "intent": "list_issues"}
+{"text": "list closed bugs", "intent": "list_issues"}
+{"text": "show my issues", "intent": "list_issues"}
+{"text": "list the issues @ana opened", "intent": "list_issues"}
+{"text": "all issues with the needs-triage label", "intent": "list_issues"}
+{"text": "list stale issues", "intent": "list_issues"}
+{"text": "what bugs are open", "intent": "list_issues"}
+{"text": "lst all open issues by @bob", "intent": "list_issues"}
+{"text": "show every issue labeled p0 including the closed ones", "intent": "list_issues"}
+{"text": "list question issues", "intent": "list_issues"}
+{"text": "give me the list of open issues in v2.0", "intent": "list_issues"}
+{"text": "show all issues labeled p0 and closed", "intent": "list_issues"}
+{"text": "what issues are assigned to @lee", "intent": "list_issues"}
+{"text": "list all the bugs, not just the urgent ones", "intent": "list_issues"}
+{"text": "show everything open for v2.1", "intent": "list_issues"}
+{"text": "list issues I opened", "intent": "list_issues"}
+{"text": "all open enhancement issues please", "intent": "list_issues"}
+{"text": "what's in the v2.0 milestone", "intent": "list_issues"}
+{"text": "list p0 issues from the v2.0 milestone that are closed", "intent": "list_issues"}
+{"text": "comment on #1: looking into it", "intent": "comment_issue"}
+{"text": "reply to 6 saying fixed in main", "intent": "comment_issue"}
+{"text": "tell #9 we're on it", "intent": "comment_issue"}
+{"text": "add a comment to #12: can't repro", "intent": "comment_issue"}
+{"text": "note on issue 7: this is blocked on the api change", "intent": "comment_issue"}
+{"text": "write on #15 that the fix ships in v2.1", "intent": "comment_issue"}
+{"text": "comment on 22 - needs more info from @sam", "intent": "comment_issue"}
+{"text": "post a comment on #31 saying thanks, working on a fix", "intent": "comment_issue"}
+{"text": "pls reply on #4: duplicate report from support", "intent": "comment_issue"}
+{"text": "leave a note on #18: tried this on safari, still broken", "intent": "comment_issue"}
+{"text": "say on #3 that we're moving this to v2.0", "intent": "comment_issue"}
+{"text": "comment: still happening in prod, on #28", "intent": "comment_issue"}
+{"text": "add to issue 14: here's the stack trace", "intent": "comment_issue"}
+{"text": "comemnt on #36 looking into it", "intent": "comment_issue"}
+{"text": "respond on #25 that we need logs", "intent": "comment_issue"}
+{"text": "on #1 write: new repro steps below", "intent": "comment_issue"}
+{"text": "drop a comment on #40, bug confirmed", "intent": "comment_issue"}
+{"text": "tell 13 it's fixed in main", "intent": "comment_issue"}
+{"text": "can you comment on #33 that @ana is on it", "intent": "comment_issue"}
+{"text": "update #17 with a comment: waiting on design", "intent": "comment_issue"}
+{"text": "reply to #8 with a thanks", "intent": "comment_issue"}
+{"text": "comment on issue #21 asking for a screenshot", "intent": "comment_issue"}
+{"text": "add comment on 5: new issue for this coming soon", "intent": "comment_issue"}
+{"text": "note on #11: file a bug upstream", "intent": "comment_issue"}
+{"text": "post to #20: any update on this?", "intent": "comment_issue"}

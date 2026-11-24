@@ -1,0 +1,300 @@
+{"text": "triage", "intent": "triage"}
+{"text": "triage new issues", "intent": "triage"}
+{"text": "can you triage whatever came in overnight?", "intent": "triage"}
+{"text": "go through the unlabelled issues and tag them", "intent": "triage"}
+{"text": "sort out the untagged tickets please", "intent": "triage"}
+{"text": "label all the new stuff that has no labels yet", "intent": "triage"}
+{"text": "run triage", "intent": "triage"}
+{"text": "time to triage the inbox", "intent": "triage"}
+{"text": "hey, can you do a triage pass on the fresh issues", "intent": "triage"}
+{"text": "triage pls", "intent": "triage"}
+{"text": "auto-label the new issues", "intent": "triage"}
+{"text": "there are a bunch of new unlabeled issues, sort them out", "intent": "triage"}
+{"text": "please categorize everything that's come in since friday", "intent": "triage"}
+{"text": "tirage the new issues", "intent": "triage"}
+{"text": "go ahead and label whatever is untriaged", "intent": "triage"}
+{"text": "can you handle the triage this morning", "intent": "triage"}
+{"text": "work through the backlog of unlabelled issues and give them labels", "intent": "triage"}
+{"text": "triage time", "intent": "triage"}
+{"text": "give labels to the issues nobody has looked at yet", "intent": "triage"}
+{"text": "do your triage thing on new tickets", "intent": "triage"}
+{"text": "anything new and untagged? triage it", "intent": "triage"}
+{"text": "sort the incoming issues into bug / enhancement / question", "intent": "triage"}
+{"text": "pls triage, standup is in ten minutes", "intent": "triage"}
+{"text": "label the new ones for me", "intent": "triage"}
+{"text": "triage everything without a label", "intent": "triage"}
+{"text": "could you classify the newly opened issues", "intent": "triage"}
+{"text": "triage the queue", "intent": "triage"}
+{"text": "i want the new issues triaged before the sprint planning", "intent": "triage"}
+{"text": "kick off triage on new issues", "intent": "triage"}
+{"text": "tag the unlabelled issues automatically", "intent": "triage"}
+{"text": "sort through what's new and slap labels on it", "intent": "triage"}
+{"text": "need triage done on the issues filed this week", "intent": "triage"}
+{"text": "triage the untouched issues, thanks", "intent": "triage"}
+{"text": "run through the new issues and assign labels", "intent": "triage"}
+{"text": "ok triage whatever's pending", "intent": "triage"}
+{"text": "triage inbox zero style: label all the new ones", "intent": "triage"}
+{"text": "could you please triage new issues when you get a sec", "intent": "triage"}
+{"text": "label everything that doesnt have a label yet", "intent": "triage"}
+{"text": "triage! new issues piled up again", "intent": "triage"}
+{"text": "go through fresh tickets and categorise them", "intent": "triage"}
+{"text": "sort and label the latest unlabelled batch", "intent": "triage"}
+{"text": "can u triage the stuff people filed today", "intent": "triage"}
+{"text": "start a triage run", "intent": "triage"}
+{"text": "pick up the untagged issues and label them based on content", "intent": "triage"}
+{"text": "triage all new tickets", "intent": "triage"}
+{"text": "someone filed a ton of issues, can you tag them all", "intent": "triage"}
+{"text": "please triage", "intent": "triage"}
+{"text": "work the triage queue and label each new issue", "intent": "triage"}
+{"text": "label the new unlabeled issues so we can plan", "intent": "triage"}
+{"text": "triage the new arrivals", "intent": "triage"}
+{"text": "sort out whatever has no tag", "intent": "triage"}
+{"text": "give the new issues labels, you know what to do", "intent": "triage"}
+{"text": "can we get the unlabelled issues triaged", "intent": "triage"}
+{"text": "triage whatever came in over the weekend", "intent": "triage"}
+{"text": "do the daily triage", "intent": "triage"}
+{"text": "triage, please, new ones only", "intent": "triage"}
+{"text": "categorize all untagged issues", "intent": "triage"}
+{"text": "hey bot, go label the new tickets", "intent": "triage"}
+{"text": "newly filed issues need labels, handle it", "intent": "triage"}
+{"text": "triage the repo", "intent": "triage"}
+{"text": "undo", "intent": "undo"}
+{"text": "undo that", "intent": "undo"}
+{"text": "revert that", "intent": "undo"}
+{"text": "no, take that back", "intent": "undo"}
+{"text": "oops undo", "intent": "undo"}
+{"text": "wait, undo what you just did", "intent": "undo"}
+{"text": "that was wrong, put it back", "intent": "undo"}
+{"text": "please undo your last action", "intent": "undo"}
+{"text": "ctrl z", "intent": "undo"}
+{"text": "nope, reverse that", "intent": "undo"}
+{"text": "can you undo that last change", "intent": "undo"}
+{"text": "undo it", "intent": "undo"}
+{"text": "go back, that wasn't what I meant", "intent": "undo"}
+{"text": "ugh, wrong one. undo", "intent": "undo"}
+{"text": "roll back the last thing you did", "intent": "undo"}
+{"text": "cancel that, revert it", "intent": "undo"}
+{"text": "undo pls", "intent": "undo"}
+{"text": "hold on, that was a mistake, undo please", "intent": "undo"}
+{"text": "take it back", "intent": "undo"}
+{"text": "reverse your last move", "intent": "undo"}
+{"text": "undoo", "intent": "undo"}
+{"text": "i didnt mean that, undo", "intent": "undo"}
+{"text": "revert your last action", "intent": "undo"}
+{"text": "scratch that, undo it", "intent": "undo"}
+{"text": "can you walk that back", "intent": "undo"}
+{"text": "undo the last thing", "intent": "undo"}
+{"text": "wrong, undo", "intent": "undo"}
+{"text": "no no no, undo that", "intent": "undo"}
+{"text": "put things back the way they were", "intent": "undo"}
+{"text": "that last action was a mistake, please revert", "intent": "undo"}
+{"text": "undo whatever you just did", "intent": "undo"}
+{"text": "hey sorry, can you undo that", "intent": "undo"}
+{"text": "rollback last action", "intent": "undo"}
+{"text": "uh oh. undo!", "intent": "undo"}
+{"text": "reverse that please", "intent": "undo"}
+{"text": "nah, undo", "intent": "undo"}
+{"text": "i take it back, undo the last one", "intent": "undo"}
+{"text": "revert", "intent": "undo"}
+{"text": "please revert what you just changed", "intent": "undo"}
+{"text": "undo your previous action", "intent": "undo"}
+{"text": "that's not right, undo it quick", "intent": "undo"}
+{"text": "can you cancel what you just did", "intent": "undo"}
+{"text": "unDo", "intent": "undo"}
+{"text": "go undo that", "intent": "undo"}
+{"text": "oh no, revert that last one", "intent": "undo"}
+{"text": "wrong target, undo", "intent": "undo"}
+{"text": "i want that undone", "intent": "undo"}
+{"text": "back out the change you just made", "intent": "undo"}
+{"text": "undo last", "intent": "undo"}
+{"text": "mistake, please undo", "intent": "undo"}
+{"text": "reverse the last thing you did, my bad", "intent": "undo"}
+{"text": "um, undo that please", "intent": "undo"}
+{"text": "unwind that last action", "intent": "undo"}
+{"text": "could you revert your last step", "intent": "undo"}
+{"text": "stop, undo", "intent": "undo"}
+{"text": "no that's wrong, take that back please", "intent": "undo"}
+{"text": "undo that one", "intent": "undo"}
+{"text": "revert it, I changed my mind", "intent": "undo"}
+{"text": "pls undo", "intent": "undo"}
+{"text": "i need you to undo the last action", "intent": "undo"}
+{"text": "rewind to v3", "intent": "rewind_brain"}
+{"text": "go back to yesterday's brain", "intent": "rewind_brain"}
+{"text": "forget what you learned today", "intent": "rewind_brain"}
+{"text": "roll your model back to the previous version", "intent": "rewind_brain"}
+{"text": "rewind brain", "intent": "rewind_brain"}
+{"text": "revert to the earlier model", "intent": "rewind_brain"}
+{"text": "your latest training made you worse, go back to v2", "intent": "rewind_brain"}
+{"text": "restore the brain from last week", "intent": "rewind_brain"}
+{"text": "rewind to version 5", "intent": "rewind_brain"}
+{"text": "wipe what you learned this morning", "intent": "rewind_brain"}
+{"text": "go back to your old brain", "intent": "rewind_brain"}
+{"text": "rollback your model to v1", "intent": "rewind_brain"}
+{"text": "you got dumber after the last update, rewind", "intent": "rewind_brain"}
+{"text": "restore an older version of yourself", "intent": "rewind_brain"}
+{"text": "forget the last few lessons", "intent": "rewind_brain"}
+{"text": "reset your brain to how it was on monday", "intent": "rewind_brain"}
+{"text": "rewind to v4 please", "intent": "rewind_brain"}
+{"text": "un-learn everything since the last version", "intent": "rewind_brain"}
+{"text": "can you roll back to a previous brain", "intent": "rewind_brain"}
+{"text": "go back to the previous model version", "intent": "rewind_brain"}
+{"text": "rewind brain to v2", "intent": "rewind_brain"}
+{"text": "forget everything you picked up today", "intent": "rewind_brain"}
+{"text": "put your brain back to the earlier snapshot", "intent": "rewind_brain"}
+{"text": "i liked you better yesterday, rewind your model", "intent": "rewind_brain"}
+{"text": "revert your learning to v6", "intent": "rewind_brain"}
+{"text": "drop the new model, go back to the old one", "intent": "rewind_brain"}
+{"text": "rewnid to v3", "intent": "rewind_brain"}
+{"text": "go back two brain versions", "intent": "rewind_brain"}
+{"text": "restore brain v1", "intent": "rewind_brain"}
+{"text": "throw away what you learned since this morning", "intent": "rewind_brain"}
+{"text": "your classifier is off lately, roll it back", "intent": "rewind_brain"}
+{"text": "rewind yourself to the last good version", "intent": "rewind_brain"}
+{"text": "undo your training from today", "intent": "rewind_brain"}
+{"text": "roll the model back one version", "intent": "rewind_brain"}
+{"text": "revert to brain v7", "intent": "rewind_brain"}
+{"text": "forget the lessons from this afternoon", "intent": "rewind_brain"}
+{"text": "can you go back to the v3 model", "intent": "rewind_brain"}
+{"text": "set your brain back to last tuesday's version", "intent": "rewind_brain"}
+{"text": "rewind", "intent": "rewind_brain"}
+{"text": "rollback brain", "intent": "rewind_brain"}
+{"text": "that retrain broke you, switch back to the previous brain", "intent": "rewind_brain"}
+{"text": "i want the old model back", "intent": "rewind_brain"}
+{"text": "pls rewind to v2, new one is bad", "intent": "rewind_brain"}
+{"text": "un-teach yourself the last batch of corrections", "intent": "rewind_brain"}
+{"text": "go back to the brain you had before lunch", "intent": "rewind_brain"}
+{"text": "rewind your brain to the first version", "intent": "rewind_brain"}
+{"text": "load an earlier brain", "intent": "rewind_brain"}
+{"text": "step your model back to v5", "intent": "rewind_brain"}
+{"text": "erase your recent learning", "intent": "rewind_brain"}
+{"text": "roll back to the previous brain please", "intent": "rewind_brain"}
+{"text": "restore yesterday's model", "intent": "rewind_brain"}
+{"text": "forget what you learned", "intent": "rewind_brain"}
+{"text": "back to v3 brain", "intent": "rewind_brain"}
+{"text": "reset to an earlier version of your model", "intent": "rewind_brain"}
+{"text": "rewind the brain, it's misclassifying everything", "intent": "rewind_brain"}
+{"text": "bring back your earlier brain", "intent": "rewind_brain"}
+{"text": "revert your model to what it was two days ago", "intent": "rewind_brain"}
+{"text": "how smart are you", "intent": "brain_status"}
+{"text": "which brain version are you on", "intent": "brain_status"}
+{"text": "how many llm calls have you made", "intent": "brain_status"}
+{"text": "what's your accuracy", "intent": "brain_status"}
+{"text": "brain status", "intent": "brain_status"}
+{"text": "what model version are you running", "intent": "brain_status"}
+{"text": "how accurate is your classifier right now", "intent": "brain_status"}
+{"text": "how much have you learned so far", "intent": "brain_status"}
+{"text": "have you used any llm calls today", "intent": "brain_status"}
+{"text": "which version of the brain is live", "intent": "brain_status"}
+{"text": "are you still calling the llm or is it all local now", "intent": "brain_status"}
+{"text": "how many brain versions do you have", "intent": "brain_status"}
+{"text": "what's your current brain version", "intent": "brain_status"}
+{"text": "how good are you getting", "intent": "brain_status"}
+{"text": "tell me about your model", "intent": "brain_status"}
+{"text": "brain version?", "intent": "brain_status"}
+{"text": "how many times have you hit the llm", "intent": "brain_status"}
+{"text": "what is your accuracy on the last 50 messages", "intent": "brain_status"}
+{"text": "show me your stats", "intent": "brain_status"}
+{"text": "how's your learning going", "intent": "brain_status"}
+{"text": "whats ur brain version", "intent": "brain_status"}
+{"text": "how many training examples do you have", "intent": "brain_status"}
+{"text": "are you getting smarter?", "intent": "brain_status"}
+{"text": "give me your model stats", "intent": "brain_status"}
+{"text": "how much llm usage have you had this week", "intent": "brain_status"}
+{"text": "on a scale of v1 to v9, where is your brain at", "intent": "brain_status"}
+{"text": "what version of yourself is this", "intent": "brain_status"}
+{"text": "how often do you get things right", "intent": "brain_status"}
+{"text": "did you call claude today or run locally", "intent": "brain_status"}
+{"text": "report your accuracy", "intent": "brain_status"}
+{"text": "when were you last retrained", "intent": "brain_status"}
+{"text": "how many api calls to the llm so far", "intent": "brain_status"}
+{"text": "quick question, which brain are you using", "intent": "brain_status"}
+{"text": "how confident is your model these days", "intent": "brain_status"}
+{"text": "brain stats please", "intent": "brain_status"}
+{"text": "what have you learned recently", "intent": "brain_status"}
+{"text": "how smart are u now vs last week", "intent": "brain_status"}
+{"text": "model info", "intent": "brain_status"}
+{"text": "what's the llm call count", "intent": "brain_status"}
+{"text": "how are you doing, accuracy-wise", "intent": "brain_status"}
+{"text": "how many messages have you misunderstood", "intent": "brain_status"}
+{"text": "can you tell me which model version you are", "intent": "brain_status"}
+{"text": "are you on the latest brain", "intent": "brain_status"}
+{"text": "whats your llm budget looking like", "intent": "brain_status"}
+{"text": "how many lessons have you been taught", "intent": "brain_status"}
+{"text": "status of your brain", "intent": "brain_status"}
+{"text": "what's your hit rate", "intent": "brain_status"}
+{"text": "how smart have you become since monday", "intent": "brain_status"}
+{"text": "show your current version and accuracy", "intent": "brain_status"}
+{"text": "how much do you still rely on the llm", "intent": "brain_status"}
+{"text": "ur brain version pls", "intent": "brain_status"}
+{"text": "how clever are you today", "intent": "brain_status"}
+{"text": "what's your training status", "intent": "brain_status"}
+{"text": "how many brains have you gone through", "intent": "brain_status"}
+{"text": "curious, how accurate are you at understanding me", "intent": "brain_status"}
+{"text": "number of llm calls this session?", "intent": "brain_status"}
+{"text": "check your own model health", "intent": "brain_status"}
+{"text": "which brain am i talking to", "intent": "brain_status"}
+{"text": "how's your accuracy trending", "intent": "brain_status"}
+{"text": "what's the weather like in bangalore", "intent": "other"}
+{"text": "tell me a joke", "intent": "other"}
+{"text": "book a flight to goa", "intent": "other"}
+{"text": "what should we get for lunch", "intent": "other"}
+{"text": "did the deploy to prod finish?", "intent": "other"}
+{"text": "can someone review my PR", "intent": "other"}
+{"text": "ci is red again", "intent": "other"}
+{"text": "how do i reverse a list in python", "intent": "other"}
+{"text": "good morning!", "intent": "other"}
+{"text": "restart the staging server", "intent": "other"}
+{"text": "who won the cricket match last night", "intent": "other"}
+{"text": "recommend a good biryani place nearby", "intent": "other"}
+{"text": "whats the difference between let and const in js", "intent": "other"}
+{"text": "thanks, you're the best", "intent": "other"}
+{"text": "is jenkins down?", "intent": "other"}
+{"text": "write me a haiku about monday", "intent": "other"}
+{"text": "what's 17 times 23", "intent": "other"}
+{"text": "i need a vacation, any ideas for where to go in december", "intent": "other"}
+{"text": "pls merge PR 45 once approved", "intent": "other"}
+{"text": "how do I undo a git commit locally", "intent": "other"}
+{"text": "rollback the production deployment", "intent": "other"}
+{"text": "what time is the all-hands", "intent": "other"}
+{"text": "remind me to call mom at 6", "intent": "other"}
+{"text": "regex to match an email address?", "intent": "other"}
+{"text": "the kubernetes pod keeps crashlooping, any idea why", "intent": "other"}
+{"text": "lol that meme was great", "intent": "other"}
+{"text": "how's it going", "intent": "other"}
+{"text": "order me a coffee", "intent": "other"}
+{"text": "can you explain what a monad is", "intent": "other"}
+{"text": "whats the best pizza topping", "intent": "other"}
+{"text": "the build on main is failing on github actions", "intent": "other"}
+{"text": "rotate the api keys on the prod server", "intent": "other"}
+{"text": "is it going to rain tomorrow?", "intent": "other"}
+{"text": "schedule a meeting with design for thursday", "intent": "other"}
+{"text": "what's the capital of australia", "intent": "other"}
+{"text": "my laptop fan is super loud, any tips", "intent": "other"}
+{"text": "tell me something funny", "intent": "other"}
+{"text": "can you approve my pull request", "intent": "other"}
+{"text": "how do I center a div", "intent": "other"}
+{"text": "sing me a song", "intent": "other"}
+{"text": "slack is being so slow today", "intent": "other"}
+{"text": "need a hotel in lisbon for next week", "intent": "other"}
+{"text": "check the disk usage on the db box", "intent": "other"}
+{"text": "whats for dinner", "intent": "other"}
+{"text": "sql query to get the top 5 customers by revenue", "intent": "other"}
+{"text": "happy friday everyone", "intent": "other"}
+{"text": "who is the prime minister of canada", "intent": "other"}
+{"text": "kick off the nightly build", "intent": "other"}
+{"text": "translate good evening to spanish", "intent": "other"}
+{"text": "ssh into the bastion host and tail the logs", "intent": "other"}
+{"text": "are you a robot", "intent": "other"}
+{"text": "any good movies to watch this weekend?", "intent": "other"}
+{"text": "docker build is eating all my disk", "intent": "other"}
+{"text": "I'm so tired today, need caffeine", "intent": "other"}
+{"text": "can you summarize this article for me", "intent": "other"}
+{"text": "terraform plan is hanging, help", "intent": "other"}
+{"text": "whats a good name for my dog", "intent": "other"}
+{"text": "update the readme badge for the pipeline", "intent": "other"}
+{"text": "how long does it take to drive from pune to mumbai", "intent": "other"}
+{"text": "what's the exchange rate for usd to inr", "intent": "other"}
+{"text": "rewind to the brain from before the last retrain", "intent": "rewind_brain"}
+{"text": "go back to v8 model", "intent": "rewind_brain"}
+{"text": "forget today's corrections, please", "intent": "rewind_brain"}
+{"text": "how many llm calls did you save by running locally", "intent": "brain_status"}

@@ -1,0 +1,176 @@
+{"text": "Good morning! Would you mind telling me what is on fire at the moment? I have a release call shortly and would like to know whether anything dreadful has come in overnight. Cheers.", "intent": "whats_on_fire"}
+{"text": "Kindly show me the p0 issues, if there are any. I'd rather know now than be surprised in the stand-up, cheers.", "intent": "whats_on_fire"}
+{"text": "Would you mind checking whether we have any critical bugs open right now? I ask because the client is demoing this afternoon and I'd hate for something to be burning.", "intent": "whats_on_fire"}
+{"text": "I wonder if you could kindly tell me what is urgent today? Anything broken in production would be most useful to hear about first, cheers.", "intent": "whats_on_fire"}
+{"text": "Is anything on fire at present, please? I've just got back from lunch and would like a quick overview of the really nasty ones before I dive in.", "intent": "whats_on_fire"}
+{"text": "Would you be so kind as to list the critical issues we currently have? I mean the proper emergencies, not the cosmetic niggles, cheers.", "intent": "whats_on_fire"}
+{"text": "Kindly let me know if there are any p0s outstanding. The on-call rota changes at five and I would like to hand over properly.", "intent": "whats_on_fire"}
+{"text": "Sorry to trouble you, but is anything urgently broken right now? I'd be most grateful for a rundown of the burning issues, cheers.", "intent": "whats_on_fire"}
+{"text": "Would you mind listing all the open issues, please? I'd like to get a general sense of where we stand before planning. Cheers.", "intent": "list_issues"}
+{"text": "Kindly show me everything labelled bug. I am putting together a stability report and would like the full picture, cheers.", "intent": "list_issues"}
+{"text": "Could you kindly list the issues assigned to me? I've rather lost track of what's on my plate this week.", "intent": "list_issues"}
+{"text": "Would you mind showing me the closed issues in the v2.1 milestone? I'd like to write up the release notes and need to see what we actually finished.", "intent": "list_issues"}
+{"text": "Please could you list all the issues that @priya has opened? I'd like to thank her for her thorough reports, cheers.", "intent": "list_issues"}
+{"text": "Kindly pull up the open enhancement issues for me. I'd like to have a look before the planning meeting on Thursday.", "intent": "list_issues"}
+{"text": "Would you be so kind as to show what's assigned to @tom at the moment? I'm concerned he may be overloaded and want to check before adding more.", "intent": "list_issues"}
+{"text": "Might I trouble you for a list of my issues, please? Just the open ones will do nicely, cheers.", "intent": "list_issues"}
+{"text": "Would you mind showing me issue #12, please? I'd like to read the whole thing properly before replying to the reporter, cheers.", "intent": "show_issue"}
+{"text": "Kindly give me the details on #7. I seem to have forgotten what it was about, and I'd rather not guess.", "intent": "show_issue"}
+{"text": "Could you tell me what issue 23 is about, please? Someone mentioned it at lunch and I was too embarrassed to ask.", "intent": "show_issue"}
+{"text": "Would you be so kind as to pull up #31 for me? I need the full description to decide how we proceed, cheers.", "intent": "show_issue"}
+{"text": "Kindly show #4. I'd like to see who commented last and what they said before I weigh in.", "intent": "show_issue"}
+{"text": "Sorry to bother you, but might I see the details of issue #18? The title alone isn't quite enough for me, cheers.", "intent": "show_issue"}
+{"text": "Please would you open up #26 for me and tell me what it says? I want to be sure I have understood the problem correctly.", "intent": "show_issue"}
+{"text": "Would you mind letting me read through #9 in full? I'm preparing a reply and want to be accurate, cheers.", "intent": "show_issue"}
+{"text": "Would you mind filing a new issue titled login button misaligned on safari? I noticed it this morning and would rather it be recorded before I forget, cheers.", "intent": "create_issue"}
+{"text": "Kindly open a ticket for adding csv export to the reports page. A customer asked for it politely yesterday and I promised to log it.", "intent": "create_issue"}
+{"text": "Could you please raise a new issue called typo in the readme installation section? It's minor, but it would be lovely to get it fixed, cheers.", "intent": "create_issue"}
+{"text": "Would you be so kind as to create an issue: webhook retries are not backing off? I've been watching the logs and it does look rather worrying.", "intent": "create_issue"}
+{"text": "Kindly file a bug for the dark mode toggle not remembering its state. I'd be most grateful, cheers.", "intent": "create_issue"}
+{"text": "Please open a new ticket titled upgrade the node version in CI. I'd like it on the board before we forget about it entirely.", "intent": "create_issue"}
+{"text": "Would you mind logging a new issue for the search box being far too slow on large repos? I have noticed it several times this week, cheers.", "intent": "create_issue"}
+{"text": "Sorry to ask, but could you create an issue called add pagination to the api? I'd like to discuss it at the next planning session.", "intent": "create_issue"}
+{"text": "Would you mind labelling #3 as bug, please? I've had a proper look and it is quite clearly a defect, cheers.", "intent": "label_issue"}
+{"text": "Kindly tag #15 with enhancement. It's a feature request, and I'd like it kept separate from the faults.", "intent": "label_issue"}
+{"text": "Could you please add the documentation label to issue 8? The problem is entirely in the wording, cheers.", "intent": "label_issue"}
+{"text": "Would you be so kind as to mark #22 as p0? I'm afraid it is breaking checkout for every customer and needs attention at once.", "intent": "label_issue"}
+{"text": "Kindly apply the needs-triage label to #30. I haven't had time to look at it properly and would like someone to do so.", "intent": "label_issue"}
+{"text": "Please would you label #11 as good first issue? We have a new starter joining and I think it would suit them nicely, cheers.", "intent": "label_issue"}
+{"text": "Sorry to trouble you, but could you tag 19 with security? I'd rather it didn't get lost among the rest.", "intent": "label_issue"}
+{"text": "Would you mind adding the question label to #6? The reporter is really asking for help rather than reporting a fault, cheers.", "intent": "label_issue"}
+{"text": "Would you mind assigning #2 to @priya, please? She knows that module better than anyone and I'd like her to take a look, cheers.", "intent": "assign_issue"}
+{"text": "Kindly give #14 to me. I have some free time this afternoon and would like to get it sorted.", "intent": "assign_issue"}
+{"text": "Could you please put @tom on #10? He offered kindly to help during the stand-up, cheers.", "intent": "assign_issue"}
+{"text": "Would you be so kind as to assign issue 27 to @ana? She's best placed to deal with it, as she wrote the original code.", "intent": "assign_issue"}
+{"text": "Kindly assign #5 to @sam. I'd be most grateful if he could have a look this week, cheers.", "intent": "assign_issue"}
+{"text": "Please would you hand #33 over to @priya? I'm rather swamped and she was good enough to say she'd take it.", "intent": "assign_issue"}
+{"text": "Sorry to ask, but could you assign 21 to me? I'd like to take ownership of it, cheers.", "intent": "assign_issue"}
+{"text": "Would you mind putting @ana down as the assignee for #17? I spoke with her earlier and she is happy to do it.", "intent": "assign_issue"}
+{"text": "Would you mind commenting on #1 to say that we are looking into it? The reporter has been waiting a while and I'd like to reassure them, cheers.", "intent": "comment_issue"}
+{"text": "Kindly reply to #6 saying the fix has been merged into main. Do thank them for their patience, please.", "intent": "comment_issue"}
+{"text": "Could you please add a comment to issue 12: can you send over the full stack trace? I'm afraid we can't reproduce it without one.", "intent": "comment_issue"}
+{"text": "Would you be so kind as to tell #9 that we are on it? I'd like the reporter to know it hasn't been forgotten, cheers.", "intent": "comment_issue"}
+{"text": "Kindly leave a note on #25 saying this will be addressed in the next sprint. Many thanks.", "intent": "comment_issue"}
+{"text": "Please post a comment on #3 asking whether this still happens on the latest version. I rather suspect it was fixed ages ago, cheers.", "intent": "comment_issue"}
+{"text": "Sorry to trouble you, but could you write on #20 that I'll pick this up tomorrow morning? Cheers.", "intent": "comment_issue"}
+{"text": "Would you mind commenting on 35 with thanks for the detailed report? It was genuinely one of the best we have had.", "intent": "comment_issue"}
+{"text": "Would you mind closing #6, please? It has been fixed and verified, and I'd like to keep the board tidy, cheers.", "intent": "close_issue"}
+{"text": "Kindly close issue 4. The work is finished and merged, so there's nothing left to do.", "intent": "close_issue"}
+{"text": "Could you please shut #10? It's all done, and I'm most grateful to everyone who helped.", "intent": "close_issue"}
+{"text": "Would you be so kind as to close #28 now that the patch has gone out? Cheers.", "intent": "close_issue"}
+{"text": "This one is resolved, I'm happy to say, so kindly close #13.", "intent": "close_issue"}
+{"text": "Please close 16 for me. We tested it this morning and it works beautifully, cheers.", "intent": "close_issue"}
+{"text": "Sorry to ask, but would you mind marking #38 as closed? The fix is live and I have confirmed it myself.", "intent": "close_issue"}
+{"text": "Kindly wrap up issue 2 by closing it. It's been done for a week and I keep forgetting, cheers.", "intent": "close_issue"}
+{"text": "Would you mind reopening #6, please? I'm afraid the fix did not hold and the problem has come back, cheers.", "intent": "reopen_issue"}
+{"text": "Kindly bring back issue 4. I closed it too hastily and it is clearly not finished.", "intent": "reopen_issue"}
+{"text": "Could you please open #10 again? A customer has just reported the same fault, and I'd rather not lose the history.", "intent": "reopen_issue"}
+{"text": "Would you be so kind as to reopen #29? I made a mistake in closing it, cheers.", "intent": "reopen_issue"}
+{"text": "Kindly reopen 14. Having tested properly this morning, it is still broken, I'm afraid.", "intent": "reopen_issue"}
+{"text": "Please reopen issue 7 for me. It turns out the workaround only helped some people, cheers.", "intent": "reopen_issue"}
+{"text": "Sorry to trouble you, but #36 isn't fixed after all. Would you mind opening it again?", "intent": "reopen_issue"}
+{"text": "Would you mind undoing the closure of #1? I'd like the team to take another look, cheers.", "intent": "reopen_issue"}
+{"text": "Would you mind closing the stale issues, please? The backlog has become rather unwieldy and I'd like a clean slate, cheers.", "intent": "close_stale"}
+{"text": "Kindly clean up all the old issues that nobody has touched in ages. Nobody is going to read them, I fear.", "intent": "close_stale"}
+{"text": "Could you please sweep away everything that has gone stale? I'm trying to tidy the board before the quarterly review, cheers.", "intent": "close_stale"}
+{"text": "Would you be so kind as to close all the dormant tickets in one go? I haven't the time to go through them individually.", "intent": "close_stale"}
+{"text": "Kindly archive the stale ones for me. They are cluttering the list and making real problems harder to spot, cheers.", "intent": "close_stale"}
+{"text": "Please tidy up the old issues that have had no activity for months. I'd be most grateful.", "intent": "close_stale"}
+{"text": "Sorry to ask, but could you close everything that has been abandoned for ages? A proper spring clean is long overdue, cheers.", "intent": "close_stale"}
+{"text": "Would you mind doing a stale sweep of the whole repo? Cheers, and thanks for your patience with my many requests.", "intent": "close_stale"}
+{"text": "Would you mind triaging the new issues, please? A good few have come in and I haven't had a chance to look at them, cheers.", "intent": "triage"}
+{"text": "Kindly sort out the untagged issues. They are piling up, and I'd like them labelled before the weekend.", "intent": "triage"}
+{"text": "Could you please go through whatever has come in and label it? I'm rather behind and would be most grateful.", "intent": "triage"}
+{"text": "Would you be so kind as to triage the unlabelled tickets? I'd like to know what we've got before Monday, cheers.", "intent": "triage"}
+{"text": "Kindly label the new arrivals for me. I can't bring myself to do it by hand again this week.", "intent": "triage"}
+{"text": "Please run a triage over the fresh issues. I'd like each of them to have a proper label, cheers.", "intent": "triage"}
+{"text": "Sorry to trouble you, but might you sort the new issues into the right categories? I'd be ever so grateful.", "intent": "triage"}
+{"text": "Would you mind tagging everything that has no label yet? Cheers.", "intent": "triage"}
+{"text": "Would you mind undoing that, please? I'm afraid I asked for the wrong thing, cheers.", "intent": "undo"}
+{"text": "Kindly revert your last action. I think I was a bit hasty and would rather put it back as it was.", "intent": "undo"}
+{"text": "Oh dear, no, please take that back. Would you mind undoing it, cheers?", "intent": "undo"}
+{"text": "Could you please reverse what you just did? It was not what I intended, and I apologise for the muddle.", "intent": "undo"}
+{"text": "Sorry, I'd like to undo that last change, please. I gave you the wrong issue number, cheers.", "intent": "undo"}
+{"text": "Would you be so kind as to roll back your previous action? I have changed my mind, cheers.", "intent": "undo"}
+{"text": "Kindly cancel that last thing you did. I'm afraid it was a mistake on my part.", "intent": "undo"}
+{"text": "Please undo. I realise I should have checked before asking, and I'm sorry for the bother, cheers.", "intent": "undo"}
+{"text": "Would you mind rewinding yourself to v3, please? Your recent behaviour has been a bit odd and I'd like the earlier version back, cheers.", "intent": "rewind_brain"}
+{"text": "Kindly go back to yesterday's brain. I think you learned something unhelpful today and I'd like it forgotten.", "intent": "rewind_brain"}
+{"text": "Could you please roll your model back to the previous version? Your labelling was much better before, cheers.", "intent": "rewind_brain"}
+{"text": "Would you be so kind as to forget everything you have learned today? I'd rather start again from the earlier version.", "intent": "rewind_brain"}
+{"text": "Kindly revert your brain to v2. The newer one is making rather strange guesses, cheers.", "intent": "rewind_brain"}
+{"text": "Please restore your earlier model, the one from last week. I'd be most grateful.", "intent": "rewind_brain"}
+{"text": "Sorry to ask, but could you rewind your learning to the state it was in this morning? Something went wrong since then, cheers.", "intent": "rewind_brain"}
+{"text": "Would you mind going back to an older version of yourself? I preferred how you behaved on Monday, cheers.", "intent": "rewind_brain"}
+{"text": "Would you mind telling me which brain version you are on, please? I'd like to be sure we're on the latest one, cheers.", "intent": "brain_status"}
+{"text": "Kindly tell me how accurate you are at the moment. I'm curious whether the recent training has helped.", "intent": "brain_status"}
+{"text": "Could you please let me know how many LLM calls you have made so far? I'm keeping an eye on the bill, cheers.", "intent": "brain_status"}
+{"text": "Would you be so kind as to tell me how smart you are today? I'd like an honest figure, cheers.", "intent": "brain_status"}
+{"text": "Kindly report your model version and accuracy. My manager has asked and I'd rather give a proper answer.", "intent": "brain_status"}
+{"text": "Please could you tell me about yourself, in particular which version of the model you are running? Cheers.", "intent": "brain_status"}
+{"text": "Sorry to ask, but how many times have you needed to call an LLM this week? I'd like to know whether you're learning, cheers.", "intent": "brain_status"}
+{"text": "Would you mind telling me how well you are doing? Accuracy and version, if you'd be so kind.", "intent": "brain_status"}
+{"text": "Would you mind telling me what you are able to do, please? I'm new to this and would be most grateful for a quick overview, cheers.", "intent": "help"}
+{"text": "Kindly show me the help. I'd like to know which commands I may use before I embarrass myself.", "intent": "help"}
+{"text": "Could you please explain what you can do for me? I'm not sure where to begin, cheers.", "intent": "help"}
+{"text": "Would you be so kind as to list your commands? I have forgotten how to ask for things properly.", "intent": "help"}
+{"text": "Help, please! I'm afraid I haven't a clue what I'm allowed to ask you, cheers.", "intent": "help"}
+{"text": "Kindly tell me what sort of things you're able to help with. A short list would be lovely.", "intent": "help"}
+{"text": "Sorry to trouble you, but what are your capabilities exactly? I'd like to make good use of you, cheers.", "intent": "help"}
+{"text": "Would you mind giving me a rundown of the commands available? Cheers.", "intent": "help"}
+{"text": "Would you mind removing the bug label from #3, please? On reflection it is a feature request, cheers.", "intent": "remove_label"}
+{"text": "Kindly drop needs-triage from issue 6. I have looked at it properly now, cheers.", "intent": "remove_label"}
+{"text": "Could you please take the p0 label off #9? It is not as urgent as we first thought, and I'd rather not alarm anyone.", "intent": "remove_label"}
+{"text": "Would you be so kind as to untag #14 from enhancement? I applied it by mistake, cheers.", "intent": "remove_label"}
+{"text": "Kindly remove the wontfix label from #21. We've decided to look at it after all.", "intent": "remove_label"}
+{"text": "Please strip the documentation label from 12. It had nothing to do with the docs in the end, cheers.", "intent": "remove_label"}
+{"text": "Sorry to ask, but could you remove the security label from #25? A colleague has confirmed that it is harmless.", "intent": "remove_label"}
+{"text": "Would you mind clearing the question label from #8? The matter has been answered, cheers.", "intent": "remove_label"}
+{"text": "Would you mind unassigning @sam from #2, please? He's been rather busy and I don't wish to burden him, cheers.", "intent": "unassign_issue"}
+{"text": "Kindly take me off issue 4. I'm afraid I won't have the time after all.", "intent": "unassign_issue"}
+{"text": "Could you please note that @ana isn't working on #10 any more? She has moved over to the billing project, cheers.", "intent": "unassign_issue"}
+{"text": "Would you be so kind as to remove @tom from #17? We've reassigned the work, cheers.", "intent": "unassign_issue"}
+{"text": "Kindly unassign @priya from #22. She is away next week and I'd like someone else to look at it.", "intent": "unassign_issue"}
+{"text": "Please take me off #19. I appear to have picked it up by accident, cheers.", "intent": "unassign_issue"}
+{"text": "Sorry to bother you, but @sam is no longer on #31. Would you mind taking his name off?", "intent": "unassign_issue"}
+{"text": "Would you mind removing the assignee from 7? I'd like it to be open to anyone, cheers.", "intent": "unassign_issue"}
+{"text": "Would you mind closing #9 as a duplicate of #2, please? They describe exactly the same fault, cheers.", "intent": "close_duplicate"}
+{"text": "Kindly close issue 5 as a duplicate of 3. I've compared the two and they are clearly one and the same.", "intent": "close_duplicate"}
+{"text": "Could you please mark #8 as a dupe of #1? The reporter wasn't aware that someone had already raised it, cheers.", "intent": "close_duplicate"}
+{"text": "Would you be so kind as to close #24 since it is the same as #11? I'd rather keep the discussion in one place.", "intent": "close_duplicate"}
+{"text": "Kindly treat #33 as a duplicate of #20 and close it, cheers.", "intent": "close_duplicate"}
+{"text": "Please close 16 as a duplicate. It is the same problem as #12, which already has plenty of discussion, cheers.", "intent": "close_duplicate"}
+{"text": "Sorry to ask, but could you shut #27, as it's a repeat of #4? I should have spotted it sooner.", "intent": "close_duplicate"}
+{"text": "Would you mind marking #39 as a dupe of #6 and closing it? Cheers.", "intent": "close_duplicate"}
+{"text": "Would you mind closing #7 as won't fix, please? We have discussed it at length and the cost simply outweighs the benefit, cheers.", "intent": "close_not_planned"}
+{"text": "Kindly close issue 5 as not planned. We're not going to be doing it, I'm afraid.", "intent": "close_not_planned"}
+{"text": "Could you please mark #4 as not planned? I'd like to be honest with the reporter that this isn't on the roadmap, cheers.", "intent": "close_not_planned"}
+{"text": "Would you be so kind as to close #18 as wontfix? It is working as intended, and I'd rather say so plainly.", "intent": "close_not_planned"}
+{"text": "Kindly close #26 as not planned. We decided at the meeting that we won't be taking it forward, cheers.", "intent": "close_not_planned"}
+{"text": "Please shut 34 as won't fix. It's an unusual request and we haven't the capacity, I'm afraid, cheers.", "intent": "close_not_planned"}
+{"text": "Sorry to trouble you, but we're not doing #13. Would you mind closing it as not planned?", "intent": "close_not_planned"}
+{"text": "Would you mind declaring #29 a won't fix and closing it? Cheers.", "intent": "close_not_planned"}
+{"text": "Would you mind checking whether there are any issues about safari, please? I'm sure someone has mentioned it before, cheers.", "intent": "search_issues"}
+{"text": "Kindly search for csv. A customer asked about exporting and I'd like to see if we already have a ticket.", "intent": "search_issues"}
+{"text": "Could you please look for any ticket mentioning webhooks? I'd rather not raise a duplicate, cheers.", "intent": "search_issues"}
+{"text": "Would you be so kind as to find issues that talk about login timeouts? I've a feeling we discussed it ages ago.", "intent": "search_issues"}
+{"text": "Kindly search the issues for oauth. I'd like to see everything that has been said about it, cheers.", "intent": "search_issues"}
+{"text": "Please could you check if anything mentions memory leaks? I've been investigating one and want to compare notes.", "intent": "search_issues"}
+{"text": "Sorry to ask, but is there a ticket about the dark mode flicker? I'd be grateful if you would have a look, cheers.", "intent": "search_issues"}
+{"text": "Would you mind searching for the word pagination in the titles and bodies? Cheers.", "intent": "search_issues"}
+{"text": "Would you mind putting #3 in the v2.1 milestone, please? We would like to ship it with that release, cheers.", "intent": "set_milestone"}
+{"text": "Kindly set the milestone for #6 to the march release. I'd like it to be tracked properly.", "intent": "set_milestone"}
+{"text": "Could you please move #9 to v2.0? It has to go out with the first batch, cheers.", "intent": "set_milestone"}
+{"text": "Would you be so kind as to add issue 14 to the beta milestone? It would be wonderful to have it tracked there.", "intent": "set_milestone"}
+{"text": "Kindly place #21 in v3.0. We've agreed that it can wait until then, cheers.", "intent": "set_milestone"}
+{"text": "Please attach 30 to the q4 milestone. I'd like to keep my planning board in order, cheers.", "intent": "set_milestone"}
+{"text": "Sorry to trouble you, but could you move #12 into the next release milestone? I'd be most grateful.", "intent": "set_milestone"}
+{"text": "Would you mind assigning #37 to the v2.1 milestone? Cheers.", "intent": "set_milestone"}
+{"text": "Would you mind telling me what the weather is going to be like in Manchester tomorrow? I'm walking to work and rather dread the rain, cheers.", "intent": "other"}
+{"text": "Kindly tell me a joke. It has been a long week and I'd like a laugh, cheers.", "intent": "other"}
+{"text": "Could you please book me a table for two at an Indian restaurant this evening? I'd be most grateful.", "intent": "other"}
+{"text": "Would you be so kind as to recommend a good book on gardening? I've just taken up the hobby and need advice, cheers.", "intent": "other"}
+{"text": "Good morning! How are you getting on today? I do hope the day is treating you kindly.", "intent": "other"}
+{"text": "Kindly work out what 18 percent of 240 is, please. I'm splitting a bill at the pub and cannot do the sum, cheers.", "intent": "other"}
+{"text": "Please could you write me a short poem about the sea? It's my mother's birthday and I'd like to include it in a card.", "intent": "other"}
+{"text": "Sorry to ask something unrelated, but would you mind telling me who won the cricket yesterday? Cheers.", "intent": "other"}

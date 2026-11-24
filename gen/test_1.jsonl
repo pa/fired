@@ -1,0 +1,220 @@
+{"text": "anything melting down?", "intent": "whats_on_fire"}
+{"text": "p0s?", "intent": "whats_on_fire"}
+{"text": "what's the most urgent stuff rn", "intent": "whats_on_fire"}
+{"text": "is prod burning", "intent": "whats_on_fire"}
+{"text": "any critical bugs I should know about before standup", "intent": "whats_on_fire"}
+{"text": "surface the showstoppers", "intent": "whats_on_fire"}
+{"text": "yo what's blowing up today", "intent": "whats_on_fire"}
+{"text": "hit me with the emergencies", "intent": "whats_on_fire"}
+{"text": "fires?", "intent": "whats_on_fire"}
+{"text": "which tickets are drop-everything right now", "intent": "whats_on_fire"}
+{"text": "I just got in, did anything catch fire overnight? tell me what's critical", "intent": "whats_on_fire"}
+{"text": "what needs attention immediately", "intent": "whats_on_fire"}
+{"text": "any p0 open?", "intent": "whats_on_fire"}
+{"text": "gimme the hot list", "intent": "whats_on_fire"}
+{"text": "is there anything on fire that I should be dealing with instead of my current task", "intent": "whats_on_fire"}
+{"text": "critical stuff outstanding?", "intent": "whats_on_fire"}
+{"text": "what's smoking", "intent": "whats_on_fire"}
+{"text": "top priority breakages please", "intent": "whats_on_fire"}
+{"text": "any dumpster fires", "intent": "whats_on_fire"}
+{"text": "anything urgent and broken at the moment", "intent": "whats_on_fire"}
+{"text": "gimme everything open", "intent": "list_issues"}
+{"text": "issues for @dana", "intent": "list_issues"}
+{"text": "show closed issues", "intent": "list_issues"}
+{"text": "what's on my plate", "intent": "list_issues"}
+{"text": "bugs only", "intent": "list_issues"}
+{"text": "enumerate tickets in v2.1", "intent": "list_issues"}
+{"text": "everything tagged enhancement", "intent": "list_issues"}
+{"text": "what has @raj been assigned", "intent": "list_issues"}
+{"text": "dump the backlog", "intent": "list_issues"}
+{"text": "my tickets", "intent": "list_issues"}
+{"text": "which issues did @mia open", "intent": "list_issues"}
+{"text": "rundown of all enhancements that are still open, sorted however you like", "intent": "list_issues"}
+{"text": "unassigned issues?", "intent": "list_issues"}
+{"text": "what's in the march release milestone", "intent": "list_issues"}
+{"text": "all closed stuff", "intent": "list_issues"}
+{"text": "open issues labelled question", "intent": "list_issues"}
+{"text": "show me whatever has the stale label", "intent": "list_issues"}
+{"text": "full issue list", "intent": "list_issues"}
+{"text": "tickets under v2.0", "intent": "list_issues"}
+{"text": "what are the open issues assigned to nobody yet", "intent": "list_issues"}
+{"text": "pull up #17", "intent": "show_issue"}
+{"text": "tell me about 23", "intent": "show_issue"}
+{"text": "what's the deal with #31", "intent": "show_issue"}
+{"text": "open #5 for me", "intent": "show_issue"}
+{"text": "#12?", "intent": "show_issue"}
+{"text": "give me the full story on issue 8", "intent": "show_issue"}
+{"text": "I need to see ticket 29", "intent": "show_issue"}
+{"text": "read me #14", "intent": "show_issue"}
+{"text": "whats #22 say", "intent": "show_issue"}
+{"text": "expand on 36", "intent": "show_issue"}
+{"text": "can you fetch the body and status of #3", "intent": "show_issue"}
+{"text": "issue 19 details", "intent": "show_issue"}
+{"text": "what is 40 about, who has it, what state is it in", "intent": "show_issue"}
+{"text": "look at #26", "intent": "show_issue"}
+{"text": "gimme #9", "intent": "show_issue"}
+{"text": "describe issue #33", "intent": "show_issue"}
+{"text": "status of #18?", "intent": "show_issue"}
+{"text": "what's going on with ticket #27, someone mentioned it in standup and I have no context", "intent": "show_issue"}
+{"text": "show 11", "intent": "show_issue"}
+{"text": "summary of #2 pls", "intent": "show_issue"}
+{"text": "anything mentioning oauth?", "intent": "search_issues"}
+{"text": "grep issues for timeout", "intent": "search_issues"}
+{"text": "did someone already report the dark mode flicker", "intent": "search_issues"}
+{"text": "find tickets about pagination", "intent": "search_issues"}
+{"text": "look for \"memory leak\"", "intent": "search_issues"}
+{"text": "is there a ticket on rate limiting", "intent": "search_issues"}
+{"text": "search websocket", "intent": "search_issues"}
+{"text": "which issues talk about the docker build", "intent": "search_issues"}
+{"text": "has anyone raised something about png uploads", "intent": "search_issues"}
+{"text": "dig up issues containing the word cache", "intent": "search_issues"}
+{"text": "search: ssl", "intent": "search_issues"}
+{"text": "I vaguely remember a ticket about emails going to spam, can you find it", "intent": "search_issues"}
+{"text": "issues w/ \"null pointer\" in them", "intent": "search_issues"}
+{"text": "check if we have anything on kubernetes", "intent": "search_issues"}
+{"text": "query issues for stripe", "intent": "search_issues"}
+{"text": "find me stuff about login redirect loops", "intent": "search_issues"}
+{"text": "look up unicode", "intent": "search_issues"}
+{"text": "any report of slow dashboard loading", "intent": "search_issues"}
+{"text": "text search for segfault", "intent": "search_issues"}
+{"text": "do we have a ticket that mentions the sidebar", "intent": "search_issues"}
+{"text": "file a ticket: the export button does nothing", "intent": "create_issue"}
+{"text": "new bug - search bar crashes on empty input", "intent": "create_issue"}
+{"text": "open an issue titled Add dark mode toggle", "intent": "create_issue"}
+{"text": "log a bug for the broken avatar upload", "intent": "create_issue"}
+{"text": "raise a ticket about slow cold starts", "intent": "create_issue"}
+{"text": "create issue: update the readme screenshots", "intent": "create_issue"}
+{"text": "can you make an issue for the flaky ci test on windows", "intent": "create_issue"}
+{"text": "new feature request: support for ical feeds", "intent": "create_issue"}
+{"text": "gotta report something, the password reset email never arrives, please open an issue for it", "intent": "create_issue"}
+{"text": "issue pls: typo on pricing page", "intent": "create_issue"}
+{"text": "add a ticket \"migrate to postgres 16\"", "intent": "create_issue"}
+{"text": "start a new issue called refactor auth middleware", "intent": "create_issue"}
+{"text": "bug report: 500 error when username has an emoji", "intent": "create_issue"}
+{"text": "open one for the missing alt text on the logo", "intent": "create_issue"}
+{"text": "track this: our favicon is blurry on retina", "intent": "create_issue"}
+{"text": "new ticket, title is Webhook retries never stop", "intent": "create_issue"}
+{"text": "jot down an issue: docs link to the old api domain", "intent": "create_issue"}
+{"text": "write up an issue about timezones being off by one", "intent": "create_issue"}
+{"text": "feature request: bulk edit", "intent": "create_issue"}
+{"text": "make a ticket re: broken pagination on mobile", "intent": "create_issue"}
+{"text": "what are you capable of", "intent": "help"}
+{"text": "how do I use you", "intent": "help"}
+{"text": "show me your commands", "intent": "help"}
+{"text": "halp", "intent": "help"}
+{"text": "what do you do", "intent": "help"}
+{"text": "I'm new here, what can I ask you", "intent": "help"}
+{"text": "menu?", "intent": "help"}
+{"text": "list of things you understand", "intent": "help"}
+{"text": "how does this bot work", "intent": "help"}
+{"text": "what're my options", "intent": "help"}
+{"text": "usage", "intent": "help"}
+{"text": "teach me what to say to you", "intent": "help"}
+{"text": "what features do you have", "intent": "help"}
+{"text": "what is this bot for", "intent": "help"}
+{"text": "instructions please", "intent": "help"}
+{"text": "can you give me a quick rundown of what you can handle", "intent": "help"}
+{"text": "what commands exist", "intent": "help"}
+{"text": "how do i talk to you", "intent": "help"}
+{"text": "capabilities", "intent": "help"}
+{"text": "just tell me what I can ask for", "intent": "help"}
+{"text": "slap the bug label on #14", "intent": "label_issue"}
+{"text": "#8 should be enhancement", "intent": "label_issue"}
+{"text": "tag 22 needs-triage", "intent": "label_issue"}
+{"text": "add question to issue 30", "intent": "label_issue"}
+{"text": "stick p0 on #3", "intent": "label_issue"}
+{"text": "flag #19 as a bug please", "intent": "label_issue"}
+{"text": "categorise 11 as question", "intent": "label_issue"}
+{"text": "put the stale label on 27", "intent": "label_issue"}
+{"text": "#35 -> enhancement", "intent": "label_issue"}
+{"text": "give #6 the needs-triage tag", "intent": "label_issue"}
+{"text": "throw a bug tag on 2", "intent": "label_issue"}
+{"text": "can you label ticket 16 with enhancement, it's clearly a feature ask", "intent": "label_issue"}
+{"text": "mark 24 as stale", "intent": "label_issue"}
+{"text": "p0 for #12, it's blocking release", "intent": "label_issue"}
+{"text": "bug label, #38", "intent": "label_issue"}
+{"text": "attach the question label to #5", "intent": "label_issue"}
+{"text": "label 9 p0", "intent": "label_issue"}
+{"text": "this one (#21) needs the bug tag", "intent": "label_issue"}
+{"text": "tagging #13 as enhancement", "intent": "label_issue"}
+{"text": "add needs-triage to 40", "intent": "label_issue"}
+{"text": "strip the bug label off #14", "intent": "remove_label"}
+{"text": "#8 isn't an enhancement anymore, take that off", "intent": "remove_label"}
+{"text": "untag stale from 27", "intent": "remove_label"}
+{"text": "get rid of p0 on #3", "intent": "remove_label"}
+{"text": "clear needs-triage from 22", "intent": "remove_label"}
+{"text": "remove question from issue 30", "intent": "remove_label"}
+{"text": "#19 is not a bug, un-bug it", "intent": "remove_label"}
+{"text": "take the enhancement tag off 11", "intent": "remove_label"}
+{"text": "drop p0 from #12", "intent": "remove_label"}
+{"text": "un-stale #35", "intent": "remove_label"}
+{"text": "no more needs-triage on 6", "intent": "remove_label"}
+{"text": "wrong label on 16, pull off bug", "intent": "remove_label"}
+{"text": "detag #24 stale", "intent": "remove_label"}
+{"text": "that p0 on #38 was a mistake, remove it", "intent": "remove_label"}
+{"text": "#5 doesn't need the question label now", "intent": "remove_label"}
+{"text": "yank bug from 2", "intent": "remove_label"}
+{"text": "delete the label p0 from issue 9", "intent": "remove_label"}
+{"text": "#21 got triaged already so lose the needs-triage label", "intent": "remove_label"}
+{"text": "remove stale tag, #13", "intent": "remove_label"}
+{"text": "unlabel 40 as enhancement", "intent": "remove_label"}
+{"text": "give #12 to @dana", "intent": "assign_issue"}
+{"text": "@raj takes 8", "intent": "assign_issue"}
+{"text": "hand #22 over to @mia", "intent": "assign_issue"}
+{"text": "put me on 30", "intent": "assign_issue"}
+{"text": "I'll take #5", "intent": "assign_issue"}
+{"text": "make @sam the owner of 17", "intent": "assign_issue"}
+{"text": "assign 19 -> @leo", "intent": "assign_issue"}
+{"text": "@ana, you're on #3", "intent": "assign_issue"}
+{"text": "throw #24 at @priya", "intent": "assign_issue"}
+{"text": "route issue 11 to @tom", "intent": "assign_issue"}
+{"text": "can @kim own ticket 33", "intent": "assign_issue"}
+{"text": "dump 14 on @raj", "intent": "assign_issue"}
+{"text": "I want to work on #6, assign it to me", "intent": "assign_issue"}
+{"text": "#40 belongs to @dana now", "intent": "assign_issue"}
+{"text": "let @mia pick up #27", "intent": "assign_issue"}
+{"text": "assignee for 9: @sam", "intent": "assign_issue"}
+{"text": "get @leo on #21", "intent": "assign_issue"}
+{"text": "assign #36 to @ana, she's the one who wrote that module", "intent": "assign_issue"}
+{"text": "claim #2 for me", "intent": "assign_issue"}
+{"text": "delegate 13 to @priya", "intent": "assign_issue"}
+{"text": "take @dana off #12", "intent": "unassign_issue"}
+{"text": "@raj is no longer on 8", "intent": "unassign_issue"}
+{"text": "pull me off 30", "intent": "unassign_issue"}
+{"text": "free up #22, @mia can't do it", "intent": "unassign_issue"}
+{"text": "drop @sam from issue 17", "intent": "unassign_issue"}
+{"text": "I'm not working on #5 anymore", "intent": "unassign_issue"}
+{"text": "remove assignee @leo from 19", "intent": "unassign_issue"}
+{"text": "@ana off #3", "intent": "unassign_issue"}
+{"text": "#24 shouldn't be with @priya, clear her", "intent": "unassign_issue"}
+{"text": "clear the assignee on 11", "intent": "unassign_issue"}
+{"text": "unassign me from 33", "intent": "unassign_issue"}
+{"text": "@kim is off the hook for #14", "intent": "unassign_issue"}
+{"text": "take my name off #6", "intent": "unassign_issue"}
+{"text": "@dana can't take 40 after all, release it", "intent": "unassign_issue"}
+{"text": "de-assign @tom from 27", "intent": "unassign_issue"}
+{"text": "bump @raj from 9, he's swamped", "intent": "unassign_issue"}
+{"text": "I need to step away from #21, unassign me", "intent": "unassign_issue"}
+{"text": "nobody should have 36 now; @ana is off it", "intent": "unassign_issue"}
+{"text": "unassign #2", "intent": "unassign_issue"}
+{"text": "@mia dropped #13", "intent": "unassign_issue"}
+{"text": "#12 goes in v2.0", "intent": "set_milestone"}
+{"text": "shift 8 to v2.1", "intent": "set_milestone"}
+{"text": "target the march release for #22", "intent": "set_milestone"}
+{"text": "milestone v2.1 for issue 30", "intent": "set_milestone"}
+{"text": "schedule #5 for v2.0", "intent": "set_milestone"}
+{"text": "bump #17 to the \"march release\"", "intent": "set_milestone"}
+{"text": "slot 19 into v2.1", "intent": "set_milestone"}
+{"text": "attach 3 to milestone v2.0", "intent": "set_milestone"}
+{"text": "we're shipping #24 in the march release", "intent": "set_milestone"}
+{"text": "#11 is a v2.1 thing", "intent": "set_milestone"}
+{"text": "push 33 out to v2.1", "intent": "set_milestone"}
+{"text": "set the milestone on #14 to v2.0", "intent": "set_milestone"}
+{"text": "include #6 in \"march release\"", "intent": "set_milestone"}
+{"text": "move 40 from v2.0 to v2.1", "intent": "set_milestone"}
+{"text": "#27 belongs in the v2.0 release", "intent": "set_milestone"}
+{"text": "add #9 to the v2.1 milestone", "intent": "set_milestone"}
+{"text": "pencil #21 in for the march release", "intent": "set_milestone"}
+{"text": "milestone: v2.0, ticket 36", "intent": "set_milestone"}
+{"text": "throw 13 into v2.1", "intent": "set_milestone"}
+{"text": "retarget #2 at v2.0", "intent": "set_milestone"}

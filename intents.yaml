@@ -1,0 +1,92 @@
+# What the agent can do. The teach step asks Claude for phrasings of each
+# intent once; after that the agent never calls an LLM again.
+# Placeholders like #12, @user and label names are fine in examples:
+# the classifier normalises them before training.
+
+whats_on_fire:
+  description: Ask what is urgent or broken right now (p0 issues, critical bugs).
+  examples: ["what's on fire?", "anything burning right now", "show me the p0s"]
+
+list_issues:
+  description: List issues, optionally filtered by label, assignee, author, milestone or open/closed state (including "my issues").
+  examples: ["list open issues", "show all bugs", "what's assigned to me"]
+
+show_issue:
+  description: Show the details of one issue by number.
+  examples: ["show #12", "what's issue 4 about", "details on #7"]
+
+create_issue:
+  description: Open a new issue with a title.
+  examples: ["file a bug: login broken on safari", "new issue: add csv export", "open a ticket for the typo in the docs"]
+
+label_issue:
+  description: Add a label to an issue.
+  examples: ["label #3 as bug", "tag 5 with enhancement", "mark #9 p0"]
+
+assign_issue:
+  description: Assign an issue to a person.
+  examples: ["assign #2 to @pa", "give 4 to me", "put @ana on #10"]
+
+comment_issue:
+  description: Add a comment to an issue.
+  examples: ["comment on #1: looking into it", "reply to 6 saying fixed in main", "tell #9 we're on it"]
+
+close_issue:
+  description: Close one issue because it is fixed or done (not a duplicate, not won't-fix).
+  examples: ["close #6", "this one is done, close 4", "shut issue 10, it's fixed"]
+
+reopen_issue:
+  description: Reopen a closed issue.
+  examples: ["reopen #6", "bring back issue 4", "6 isn't fixed, open it again"]
+
+close_stale:
+  description: Close all old or stale issues in one go.
+  examples: ["close the stale ones", "clean up old issues", "sweep everything that's gone stale"]
+
+triage:
+  description: Go through new unlabelled issues and label them.
+  examples: ["triage new issues", "sort out the untagged issues", "label whatever came in"]
+
+undo:
+  description: Undo the agent's last action.
+  examples: ["undo", "revert that", "no, take that back"]
+
+rewind_brain:
+  description: Roll the agent's own model back to an earlier version.
+  examples: ["rewind to v3", "go back to yesterday's brain", "forget what you learned today"]
+
+brain_status:
+  description: Ask about the agent itself, its model version, accuracy, or LLM usage.
+  examples: ["how smart are you", "which brain version are you on", "how many llm calls have you made"]
+
+help:
+  description: Ask what the agent can do.
+  examples: ["help", "what can you do", "commands?"]
+
+remove_label:
+  description: Remove a label from an issue.
+  examples: ["remove the bug label from #3", "drop needs-triage from 6", "#9 isn't p0 anymore, untag it"]
+
+unassign_issue:
+  description: Remove a person from an issue's assignees.
+  examples: ["unassign @sam from #2", "take me off 4", "@ana isn't working on #10 anymore"]
+
+close_duplicate:
+  description: Close an issue as a duplicate of another issue.
+  examples: ["#9 is a dupe of #2", "close 5 as duplicate of 3", "this is the same as #1, close #8"]
+
+close_not_planned:
+  description: Close an issue as not planned or won't fix.
+  examples: ["close #7 as won't fix", "we're not doing 5, close it", "mark #4 not planned"]
+
+search_issues:
+  description: Search issues for words in the title or body.
+  examples: ["any issues about safari?", "search for csv", "is there a ticket mentioning webhooks"]
+
+set_milestone:
+  description: Put an issue in a milestone or release.
+  examples: ["put #3 in v2.1", "milestone 6 for the march release", "move #9 to v2.0"]
+
+other:
+  description: Anything unrelated to this GitHub repo or the agent (small talk, other tasks, weather, jokes).
+  examples: ["what's the weather", "tell me a joke", "book a flight to goa"]

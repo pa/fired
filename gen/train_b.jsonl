@@ -1,0 +1,360 @@
+{"text": "label #3 as bug", "intent": "label_issue"}
+{"text": "tag 5 with enhancement", "intent": "label_issue"}
+{"text": "mark #9 p0", "intent": "label_issue"}
+{"text": "can you add the bug label to #12?", "intent": "label_issue"}
+{"text": "slap needs-triage on 17", "intent": "label_issue"}
+{"text": "#21 should be tagged question", "intent": "label_issue"}
+{"text": "add label stale to issue 30", "intent": "label_issue"}
+{"text": "label 8 enhancement", "intent": "label_issue"}
+{"text": "please tag #14 as p0, prod is down for it", "intent": "label_issue"}
+{"text": "lable #6 as bug", "intent": "label_issue"}
+{"text": "put the question label on #22", "intent": "label_issue"}
+{"text": "bug label for 2 pls", "intent": "label_issue"}
+{"text": "this is an enhancement, tag #19 accordingly", "intent": "label_issue"}
+{"text": "mark issue 25 as needs-triage", "intent": "label_issue"}
+{"text": "could you flag #4 with p0?", "intent": "label_issue"}
+{"text": "tag #33 bug", "intent": "label_issue"}
+{"text": "add enhancement to 11", "intent": "label_issue"}
+{"text": "#7 needs the stale label", "intent": "label_issue"}
+{"text": "hey can u label 16 as question", "intent": "label_issue"}
+{"text": "label #27 with bug and p0", "intent": "label_issue"}
+{"text": "give #1 the enhancement tag", "intent": "label_issue"}
+{"text": "mark 38 as stale", "intent": "label_issue"}
+{"text": "tag issue #20 with needs-triage so we look at it monday", "intent": "label_issue"}
+{"text": "can #13 get a bug label", "intent": "label_issue"}
+{"text": "set label p0 on #5", "intent": "label_issue"}
+{"text": "apply the question label to 29", "intent": "label_issue"}
+{"text": "label 10 bug", "intent": "label_issue"}
+{"text": "add a p0 tag to #36", "intent": "label_issue"}
+{"text": "i think #15 is just an enhancement, label it that way", "intent": "label_issue"}
+{"text": "tag 24 as bug please", "intent": "label_issue"}
+{"text": "mark #18 with the enhancement label", "intent": "label_issue"}
+{"text": "need needs-triage on #31", "intent": "label_issue"}
+{"text": "could you tag 3 and 4 as bug?", "intent": "label_issue"}
+{"text": "label it p0, issue 9", "intent": "label_issue"}
+{"text": "adding stale to #26", "intent": "label_issue"}
+{"text": "tag #2 as a question", "intent": "label_issue"}
+{"text": "throw a bug label on 35", "intent": "label_issue"}
+{"text": "issue 40 deserves the p0 label", "intent": "label_issue"}
+{"text": "label #23: enhancement", "intent": "label_issue"}
+{"text": "pls mark 12 needs-triage", "intent": "label_issue"}
+{"text": "flag #28 as bug", "intent": "label_issue"}
+{"text": "add the stale label to #37 and #38", "intent": "label_issue"}
+{"text": "tag 32 question", "intent": "label_issue"}
+{"text": "can we get p0 on #34", "intent": "label_issue"}
+{"text": "label #39 as an enhancement, it's a feature ask", "intent": "label_issue"}
+{"text": "mark #1 bug", "intent": "label_issue"}
+{"text": "put bug on issue 6", "intent": "label_issue"}
+{"text": "give 15 a needs-triage label", "intent": "label_issue"}
+{"text": "tag this one #22 as p0 right now", "intent": "label_issue"}
+{"text": "add label question to 14", "intent": "label_issue"}
+{"text": "could you please label #8 as enhancement when you get a sec", "intent": "label_issue"}
+{"text": "tagging #17 stale", "intent": "label_issue"}
+{"text": "mark 21 as p0", "intent": "label_issue"}
+{"text": "bug tag on #30", "intent": "label_issue"}
+{"text": "label issue number 5 with needs-triage", "intent": "label_issue"}
+{"text": "slap enhancement on #25 for me", "intent": "label_issue"}
+{"text": "tag #11 as bug, repro is solid", "intent": "label_issue"}
+{"text": "p0 label on 19 please", "intent": "label_issue"}
+{"text": "add question to #3", "intent": "label_issue"}
+{"text": "label 27 stale", "intent": "label_issue"}
+{"text": "remove the bug label from #3", "intent": "remove_label"}
+{"text": "drop needs-triage from 6", "intent": "remove_label"}
+{"text": "#9 isn't p0 anymore, untag it", "intent": "remove_label"}
+{"text": "take the stale label off #12", "intent": "remove_label"}
+{"text": "untag 17 from enhancement", "intent": "remove_label"}
+{"text": "can you remove p0 from #21?", "intent": "remove_label"}
+{"text": "unlabel #5 bug", "intent": "remove_label"}
+{"text": "strip the question label from 30", "intent": "remove_label"}
+{"text": "#8 shouldn't be tagged bug, remove it", "intent": "remove_label"}
+{"text": "remove needs-triage on 14", "intent": "remove_label"}
+{"text": "pls drop the p0 tag from #2", "intent": "remove_label"}
+{"text": "get rid of the enhancement label on #19", "intent": "remove_label"}
+{"text": "not stale anymore, take that label off 26", "intent": "remove_label"}
+{"text": "remove label bug from 33", "intent": "remove_label"}
+{"text": "untag #4 p0", "intent": "remove_label"}
+{"text": "that p0 on #11 was a mistake, remove it", "intent": "remove_label"}
+{"text": "delete the question label from issue 7", "intent": "remove_label"}
+{"text": "rmeove bug from #16", "intent": "remove_label"}
+{"text": "clear the needs-triage tag on 22", "intent": "remove_label"}
+{"text": "hey could you take stale off of #35", "intent": "remove_label"}
+{"text": "drop bug from 1", "intent": "remove_label"}
+{"text": "#13 is not an enhancement, remove that label", "intent": "remove_label"}
+{"text": "unmark #24 as p0", "intent": "remove_label"}
+{"text": "remove the stale label from #37 and #38", "intent": "remove_label"}
+{"text": "pull the bug tag off 10", "intent": "remove_label"}
+{"text": "no longer a question, untag #29", "intent": "remove_label"}
+{"text": "take p0 off 18", "intent": "remove_label"}
+{"text": "remove enhancement from #31 please", "intent": "remove_label"}
+{"text": "we triaged it already, drop needs-triage from #20", "intent": "remove_label"}
+{"text": "can the bug label come off #40?", "intent": "remove_label"}
+{"text": "unlabel 15 stale", "intent": "remove_label"}
+{"text": "remove tag question from #3", "intent": "remove_label"}
+{"text": "strip p0 from issue 28", "intent": "remove_label"}
+{"text": "wrong label on #23, remove bug", "intent": "remove_label"}
+{"text": "drop the enhancement tag from 9", "intent": "remove_label"}
+{"text": "p0 can go from #36, it's not urgent now", "intent": "remove_label"}
+{"text": "untag needs-triage 25", "intent": "remove_label"}
+{"text": "remove the stale label off of 32", "intent": "remove_label"}
+{"text": "lose the bug label on #6", "intent": "remove_label"}
+{"text": "take question off #34", "intent": "remove_label"}
+{"text": "would you remove p0 from 39 for me", "intent": "remove_label"}
+{"text": "untag #27 enhancement", "intent": "remove_label"}
+{"text": "remove needs-triage label from issue 13", "intent": "remove_label"}
+{"text": "i mislabeled #5, take bug off", "intent": "remove_label"}
+{"text": "drop stale from 21", "intent": "remove_label"}
+{"text": "p0 label off #8 pls", "intent": "remove_label"}
+{"text": "unlabel #12 question", "intent": "remove_label"}
+{"text": "kill the enhancement tag on #14", "intent": "remove_label"}
+{"text": "remove bug from #19 and #20", "intent": "remove_label"}
+{"text": "detag 2 needs-triage", "intent": "remove_label"}
+{"text": "this isn't stale, remove that label from #30", "intent": "remove_label"}
+{"text": "remove label p0 from 4", "intent": "remove_label"}
+{"text": "take the question tag off 17 pls", "intent": "remove_label"}
+{"text": "drop bug label from #26", "intent": "remove_label"}
+{"text": "untag 38 needs-triage", "intent": "remove_label"}
+{"text": "assign #2 to @pa", "intent": "assign_issue"}
+{"text": "give 4 to me", "intent": "assign_issue"}
+{"text": "put @ana on #10", "intent": "assign_issue"}
+{"text": "assign me to #15", "intent": "assign_issue"}
+{"text": "can @sam take #7?", "intent": "assign_issue"}
+{"text": "#12 goes to @priya", "intent": "assign_issue"}
+{"text": "assign issue 20 to @dev_raj", "intent": "assign_issue"}
+{"text": "i'll take #3", "intent": "assign_issue"}
+{"text": "hand 18 over to @maria", "intent": "assign_issue"}
+{"text": "pls assign #9 to @jo", "intent": "assign_issue"}
+{"text": "@ana you own #22 now", "intent": "assign_issue"}
+{"text": "assing 5 to @sam", "intent": "assign_issue"}
+{"text": "make @pa the assignee on #31", "intent": "assign_issue"}
+{"text": "give me #27", "intent": "assign_issue"}
+{"text": "put #14 on @chen", "intent": "assign_issue"}
+{"text": "could you assign #1 to @leo", "intent": "assign_issue"}
+{"text": "owner of 33 should be @priya", "intent": "assign_issue"}
+{"text": "assign 8 to me please", "intent": "assign_issue"}
+{"text": "@maria can you pick up #19", "intent": "assign_issue"}
+{"text": "set @sam as assignee for issue 6", "intent": "assign_issue"}
+{"text": "route #25 to @jo", "intent": "assign_issue"}
+{"text": "i want #36, assign it to me", "intent": "assign_issue"}
+{"text": "assign #11 @ana", "intent": "assign_issue"}
+{"text": "give issue 40 to @raj", "intent": "assign_issue"}
+{"text": "put me down for #13", "intent": "assign_issue"}
+{"text": "@leo is handling 29, assign it to him", "intent": "assign_issue"}
+{"text": "let @chen have #16", "intent": "assign_issue"}
+{"text": "assign this to @pa: #23", "intent": "assign_issue"}
+{"text": "throw #34 at @sam", "intent": "assign_issue"}
+{"text": "hey assign 21 to @priya when you can", "intent": "assign_issue"}
+{"text": "mine: #38", "intent": "assign_issue"}
+{"text": "assign #17 to @maria and @jo", "intent": "assign_issue"}
+{"text": "give 26 to @ana", "intent": "assign_issue"}
+{"text": "put @raj on issue 32", "intent": "assign_issue"}
+{"text": "i'm picking up #28, assign to me", "intent": "assign_issue"}
+{"text": "assign #37 to @leo", "intent": "assign_issue"}
+{"text": "@chen should own #24", "intent": "assign_issue"}
+{"text": "give #30 to @pa please", "intent": "assign_issue"}
+{"text": "assignee for #35: @sam", "intent": "assign_issue"}
+{"text": "can i get assigned to 12?", "intent": "assign_issue"}
+{"text": "assign 39 to @jo", "intent": "assign_issue"}
+{"text": "dump #5 on @priya", "intent": "assign_issue"}
+{"text": "put me on #2", "intent": "assign_issue"}
+{"text": "assign issue #14 to @maria asap", "intent": "assign_issue"}
+{"text": "@ana take 18", "intent": "assign_issue"}
+{"text": "give #9 to @raj, he knows that code", "intent": "assign_issue"}
+{"text": "assign #4 to myself", "intent": "assign_issue"}
+{"text": "pls put @leo on 7", "intent": "assign_issue"}
+{"text": "make me owner of #20", "intent": "assign_issue"}
+{"text": "assign 1 to @chen", "intent": "assign_issue"}
+{"text": "shift #31 to @sam", "intent": "assign_issue"}
+{"text": "i'll handle 10, assign it to me", "intent": "assign_issue"}
+{"text": "assign #22 to @pa", "intent": "assign_issue"}
+{"text": "unassign @sam from #2", "intent": "unassign_issue"}
+{"text": "take me off 4", "intent": "unassign_issue"}
+{"text": "@ana isn't working on #10 anymore", "intent": "unassign_issue"}
+{"text": "remove @priya from #12", "intent": "unassign_issue"}
+{"text": "unassign me from #15", "intent": "unassign_issue"}
+{"text": "i can't do 7 anymore, take me off it", "intent": "unassign_issue"}
+{"text": "drop @jo as assignee on #20", "intent": "unassign_issue"}
+{"text": "unassign #3", "intent": "unassign_issue"}
+{"text": "@maria is off #19", "intent": "unassign_issue"}
+{"text": "pls unassign @leo from 8", "intent": "unassign_issue"}
+{"text": "unasign @sam from #31", "intent": "unassign_issue"}
+{"text": "take @chen off issue 22", "intent": "unassign_issue"}
+{"text": "i'm no longer on #27", "intent": "unassign_issue"}
+{"text": "clear the assignee on #14", "intent": "unassign_issue"}
+{"text": "remove me as assignee from 33", "intent": "unassign_issue"}
+{"text": "@raj won't be doing #6, unassign him", "intent": "unassign_issue"}
+{"text": "unassign everyone from #25", "intent": "unassign_issue"}
+{"text": "can you take @pa off #1?", "intent": "unassign_issue"}
+{"text": "release me from #36", "intent": "unassign_issue"}
+{"text": "@ana is out this week, unassign her from 17", "intent": "unassign_issue"}
+{"text": "stop assigning #9 to @sam", "intent": "unassign_issue"}
+{"text": "take me off of issue 11", "intent": "unassign_issue"}
+{"text": "unassign @priya #29", "intent": "unassign_issue"}
+{"text": "i'm dropping #16, unassign me", "intent": "unassign_issue"}
+{"text": "remove @jo from the assignees on #40", "intent": "unassign_issue"}
+{"text": "@leo no longer owns 24", "intent": "unassign_issue"}
+{"text": "unassign #5 from @maria please", "intent": "unassign_issue"}
+{"text": "get me off #13", "intent": "unassign_issue"}
+{"text": "remove assignee @chen from #38", "intent": "unassign_issue"}
+{"text": "@sam can come off 21", "intent": "unassign_issue"}
+{"text": "unassign me from 30", "intent": "unassign_issue"}
+{"text": "ana is not on #18 anymore", "intent": "unassign_issue"}
+{"text": "take @raj off 26", "intent": "unassign_issue"}
+{"text": "i gave up on #34, remove me from it", "intent": "unassign_issue"}
+{"text": "unassign @pa #37", "intent": "unassign_issue"}
+{"text": "pull @priya from issue 23", "intent": "unassign_issue"}
+{"text": "no one is working on #28, clear assignees", "intent": "unassign_issue"}
+{"text": "@jo off #32", "intent": "unassign_issue"}
+{"text": "remove me from #39 pls", "intent": "unassign_issue"}
+{"text": "unassign @maria from 35", "intent": "unassign_issue"}
+{"text": "@leo is no longer on this, #2", "intent": "unassign_issue"}
+{"text": "can i be taken off #19", "intent": "unassign_issue"}
+{"text": "drop @chen from #4", "intent": "unassign_issue"}
+{"text": "unassign @sam and @ana from #10", "intent": "unassign_issue"}
+{"text": "take me off the assignees for 8", "intent": "unassign_issue"}
+{"text": "@raj stepped back from #15, unassign", "intent": "unassign_issue"}
+{"text": "unassign #20", "intent": "unassign_issue"}
+{"text": "remove @pa from 12", "intent": "unassign_issue"}
+{"text": "i don't own #6 anymore", "intent": "unassign_issue"}
+{"text": "free up @priya from #31", "intent": "unassign_issue"}
+{"text": "unassign me, #25", "intent": "unassign_issue"}
+{"text": "hey take @jo off 14 and 17", "intent": "unassign_issue"}
+{"text": "@maria no longer assigned to #1", "intent": "unassign_issue"}
+{"text": "unassign @leo from issue 9", "intent": "unassign_issue"}
+{"text": "put #3 in v2.1", "intent": "set_milestone"}
+{"text": "milestone 6 for the march release", "intent": "set_milestone"}
+{"text": "move #9 to v2.0", "intent": "set_milestone"}
+{"text": "add #12 to the v2.1 milestone", "intent": "set_milestone"}
+{"text": "set milestone of #5 to v2.0", "intent": "set_milestone"}
+{"text": "#17 should ship in the march release", "intent": "set_milestone"}
+{"text": "can we target 21 for v2.1?", "intent": "set_milestone"}
+{"text": "milestone v2.0 on issue 30", "intent": "set_milestone"}
+{"text": "push #8 to v2.1", "intent": "set_milestone"}
+{"text": "slot #14 into the march release", "intent": "set_milestone"}
+{"text": "pls move 4 to v2.0 milestone", "intent": "set_milestone"}
+{"text": "put 25 in \"march release\"", "intent": "set_milestone"}
+{"text": "mielstone for #2 is v2.1", "intent": "set_milestone"}
+{"text": "this one belongs in v2.0, #19", "intent": "set_milestone"}
+{"text": "assign #33 to milestone v2.1", "intent": "set_milestone"}
+{"text": "bump #7 to v2.1", "intent": "set_milestone"}
+{"text": "schedule #26 for v2.0", "intent": "set_milestone"}
+{"text": "targeting #11 at the march release", "intent": "set_milestone"}
+{"text": "move issue 36 into v2.1 please", "intent": "set_milestone"}
+{"text": "set #1 milestone v2.0", "intent": "set_milestone"}
+{"text": "put 22 on the v2.1 release", "intent": "set_milestone"}
+{"text": "we're shipping #28 in march release, set the milestone", "intent": "set_milestone"}
+{"text": "add 13 to v2.0", "intent": "set_milestone"}
+{"text": "can #38 go in v2.1", "intent": "set_milestone"}
+{"text": "milestone #16 v2.0", "intent": "set_milestone"}
+{"text": "move #31 from v2.0 to v2.1", "intent": "set_milestone"}
+{"text": "plan #20 for the march release", "intent": "set_milestone"}
+{"text": "tie #10 to v2.1", "intent": "set_milestone"}
+{"text": "put #34 and #35 in v2.0", "intent": "set_milestone"}
+{"text": "pull #6 into the v2.1 milestone", "intent": "set_milestone"}
+{"text": "set the release for 29 to v2.0", "intent": "set_milestone"}
+{"text": "defer #18 to v2.1", "intent": "set_milestone"}
+{"text": "issue 40 goes in the march release", "intent": "set_milestone"}
+{"text": "move 15 to \"march release\"", "intent": "set_milestone"}
+{"text": "hey put #23 in v2.0 for me", "intent": "set_milestone"}
+{"text": "v2.1 for #27", "intent": "set_milestone"}
+{"text": "attach #32 to the v2.0 milestone", "intent": "set_milestone"}
+{"text": "this needs to land in v2.0, set #24", "intent": "set_milestone"}
+{"text": "milestone 37: march release", "intent": "set_milestone"}
+{"text": "reschedule #3 to v2.1", "intent": "set_milestone"}
+{"text": "put issue #9 on the march release", "intent": "set_milestone"}
+{"text": "assign milestone v2.1 to 12", "intent": "set_milestone"}
+{"text": "move #5 to the next release, v2.1", "intent": "set_milestone"}
+{"text": "pls set 39 to v2.0", "intent": "set_milestone"}
+{"text": "#14 targets v2.0", "intent": "set_milestone"}
+{"text": "toss #21 in v2.1", "intent": "set_milestone"}
+{"text": "put #30 under the march release milestone", "intent": "set_milestone"}
+{"text": "set milestone v2.0 for #4 and #8", "intent": "set_milestone"}
+{"text": "kick #17 to v2.1", "intent": "set_milestone"}
+{"text": "can you milestone #25 as v2.0", "intent": "set_milestone"}
+{"text": "move 2 into v2.0", "intent": "set_milestone"}
+{"text": "mark #19 for the march release", "intent": "set_milestone"}
+{"text": "file #33 under v2.1", "intent": "set_milestone"}
+{"text": "put 11 in the v2.0 milestone pls", "intent": "set_milestone"}
+{"text": "push 26 out to v2.1", "intent": "set_milestone"}
+{"text": "milestone for #1: march release", "intent": "set_milestone"}
+{"text": "comment on #1: looking into it", "intent": "comment_issue"}
+{"text": "reply to 6 saying fixed in main", "intent": "comment_issue"}
+{"text": "tell #9 we're on it", "intent": "comment_issue"}
+{"text": "add a comment to #12: can't reproduce on my machine", "intent": "comment_issue"}
+{"text": "post on 5 that the fix is in review", "intent": "comment_issue"}
+{"text": "leave a note on #20 saying we need more logs", "intent": "comment_issue"}
+{"text": "comment 3: this also happens on firefox", "intent": "comment_issue"}
+{"text": "can you write on #17 that we'll revisit next sprint", "intent": "comment_issue"}
+{"text": "reply on issue 8: thanks for the report", "intent": "comment_issue"}
+{"text": "say on #14 that a patch is coming tomorrow", "intent": "comment_issue"}
+{"text": "coment on #2: still broken after the update", "intent": "comment_issue"}
+{"text": "drop a comment on 25, waiting on design", "intent": "comment_issue"}
+{"text": "tell the reporter on #31 we need a stack trace", "intent": "comment_issue"}
+{"text": "pls comment on 19: PR is up, please test", "intent": "comment_issue"}
+{"text": "respond to #7 with a link to the docs", "intent": "comment_issue"}
+{"text": "write a comment on issue 22 saying this is blocked by the auth refactor", "intent": "comment_issue"}
+{"text": "comment: we are investigating, on #11", "intent": "comment_issue"}
+{"text": "note on #36 that it was fixed in v2.0", "intent": "comment_issue"}
+{"text": "reply to #4 saying we can take a look this week", "intent": "comment_issue"}
+{"text": "let #28 know we've seen this", "intent": "comment_issue"}
+{"text": "add comment to 10 - needs a repro", "intent": "comment_issue"}
+{"text": "post a reply on #33: duplicate reports are coming in", "intent": "comment_issue"}
+{"text": "tell 16 that @ana is looking at it", "intent": "comment_issue"}
+{"text": "comment on #40 saying thanks, merging soon", "intent": "comment_issue"}
+{"text": "can you ping #13 with a message that the deploy is done", "intent": "comment_issue"}
+{"text": "write 29: works for me on the latest build", "intent": "comment_issue"}
+{"text": "leave a comment on #26 asking for the browser version", "intent": "comment_issue"}
+{"text": "reply to 21 with: please attach a screenshot", "intent": "comment_issue"}
+{"text": "say fixed in v2.1 on #15", "intent": "comment_issue"}
+{"text": "comment on 38 that we're pausing this until march", "intent": "comment_issue"}
+{"text": "add a note to #24: tested, looks good", "intent": "comment_issue"}
+{"text": "message on issue 6 saying we need the repro steps", "intent": "comment_issue"}
+{"text": "pls reply on #35 that the workaround is to clear cache", "intent": "comment_issue"}
+{"text": "tell #30 the root cause was a bad migration", "intent": "comment_issue"}
+{"text": "comment on 18: ack, will fix", "intent": "comment_issue"}
+{"text": "post to #23 that the release went out", "intent": "comment_issue"}
+{"text": "write back on issue 1 and say we agree", "intent": "comment_issue"}
+{"text": "hey can you leave a comment on #37: any update?", "intent": "comment_issue"}
+{"text": "reply #9: i'll pick this up after lunch", "intent": "comment_issue"}
+{"text": "comment on #32 saying this needs a design review", "intent": "comment_issue"}
+{"text": "add a comment on 27 that says +1 same here", "intent": "comment_issue"}
+{"text": "tell issue 34 we shipped a fix", "intent": "comment_issue"}
+{"text": "reply to the thread on #39 saying thanks for the details", "intent": "comment_issue"}
+{"text": "comment #5 retested, all good", "intent": "comment_issue"}
+{"text": "can you tell #12 it's a known limitation", "intent": "comment_issue"}
+{"text": "leave note on 2: blocked on infra", "intent": "comment_issue"}
+{"text": "post comment on #19 - root cause found, fix tomorrow", "intent": "comment_issue"}
+{"text": "write on #8 that we're deprioritizing for now", "intent": "comment_issue"}
+{"text": "add this comment to #14: see also the logs in slack", "intent": "comment_issue"}
+{"text": "respond on 3 saying please upgrade to the latest version", "intent": "comment_issue"}
+{"text": "tell #21 we are working on it", "intent": "comment_issue"}
+{"text": "comment on 7 with: could you share your config?", "intent": "comment_issue"}
+{"text": "reply to #25 saying the PR landed", "intent": "comment_issue"}
+{"text": "note on #4: customer confirmed the fix", "intent": "comment_issue"}
+{"text": "remove p0 from #7", "intent": "remove_label"}
+{"text": "untag #16 question", "intent": "remove_label"}
+{"text": "take the bug label off 37", "intent": "remove_label"}
+{"text": "drop enhancement from #22", "intent": "remove_label"}
+{"text": "we don't need needs-triage on 9 anymore, remove it", "intent": "remove_label"}
+{"text": "unassign @ana from #33", "intent": "unassign_issue"}
+{"text": "take me off #21", "intent": "unassign_issue"}
+{"text": "@sam is done with 5, unassign", "intent": "unassign_issue"}
+{"text": "remove @leo from #26", "intent": "unassign_issue"}
+{"text": "unassign me from issue 3", "intent": "unassign_issue"}
+{"text": "@jo can't make 18, take him off", "intent": "unassign_issue"}
+{"text": "assign #6 to @leo", "intent": "assign_issue"}
+{"text": "give 13 to @pa", "intent": "assign_issue"}
+{"text": "put @jo on #26", "intent": "assign_issue"}
+{"text": "assign me #32", "intent": "assign_issue"}
+{"text": "@sam please own #35", "intent": "assign_issue"}
+{"text": "hand #24 to me", "intent": "assign_issue"}
+{"text": "assign 16 to @chen", "intent": "assign_issue"}
+{"text": "move #22 to the march release", "intent": "set_milestone"}
+{"text": "put 37 in v2.0", "intent": "set_milestone"}
+{"text": "set #13 to milestone v2.1", "intent": "set_milestone"}
+{"text": "add #29 to the march release", "intent": "set_milestone"}
+{"text": "comment on #10 saying we merged the fix", "intent": "comment_issue"}
+{"text": "tell 27 it's a duplicate report, thanks for flagging", "intent": "comment_issue"}
+{"text": "reply on #36: confirmed on staging", "intent": "comment_issue"}
+{"text": "leave a comment on 13 that we need a decision", "intent": "comment_issue"}
+{"text": "post on #29 that the PR is ready for review", "intent": "comment_issue"}
+{"text": "tell #18 the fix is going out tonight", "intent": "comment_issue"}

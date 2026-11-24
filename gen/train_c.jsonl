@@ -1,0 +1,300 @@
+{"text": "close #6", "intent": "close_issue"}
+{"text": "this one is done, close 4", "intent": "close_issue"}
+{"text": "shut issue 10, it's fixed", "intent": "close_issue"}
+{"text": "close #12", "intent": "close_issue"}
+{"text": "#18 is fixed and merged, you can close it", "intent": "close_issue"}
+{"text": "can you close #23? the patch shipped yesterday", "intent": "close_issue"}
+{"text": "close 31", "intent": "close_issue"}
+{"text": "resolved, closing #9", "intent": "close_issue"}
+{"text": "pls close #14 its done", "intent": "close_issue"}
+{"text": "mark #27 as done and close it", "intent": "close_issue"}
+{"text": "the fix for #5 landed in main, close it out", "intent": "close_issue"}
+{"text": "close issue 22 since it's fixed in v2.0", "intent": "close_issue"}
+{"text": "@bot close #3", "intent": "close_issue"}
+{"text": "we shipped this, close #16", "intent": "close_issue"}
+{"text": "close it, #11 is finished", "intent": "close_issue"}
+{"text": "done with #8, shut it", "intent": "close_issue"}
+{"text": "close ticket 19", "intent": "close_issue"}
+{"text": "could you close out #2 please, the bug is gone", "intent": "close_issue"}
+{"text": "#33 works now. closing it", "intent": "close_issue"}
+{"text": "close #7 - fixed by the hotfix", "intent": "close_issue"}
+{"text": "shut #25", "intent": "close_issue"}
+{"text": "close the bug in #13, patched and verified", "intent": "close_issue"}
+{"text": "closd #20 its fixed", "intent": "close_issue"}
+{"text": "close #37 now that the release is out", "intent": "close_issue"}
+{"text": "that enhancement in #29 is complete, close it", "intent": "close_issue"}
+{"text": "please close issue #15, QA signed off", "intent": "close_issue"}
+{"text": "fixed in the march release, close #21", "intent": "close_issue"}
+{"text": "close #1", "intent": "close_issue"}
+{"text": "yep #30 is working, go ahead and close it", "intent": "close_issue"}
+{"text": "all done on 35, close it up", "intent": "close_issue"}
+{"text": "close #39 as completed", "intent": "close_issue"}
+{"text": "wrap up #10, it's done", "intent": "close_issue"}
+{"text": "close issue #17 we merged the PR", "intent": "close_issue"}
+{"text": "can we close #26? fix is deployed", "intent": "close_issue"}
+{"text": "#4 is resolved, mark it closed", "intent": "close_issue"}
+{"text": "finished #38, close it", "intent": "close_issue"}
+{"text": "close 24 pls", "intent": "close_issue"}
+{"text": "lgtm, #34 done. close", "intent": "close_issue"}
+{"text": "the question in #28 got answered, close it", "intent": "close_issue"}
+{"text": "close #36, nothing left to do on it", "intent": "close_issue"}
+{"text": "shut it down: #12 is fixed", "intent": "close_issue"}
+{"text": "i fixed #32 this morning, close the issue", "intent": "close_issue"}
+{"text": "close issue number 40", "intent": "close_issue"}
+{"text": "close the p0 #6 it's been resolved", "intent": "close_issue"}
+{"text": "go ahead and close #19, verified on staging", "intent": "close_issue"}
+{"text": "issue 9 is complete, closing time", "intent": "close_issue"}
+{"text": "close #22 and note it shipped in v2.1", "intent": "close_issue"}
+{"text": "done and dusted, close #14", "intent": "close_issue"}
+{"text": "no more work on #3, it's fixed. close", "intent": "close_issue"}
+{"text": "mark #18 closed", "intent": "close_issue"}
+{"text": "hey can u close #31 its done", "intent": "close_issue"}
+{"text": "close this out: #25", "intent": "close_issue"}
+{"text": "#16 resolved by @sam's PR, close it", "intent": "close_issue"}
+{"text": "close #5 fixed", "intent": "close_issue"}
+{"text": "tidy up by closing #27, the work is finished", "intent": "close_issue"}
+{"text": "close bug #8", "intent": "close_issue"}
+{"text": "we're good on #11, close", "intent": "close_issue"}
+{"text": "please shut #23 now that it's merged", "intent": "close_issue"}
+{"text": "close #29, done", "intent": "close_issue"}
+{"text": "closing #13 since it's fixed in v2.0", "intent": "close_issue"}
+{"text": "#9 is a dupe of #2", "intent": "close_duplicate"}
+{"text": "close 5 as duplicate of 3", "intent": "close_duplicate"}
+{"text": "this is the same as #1, close #8", "intent": "close_duplicate"}
+{"text": "close #14 as a dupe of #6", "intent": "close_duplicate"}
+{"text": "#20 duplicates #11", "intent": "close_duplicate"}
+{"text": "mark #7 duplicate of #19", "intent": "close_duplicate"}
+{"text": "dup of #4, close 12", "intent": "close_duplicate"}
+{"text": "close #33 - already reported in #21", "intent": "close_duplicate"}
+{"text": "same issue as #15, so close #26", "intent": "close_duplicate"}
+{"text": "#30 is a duplicate, see #10", "intent": "close_duplicate"}
+{"text": "@bot #17 is a dupe of #3", "intent": "close_duplicate"}
+{"text": "close 22 as dup of 9", "intent": "close_duplicate"}
+{"text": "this was already filed as #5, close #28", "intent": "close_duplicate"}
+{"text": "duplicate: #34 -> #16", "intent": "close_duplicate"}
+{"text": "close #13 as a duplicate", "intent": "close_duplicate"}
+{"text": "#25 is the same bug as #18, close as duplicate", "intent": "close_duplicate"}
+{"text": "dupe of #40, shut #12", "intent": "close_duplicate"}
+{"text": "we already have this in #8, close #31 as a dupe", "intent": "close_duplicate"}
+{"text": "mark 24 as dup of 7", "intent": "close_duplicate"}
+{"text": "close issue 36 as duplicate of issue 2", "intent": "close_duplicate"}
+{"text": "#19 is a repeat of #1", "intent": "close_duplicate"}
+{"text": "pls close #27 as dupe of #13", "intent": "close_duplicate"}
+{"text": "looks like #23 is a duplicate of #35", "intent": "close_duplicate"}
+{"text": "same thing as #29, closing #6 as duplicate", "intent": "close_duplicate"}
+{"text": "#38 duplicates #4, close it", "intent": "close_duplicate"}
+{"text": "close #15 duplicate of #32", "intent": "close_duplicate"}
+{"text": "duplicated by #20. close 37 as a dupe", "intent": "close_duplicate"}
+{"text": "that's a dup, #21 already covers it, close #9", "intent": "close_duplicate"}
+{"text": "close #10 as dupe of #25", "intent": "close_duplicate"}
+{"text": "someone already reported this: #17 is dupe of #28", "intent": "close_duplicate"}
+{"text": "dupe: 11 -> 3", "intent": "close_duplicate"}
+{"text": "closing #39 as a duplicate of #14", "intent": "close_duplicate"}
+{"text": "mark #5 as a dup of #30 and close", "intent": "close_duplicate"}
+{"text": "this is a dupe of #22 \u2014 close #18", "intent": "close_duplicate"}
+{"text": "#2 and #26 are the same issue, close #26 as duplicate", "intent": "close_duplicate"}
+{"text": "close as duplicate #8 of #33", "intent": "close_duplicate"}
+{"text": "#16 = #24, same bug, close the later one as dup", "intent": "close_duplicate"}
+{"text": "can you close #31 as a duplicate of #12?", "intent": "close_duplicate"}
+{"text": "dupe #34 of #7", "intent": "close_duplicate"}
+{"text": "close 3 as dupe of 19 please", "intent": "close_duplicate"}
+{"text": "#13 is already tracked in #37", "intent": "close_duplicate"}
+{"text": "this issue is a copy of #6, close it as duplicate", "intent": "close_duplicate"}
+{"text": "close #28 - dup of #4", "intent": "close_duplicate"}
+{"text": "#40 same as #21 close as dupe", "intent": "close_duplicate"}
+{"text": "flag #14 as a duplicate of #9 and close it", "intent": "close_duplicate"}
+{"text": "closd #29 as duplicate of #11", "intent": "close_duplicate"}
+{"text": "it's a dupe of #1, close #35", "intent": "close_duplicate"}
+{"text": "close #20 as duplicate, original is #15", "intent": "close_duplicate"}
+{"text": "the bug in #12 is a dup of #38", "intent": "close_duplicate"}
+{"text": "mark #23 duplicate #27", "intent": "close_duplicate"}
+{"text": "dupe of #16, close 5", "intent": "close_duplicate"}
+{"text": "we have #10 for this already, close #32 as duplicate", "intent": "close_duplicate"}
+{"text": "#36 is a duplicate issue of #17", "intent": "close_duplicate"}
+{"text": "close #25 as dupe", "intent": "close_duplicate"}
+{"text": "@ana #19 is the same as #8, closing as duplicate", "intent": "close_duplicate"}
+{"text": "close issue #7 as a duplicate of #34", "intent": "close_duplicate"}
+{"text": "#21 dup of #30", "intent": "close_duplicate"}
+{"text": "this one's a dupe, close #24 and point to #2", "intent": "close_duplicate"}
+{"text": "mark 18 as duplicate of 13", "intent": "close_duplicate"}
+{"text": "close 9 as duplicate", "intent": "close_duplicate"}
+{"text": "close #7 as won't fix", "intent": "close_not_planned"}
+{"text": "we're not doing 5, close it", "intent": "close_not_planned"}
+{"text": "mark #4 not planned", "intent": "close_not_planned"}
+{"text": "close #12 as not planned", "intent": "close_not_planned"}
+{"text": "wontfix #19", "intent": "close_not_planned"}
+{"text": "#23 is out of scope, close it as not planned", "intent": "close_not_planned"}
+{"text": "we won't build this, close #8", "intent": "close_not_planned"}
+{"text": "close 15 as wont fix", "intent": "close_not_planned"}
+{"text": "not planned: #30", "intent": "close_not_planned"}
+{"text": "decided against #3, close it", "intent": "close_not_planned"}
+{"text": "close #21 not planned, we're not pursuing it", "intent": "close_not_planned"}
+{"text": "mark #9 as wontfix and close", "intent": "close_not_planned"}
+{"text": "@bot close #26 as not planned", "intent": "close_not_planned"}
+{"text": "that's by design, close #14 as won't fix", "intent": "close_not_planned"}
+{"text": "we're never going to do #33, close it out", "intent": "close_not_planned"}
+{"text": "close issue 11 - not planned for v2.0", "intent": "close_not_planned"}
+{"text": "nope, not doing #18. close as not planned", "intent": "close_not_planned"}
+{"text": "close #6 as wontfix pls", "intent": "close_not_planned"}
+{"text": "#37 isn't going to happen, mark not planned", "intent": "close_not_planned"}
+{"text": "can you close #25 as not planned?", "intent": "close_not_planned"}
+{"text": "declining #10, close as won't fix", "intent": "close_not_planned"}
+{"text": "this enhancement isn't on the roadmap, close #29 as not planned", "intent": "close_not_planned"}
+{"text": "close #2 wont fix", "intent": "close_not_planned"}
+{"text": "we decided not to ship #16, close it", "intent": "close_not_planned"}
+{"text": "mark 31 as not planned", "intent": "close_not_planned"}
+{"text": "closing #22 as won't fix, working as intended", "intent": "close_not_planned"}
+{"text": "shelve #13 permanently, close as not planned", "intent": "close_not_planned"}
+{"text": "not gonna fix #34, close", "intent": "close_not_planned"}
+{"text": "close #28 as not planned, out of scope for the march release", "intent": "close_not_planned"}
+{"text": "#40 is a no-go, close it as wontfix", "intent": "close_not_planned"}
+{"text": "close #17 - we won't implement this", "intent": "close_not_planned"}
+{"text": "#24 not planned", "intent": "close_not_planned"}
+{"text": "the team passed on #5, close it as not planned", "intent": "close_not_planned"}
+{"text": "close as won't fix: #38", "intent": "close_not_planned"}
+{"text": "mark #20 not planned, no capacity", "intent": "close_not_planned"}
+{"text": "we're not fixing #1, closing as wontfix", "intent": "close_not_planned"}
+{"text": "reject #35 and close as not planned", "intent": "close_not_planned"}
+{"text": "close #15 not planned please", "intent": "close_not_planned"}
+{"text": "that feature request in #27 won't happen. close not planned", "intent": "close_not_planned"}
+{"text": "#32 is a wontfix", "intent": "close_not_planned"}
+{"text": "close ticket #3 as won't fix, can't reproduce and not worth it", "intent": "close_not_planned"}
+{"text": "we're skipping #19 for good, close it as not planned", "intent": "close_not_planned"}
+{"text": "@sam #8 closed as not planned", "intent": "close_not_planned"}
+{"text": "mark #36 as won't fix", "intent": "close_not_planned"}
+{"text": "close 12 not planned", "intent": "close_not_planned"}
+{"text": "no plans to do #21, close it", "intent": "close_not_planned"}
+{"text": "this is a wont fix, close #30", "intent": "close_not_planned"}
+{"text": "close #9 as not planned, product said no", "intent": "close_not_planned"}
+{"text": "can u close #14 as wontfix", "intent": "close_not_planned"}
+{"text": "#39 won't be done, close it as not planned", "intent": "close_not_planned"}
+{"text": "not doing #26 this year, close as not planned", "intent": "close_not_planned"}
+{"text": "close #4 as won't-fix", "intent": "close_not_planned"}
+{"text": "closing #23 not planned, we're deprioritized forever", "intent": "close_not_planned"}
+{"text": "mark #11 wontfix and shut it", "intent": "close_not_planned"}
+{"text": "decided not to pursue #6, close as not planned", "intent": "close_not_planned"}
+{"text": "close #31 as won't fix", "intent": "close_not_planned"}
+{"text": "issue 18 is not planned", "intent": "close_not_planned"}
+{"text": "close #2 as not planned since we dropped that feature", "intent": "close_not_planned"}
+{"text": "reopen #6", "intent": "reopen_issue"}
+{"text": "bring back issue 4", "intent": "reopen_issue"}
+{"text": "6 isn't fixed, open it again", "intent": "reopen_issue"}
+{"text": "reopen 12", "intent": "reopen_issue"}
+{"text": "#18 is still broken, reopen it", "intent": "reopen_issue"}
+{"text": "can you reopen #23?", "intent": "reopen_issue"}
+{"text": "re-open #9", "intent": "reopen_issue"}
+{"text": "this came back, reopen #14", "intent": "reopen_issue"}
+{"text": "open #3 again, the fix didn't work", "intent": "reopen_issue"}
+{"text": "reopen issue 27", "intent": "reopen_issue"}
+{"text": "@bot reopen #16", "intent": "reopen_issue"}
+{"text": "the bug in #11 is back. reopen pls", "intent": "reopen_issue"}
+{"text": "#8 shouldn't have been closed, reopen", "intent": "reopen_issue"}
+{"text": "reopen #31 it's not actually done", "intent": "reopen_issue"}
+{"text": "undo the close on #20, reopen it", "intent": "reopen_issue"}
+{"text": "bring #5 back from closed", "intent": "reopen_issue"}
+{"text": "reopn #25", "intent": "reopen_issue"}
+{"text": "#33 regressed in v2.1, reopen", "intent": "reopen_issue"}
+{"text": "reopen that p0 #2", "intent": "reopen_issue"}
+{"text": "i closed #15 by mistake, reopen it", "intent": "reopen_issue"}
+{"text": "issue 22 still happens on safari, reopen", "intent": "reopen_issue"}
+{"text": "reopen #37 please", "intent": "reopen_issue"}
+{"text": "let's reopen 10, customer reported it again", "intent": "reopen_issue"}
+{"text": "put #19 back to open", "intent": "reopen_issue"}
+{"text": "reopen the ticket #7", "intent": "reopen_issue"}
+{"text": "#28 is not resolved, open it back up", "intent": "reopen_issue"}
+{"text": "unclose #13", "intent": "reopen_issue"}
+{"text": "reopen #40, needs more work", "intent": "reopen_issue"}
+{"text": "fix for #26 was reverted, reopen it", "intent": "reopen_issue"}
+{"text": "please reopen issue #1", "intent": "reopen_issue"}
+{"text": "#35 needs to be reopened", "intent": "reopen_issue"}
+{"text": "re-open 29, still failing in prod", "intent": "reopen_issue"}
+{"text": "reopen #12 since the patch didn't hold", "intent": "reopen_issue"}
+{"text": "this is still an issue, reopen #24", "intent": "reopen_issue"}
+{"text": "bring back #17", "intent": "reopen_issue"}
+{"text": "can we reopen #36? it's happening again", "intent": "reopen_issue"}
+{"text": "reopen 4", "intent": "reopen_issue"}
+{"text": "#21 was closed too early, reopen", "intent": "reopen_issue"}
+{"text": "reopen bug #30", "intent": "reopen_issue"}
+{"text": "open #34 again", "intent": "reopen_issue"}
+{"text": "@ana reopen #10 pls", "intent": "reopen_issue"}
+{"text": "the fix broke again, reopen #38", "intent": "reopen_issue"}
+{"text": "reopen #3, we need it for the march release", "intent": "reopen_issue"}
+{"text": "i want #32 reopened", "intent": "reopen_issue"}
+{"text": "resurrect #14", "intent": "reopen_issue"}
+{"text": "#39 isn't done, reopen it", "intent": "reopen_issue"}
+{"text": "reopen issue #8 -- still repro on main", "intent": "reopen_issue"}
+{"text": "reactivate #27", "intent": "reopen_issue"}
+{"text": "#18 closed prematurely, reopen", "intent": "reopen_issue"}
+{"text": "reopen that closed bug #6", "intent": "reopen_issue"}
+{"text": "dang #25 is back, reopen", "intent": "reopen_issue"}
+{"text": "reopen #11 and put it back in v2.0", "intent": "reopen_issue"}
+{"text": "reopen 16, it was wrongly closed", "intent": "reopen_issue"}
+{"text": "please bring #20 back open", "intent": "reopen_issue"}
+{"text": "#9 is not fixed after all, reopen it", "intent": "reopen_issue"}
+{"text": "open up #23 again", "intent": "reopen_issue"}
+{"text": "reopen 5", "intent": "reopen_issue"}
+{"text": "re-open #31 for me", "intent": "reopen_issue"}
+{"text": "actually #37 isn't fixed, reopen", "intent": "reopen_issue"}
+{"text": "close the stale ones", "intent": "close_stale"}
+{"text": "clean up old issues", "intent": "close_stale"}
+{"text": "sweep everything that's gone stale", "intent": "close_stale"}
+{"text": "close all stale issues", "intent": "close_stale"}
+{"text": "close everything labelled stale", "intent": "close_stale"}
+{"text": "purge the stale issues", "intent": "close_stale"}
+{"text": "can you close out all the old issues?", "intent": "close_stale"}
+{"text": "close stale", "intent": "close_stale"}
+{"text": "archive anything that hasn't moved in 90 days", "intent": "close_stale"}
+{"text": "sweep the stale issues please", "intent": "close_stale"}
+{"text": "close all issues with no activity for months", "intent": "close_stale"}
+{"text": "bulk close the stale tickets", "intent": "close_stale"}
+{"text": "clean house, close all the old stuff", "intent": "close_stale"}
+{"text": "close every stale issue in one go", "intent": "close_stale"}
+{"text": "time to prune the backlog, close the stale ones", "intent": "close_stale"}
+{"text": "close all issues untouched since last year", "intent": "close_stale"}
+{"text": "get rid of the stale issues", "intent": "close_stale"}
+{"text": "close old stuff nobody's touched", "intent": "close_stale"}
+{"text": "@bot close stale issues", "intent": "close_stale"}
+{"text": "run a stale sweep", "intent": "close_stale"}
+{"text": "shut all the stale issues", "intent": "close_stale"}
+{"text": "close everything with the stale label", "intent": "close_stale"}
+{"text": "mass close inactive issues", "intent": "close_stale"}
+{"text": "let's clear out the dead issues", "intent": "close_stale"}
+{"text": "close all issues older than 6 months", "intent": "close_stale"}
+{"text": "sweep stale", "intent": "close_stale"}
+{"text": "close the abandoned issues", "intent": "close_stale"}
+{"text": "could you clean up all the stale tickets?", "intent": "close_stale"}
+{"text": "auto-close whatever's gone stale", "intent": "close_stale"}
+{"text": "close all the stale bugs in bulk", "intent": "close_stale"}
+{"text": "purge old inactive tickets", "intent": "close_stale"}
+{"text": "close the issues nobody has touched in ages", "intent": "close_stale"}
+{"text": "time for a stale cleanup", "intent": "close_stale"}
+{"text": "close out the stale backlog", "intent": "close_stale"}
+{"text": "bulk close stale", "intent": "close_stale"}
+{"text": "stale issues, close em all", "intent": "close_stale"}
+{"text": "tidy the backlog by closing stale issues", "intent": "close_stale"}
+{"text": "close every issue that's been idle forever", "intent": "close_stale"}
+{"text": "clear out old dormant issues", "intent": "close_stale"}
+{"text": "close everything that has gone stale", "intent": "close_stale"}
+{"text": "pls close the stale issues all at once", "intent": "close_stale"}
+{"text": "get the stale ones closed", "intent": "close_stale"}
+{"text": "dead issues, close them all", "intent": "close_stale"}
+{"text": "sweep out issues that are stale and have no activity", "intent": "close_stale"}
+{"text": "do a stale cleanup of the repo", "intent": "close_stale"}
+{"text": "close all the stale issues before the march release", "intent": "close_stale"}
+{"text": "anything stale, close it", "intent": "close_stale"}
+{"text": "close all inactive issues", "intent": "close_stale"}
+{"text": "clean out the stale tickets", "intent": "close_stale"}
+{"text": "we have a ton of old issues, close the stale ones", "intent": "close_stale"}
+{"text": "close all issues marked stale", "intent": "close_stale"}
+{"text": "sweep and close old issues", "intent": "close_stale"}
+{"text": "bulk-close the ancient issues", "intent": "close_stale"}
+{"text": "close stale isues", "intent": "close_stale"}
+{"text": "nuke the stale issues", "intent": "close_stale"}
+{"text": "close all long-idle issues", "intent": "close_stale"}
+{"text": "close everything stale that is not in a milestone", "intent": "close_stale"}
+{"text": "clean up the old dormant tickets", "intent": "close_stale"}
+{"text": "clear all stale issues", "intent": "close_stale"}
+{"text": "please sweep the stale backlog", "intent": "close_stale"}
+{"text": "we're not going to do #13, close it as not planned", "intent": "close_not_planned"}
+{"text": "wontfix, close #37", "intent": "close_not_planned"}
+{"text": "reopen #22, regression after the v2.1 deploy", "intent": "reopen_issue"}
