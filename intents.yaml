@@ -87,6 +87,10 @@ set_milestone:
   description: Put an issue in a milestone or release.
   examples: ["put #3 in v2.1", "milestone 6 for the march release", "move #9 to v2.0"]
 
+teach_word:
+  description: Teach the bot a new word or nickname that should mean one of its actions from now on.
+  examples: ["nuke means close", "when I say yeet I mean close the issue", "from now on 'ship it' = close"]
+
 other:
   description: Anything unrelated to this GitHub repo or the agent (small talk, other tasks, weather, jokes).
   examples: ["what's the weather", "tell me a joke", "book a flight to goa"]

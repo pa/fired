@@ -438,3 +438,43 @@
 {"text": "check if the nightly build passed", "intent": "other"}
 {"text": "roll back the last deploy on the prod cluster", "intent": "other"}
 {"text": "summarize the slack thread from earlier", "intent": "other"}
+{"text": "from here on 'bin' is what I call closing something", "intent": "teach_word"}
+{"text": "ok so 'park' = mark as not planned. remember that", "intent": "teach_word"}
+{"text": "you know how I keep saying 'zap'? that's close, got it?", "intent": "teach_word"}
+{"text": "new vocab: squash -> close_duplicate", "intent": "teach_word"}
+{"text": "i'm gonna start saying 'ping' when i want you to comment, ok?", "intent": "teach_word"}
+{"text": "lemme teach you something. 'yoink' should assign it to me", "intent": "teach_word"}
+{"text": "whenever I tell you to 'bury' an issue, treat it as won't fix", "intent": "teach_word"}
+{"text": "'sus' = triage", "intent": "teach_word"}
+{"text": "going forward, the word 'broom' is your cue to close the stale ones", "intent": "teach_word"}
+{"text": "my team calls reopening 'resurrect'. add that to your dictionary", "intent": "teach_word"}
+{"text": "learn this: 'fire drill' is the same thing as what's on fire", "intent": "teach_word"}
+{"text": "I'd like 'stamp' to be another way of saying label. can you pick that up", "intent": "teach_word"}
+{"text": "alias 'lgtm' to close", "intent": "teach_word"}
+{"text": "when you hear 'kill it' from me, that means close as not planned, every time", "intent": "teach_word"}
+{"text": "add a synonym for undo: 'oops'", "intent": "teach_word"}
+{"text": "so just so we're clear, in this channel 'backlog it' means put it in the next milestone", "intent": "teach_word"}
+{"text": "'whack' - treat that as close from now on", "intent": "teach_word"}
+{"text": "I'm lazy, let me say 'mine' instead of assign to me. deal?", "intent": "teach_word"}
+{"text": "teach yourself that 'peek' means show the issue", "intent": "teach_word"}
+{"text": "new nickname for you to know: 'dupe it' equals closing as a duplicate", "intent": "teach_word"}
+{"text": "think of 'sweep' as shorthand for closing old stuff, use it going forward", "intent": "teach_word"}
+{"text": "btw 'untag' should also work for removing a label, i'll be using it a lot", "intent": "teach_word"}
+{"text": "define: gnarly = p0", "intent": "teach_word"}
+{"text": "i say 'dig' you search. that's the rule now", "intent": "teach_word"}
+{"text": "start understanding 'thumbs up' as close the issue please", "intent": "teach_word"}
+{"text": "that means #3 is done, shut it", "intent": "close_issue"}
+{"text": "when I say it's fixed on #8 I really do mean it, close it", "intent": "close_issue"}
+{"text": "#12 means the same as #4, so close 12 as a dupe", "intent": "close_duplicate"}
+{"text": "this one is the same as #2, close it", "intent": "close_duplicate"}
+{"text": "treat #15 as won't fix, we're never building that", "intent": "close_not_planned"}
+{"text": "no reply from the reporter in months, which means #20 is not planned. close it", "intent": "close_not_planned"}
+{"text": "anything older than 90 days with no activity, treat it as stale and close them all", "intent": "close_stale"}
+{"text": "treat the new unlabelled ones like bugs until proven otherwise, go label them", "intent": "triage"}
+{"text": "what does the safari thing mean for us, any tickets about it?", "intent": "search_issues"}
+{"text": "same as before, put #7 in the v3 release", "intent": "set_milestone"}
+{"text": "when I said take me off #9 I meant it, unassign me", "intent": "unassign_issue"}
+{"text": "mark #5 as bug, that's what the stack trace means", "intent": "label_issue"}
+{"text": "what does your accuracy number mean, how good is it", "intent": "brain_status"}
+{"text": "comment on #6: this means we need a migration before release", "intent": "comment_issue"}
+{"text": "that last thing was wrong, treat it as never happened and undo it", "intent": "undo"}

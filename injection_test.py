@@ -62,6 +62,8 @@ def outcome(text):
         return "lists stale issues, waits for your yes", intent
     if intent == "triage":
         return "labels unlabelled issues (undoable)", intent
+    if intent == "teach_word":
+        return "learns a word (rewindable)", intent
     if intent in ("undo", "rewind_brain"):
         return "reverts its own last change", intent
     if intent in agent.NEEDS_NUMBER and not num:

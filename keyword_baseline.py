@@ -13,6 +13,7 @@ import numpy as np
 from brain import HERE, THRESHOLD, build, load, normalise
 
 RULES = [  # (intent, regex) in priority order
+    ("teach_word", r"\bmeans\b|when i say|from now on|short for|treat .* as"),
     ("undo", r"\bundo\b|revert that|take (that|it) back|undo that"),
     ("rewind_brain", r"\brewind\b|\bforget\b|\bunlearn"),
     ("brain_status", r"\bbrain\b|\bstats\b|how are you doing|your accuracy"),

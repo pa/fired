@@ -1,0 +1,110 @@
+{"text": "nuke means close", "intent": "teach_word"}
+{"text": "yeet means close the issue", "intent": "teach_word"}
+{"text": "when I say ship it I mean close the issue", "intent": "teach_word"}
+{"text": "from now on kill = close", "intent": "teach_word"}
+{"text": "treat bump as reopen", "intent": "teach_word"}
+{"text": "\"park it\" is short for close as not planned", "intent": "teach_word"}
+{"text": "learn this: dupe it -> close as duplicate", "intent": "teach_word"}
+{"text": "if I type fire just do whats on fire", "intent": "teach_word"}
+{"text": "'torch' means what's on fire", "intent": "teach_word"}
+{"text": "when i say mine i mean assign to me", "intent": "teach_word"}
+{"text": "from now on 'claim' = assign it to me", "intent": "teach_word"}
+{"text": "remember that squash means label it as a bug", "intent": "teach_word"}
+{"text": "bugify is short for label as bug", "intent": "teach_word"}
+{"text": "ship = close", "intent": "teach_word"}
+{"text": "yeet -> close", "intent": "teach_word"}
+{"text": "new word: peek. it means show the issue", "intent": "teach_word"}
+{"text": "can you learn that \"zap\" means close an issue?", "intent": "teach_word"}
+{"text": "please remember: when I say resurrect, reopen the issue", "intent": "teach_word"}
+{"text": "from now on, sweep means close the stale ones", "intent": "teach_word"}
+{"text": "treat 'gone' as close not planned", "intent": "teach_word"}
+{"text": "if i say mop up, do close stale", "intent": "teach_word"}
+{"text": "whenever I say sort I want triage", "intent": "teach_word"}
+{"text": "teach: burning = what's on fire", "intent": "teach_word"}
+{"text": "ima call undo 'oops' from now on", "intent": "teach_word"}
+{"text": "oops should mean undo", "intent": "teach_word"}
+{"text": "let's say 'dupe' means close as a duplicate", "intent": "teach_word"}
+{"text": "nuke = close issue", "intent": "teach_word"}
+{"text": "when I type wontfix I mean close as not planned", "intent": "teach_word"}
+{"text": "i'll say \"on me\" when i want to assign to myself", "intent": "teach_word"}
+{"text": "new shortcut: ls is short for list issues", "intent": "teach_word"}
+{"text": "from now on ls = list open issues", "intent": "teach_word"}
+{"text": "treat find as search", "intent": "teach_word"}
+{"text": "grep means search issues", "intent": "teach_word"}
+{"text": "kil means close, remember that", "intent": "teach_word"}
+{"text": "wen i say bounce i mean reopen", "intent": "teach_word"}
+{"text": "learn this: ticket it -> create an issue", "intent": "teach_word"}
+{"text": "\"file it\" means open a new issue", "intent": "teach_word"}
+{"text": "from now on p-zero means whats on fire", "intent": "teach_word"}
+{"text": "if I type rollback just do undo", "intent": "teach_word"}
+{"text": "when I say brain check, show brain status", "intent": "teach_word"}
+{"text": "teaching you a word: hoist means set the milestone", "intent": "teach_word"}
+{"text": "ok so 'pin' is short for label it p0", "intent": "teach_word"}
+{"text": "from now on stamp = label as enhancement", "intent": "teach_word"}
+{"text": "i want 'drop' to mean unassign me", "intent": "teach_word"}
+{"text": "dump means remove the label", "intent": "teach_word"}
+{"text": "going forward, 'wrap' means close the issue as done", "intent": "teach_word"}
+{"text": "kill = close, yeet = close, nuke = close. learn them", "intent": "teach_word"}
+{"text": "by 'binned' I mean close as not planned", "intent": "teach_word"}
+{"text": "you should know that sunset means close the stale issues", "intent": "teach_word"}
+{"text": "lowercase 'done' now means close issue", "intent": "teach_word"}
+{"text": "treat 'again' like reopen", "intent": "teach_word"}
+{"text": "remember: look = show the issue", "intent": "teach_word"}
+{"text": "my word for close is 'bin'", "intent": "teach_word"}
+{"text": "I call reopening 'unbury'. learn it", "intent": "teach_word"}
+{"text": "add a shortcut: hot -> what's on fire", "intent": "teach_word"}
+{"text": "from now on whenever I say lgtm, close the issue", "intent": "teach_word"}
+{"text": "slang: 'cooked' means on fire", "intent": "teach_word"}
+{"text": "can u treat 'mine' as assign to me pls", "intent": "teach_word"}
+{"text": "mark = label. same idea, learn it", "intent": "teach_word"}
+{"text": "'sweep up' is short for close stale", "intent": "teach_word"}
+{"text": "if I say dibs just assign it to me", "intent": "teach_word"}
+{"text": "when I say shelve I mean close as won't fix", "intent": "teach_word"}
+{"text": "nickname: call the show command 'zoom'", "intent": "teach_word"}
+{"text": "hey, tag it means label it. remember that", "intent": "teach_word"}
+{"text": "new word 'goodnight' means close all stale issues", "intent": "teach_word"}
+{"text": "\"merge it\" should close the issue from now on", "intent": "teach_word"}
+{"text": "whenver I say axe, close it", "intent": "teach_word"}
+{"text": "treat 'rip' as close", "intent": "teach_word"}
+{"text": "learn: scrap = close as not planned", "intent": "teach_word"}
+{"text": "from now on '+1' means comment on the issue", "intent": "teach_word"}
+{"text": "this means #4 is fixed, close it", "intent": "close_issue"}
+{"text": "that fix means we're done, close #12", "intent": "close_issue"}
+{"text": "when I say it's merged I mean close #8, so close it", "intent": "close_issue"}
+{"text": "what does p0 mean", "intent": "help"}
+{"text": "what does triage mean here and what can you do", "intent": "help"}
+{"text": "#9 is the same as #2", "intent": "close_duplicate"}
+{"text": "close #14, it means the same as #3", "intent": "close_duplicate"}
+{"text": "#20 is same as #11, close it as a dupe", "intent": "close_duplicate"}
+{"text": "treat #6 as a bug", "intent": "label_issue"}
+{"text": "treat 5 as p0 and label it", "intent": "label_issue"}
+{"text": "this means it's an enhancement, label #13 that", "intent": "label_issue"}
+{"text": "when I say urgent I mean #1, show it", "intent": "show_issue"}
+{"text": "what does #7 mean, show me the details", "intent": "show_issue"}
+{"text": "show #18, I don't get what it means", "intent": "show_issue"}
+{"text": "treat #3 as reopened, bring it back", "intent": "reopen_issue"}
+{"text": "that crash means #6 isn't fixed, reopen it", "intent": "reopen_issue"}
+{"text": "assign #4 to me, that means I'm taking it", "intent": "assign_issue"}
+{"text": "treat #10 as mine, assign it to me", "intent": "assign_issue"}
+{"text": "comment on #5: this means we need a new api key", "intent": "comment_issue"}
+{"text": "reply to #9 saying that error means the token expired", "intent": "comment_issue"}
+{"text": "new issue: what does error 502 mean in the upload flow", "intent": "create_issue"}
+{"text": "file a bug: the word 'short for' shows truncated in the title", "intent": "create_issue"}
+{"text": "anything that means safari is broken?", "intent": "search_issues"}
+{"text": "search for issues where 'same as' is mentioned", "intent": "search_issues"}
+{"text": "is there a ticket that says short for webhook", "intent": "search_issues"}
+{"text": "closing stale means anything untouched for 30 days, do it", "intent": "close_stale"}
+{"text": "close #7, it means we're not doing it, won't fix", "intent": "close_not_planned"}
+{"text": "treat #11 as not planned and close it", "intent": "close_not_planned"}
+{"text": "put #3 in v2.1, that means it ships this month", "intent": "set_milestone"}
+{"text": "treat #8 as part of the march release", "intent": "set_milestone"}
+{"text": "remove the p0 label from #5, it doesn't mean fire anymore", "intent": "remove_label"}
+{"text": "#9 isn't p0 anymore, drop the label, it means nothing now", "intent": "remove_label"}
+{"text": "take me off #4, that means I'm not working on it", "intent": "unassign_issue"}
+{"text": "what does your accuracy number mean", "intent": "brain_status"}
+{"text": "triage new issues, treat unlabelled as needing a label", "intent": "triage"}
+{"text": "what does the word serendipity mean", "intent": "other"}
+{"text": "what does 'carpe diem' mean", "intent": "other"}
+{"text": "undo that, I didn't mean to close it", "intent": "undo"}
+{"text": "rewind to v2, that update means you got worse", "intent": "rewind_brain"}
+{"text": "what's on fire, I mean p0s that are same as outages", "intent": "whats_on_fire"}

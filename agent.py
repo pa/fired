@@ -142,12 +142,11 @@ def checkpoint(comment):
 def decide(text):
     """(intent or None, why, options to offer if None, which part decided)."""
     t = time.perf_counter()
-    words = set(re.findall(r"[\w'-]+", text.lower()))
-    for word, intent in lessons.items():
-        if word in words:
-            record("lesson", t)
-            return intent, f"📝 *Lesson* · you taught me '{word}' means {intent}", [], "lesson"
     intent, conf, reasons = predict(model, text)
+    taught = lesson_in(text)
+    if taught and not (intent == "teach_word" and conf >= THRESHOLD):
+        record("lesson", t)
+        return lessons[taught], f"📝 *Lesson* · you taught me '{taught}' means {lessons[taught]}", [], "lesson"
     if conf >= THRESHOLD:
         record("brain", t)
         words = "  ".join(f"`{w}` +{s:.2f}" for w, s in reasons) or "overall wording"
@@ -204,6 +203,24 @@ def names(i):
 
 def set_state(num, state, reason):
     gh("PATCH", f"/issues/{num}", {"state": state, "state_reason": reason})
+
+
+def create(title, labels):
+    i = gh("POST", "/issues", {"title": title, "labels": labels})
+    undo_stack.append((f"create #{i['number']}",
+                       lambda n=i["number"]: set_state(n, "closed", "not_planned")))
+    return f"Created {line(i)}\n{i['html_url']}"
+
+
+def close_duplicate(dup, orig):
+    c = gh("POST", f"/issues/{dup}/comments", {"body": f"Duplicate of #{orig}"})
+    try:
+        set_state(dup, "closed", "duplicate")
+    except urllib.error.HTTPError:  # older API without the duplicate reason
+        set_state(dup, "closed", "not_planned")
+    undo_stack.append((f"close #{dup} as duplicate", lambda: (
+        set_state(dup, "open", "reopened"), gh("DELETE", f"/issues/comments/{c['id']}"))))
+    return f"Closed #{dup} as a duplicate of #{orig}."
 
 
 DETAIL_FILE = HERE / "detail.pkl"  # second model: which detail a question asks about
@@ -268,13 +285,11 @@ def act(intent, text, ts):
         answer, note = field_answer(text, i)
         return (f"*{answer}*\n{details}" if answer else details), note
     if intent == "create_issue":
-        title = quote or re.sub(r"^(please |pls |can you |could you )?(create|open|file|raise|log|"
-                                r"add|make|new)( an?| new)*( issue| bug| ticket)?( for| about| saying)?"
-                                r"[\s:]*", "", text, flags=re.I).strip()
-        i = gh("POST", "/issues", {"title": title, "labels": labels})
-        undo_stack.append((f"create #{i['number']}",
-                           lambda n=i["number"]: set_state(n, "closed", "not_planned")))
-        return f"Created {line(i)}\n{i['html_url']}"
+        if not quote:  # no quotes or colon: ask rather than guess which words are the title
+            pending[ts] = {"kind": "title", "labels": labels}
+            return ('What should the title be? Reply in this thread with it. '
+                    '(Next time you can put it in quotes: file a bug "login broken on safari".)')
+        return create(quote, labels)
     if intent == "label_issue":
         if not labels:
             return f"Which label? I know {', '.join(LABELS)}."
@@ -334,19 +349,21 @@ def act(intent, text, ts):
         undo_stack.append((f"close #{num}", lambda: set_state(num, "open", "reopened")))
         return f"Closed #{num} as not planned."
     if intent == "close_duplicate":
-        orig = re.search(r"(?:of|as|dupe?s?|duplicates?|same as|copy of|like)\s+#?(\d+)", text, re.I)
-        orig = int(orig.group(1)) if orig else (nums[1] if len(nums) > 1 else None)
-        dup = next((n for n in nums if n != orig), None)
-        if not orig or not dup:
+        pair = list(dict.fromkeys(nums))[:2]
+        if len(pair) < 2:
             return "Duplicate of which issue? Say it like: #9 is a duplicate of #2."
-        c = gh("POST", f"/issues/{dup}/comments", {"body": f"Duplicate of #{orig}"})
-        try:
-            set_state(dup, "closed", "duplicate")
-        except urllib.error.HTTPError:  # older API without the duplicate reason
-            set_state(dup, "closed", "not_planned")
-        undo_stack.append((f"close #{dup} as duplicate", lambda: (
-            set_state(dup, "open", "reopened"), gh("DELETE", f"/issues/comments/{c['id']}"))))
-        return f"Closed #{dup} as a duplicate of #{orig}."
+        a, b = pair
+        j = jev(text, {"dup": {
+            "type": "choice",
+            "instructions": "Which issue does this message say is the duplicate, the one to close?",
+            "criteria": {f"#{a}": f"issue #{a} is the duplicate and should be closed",
+                         f"#{b}": f"issue #{b} is the duplicate and should be closed"}}})["dup"]
+        note = f"⚖️ *Jev* picked which one is the duplicate · {j['choice']} {j['confidence']:.0%}"
+        if j["confidence"] < JEV_MIN:
+            pending[ts] = {"kind": "dup", "pair": pair}
+            return f"Which one should I close as the duplicate: #{a} or #{b}? Reply with the number.", note
+        dup = int(j["choice"].lstrip("#"))
+        return close_duplicate(dup, b if dup == a else a), note
     if intent == "reopen_issue":
         set_state(num, "open", "reopened")
         undo_stack.append((f"reopen #{num}", lambda: set_state(num, "closed", "completed")))
@@ -365,6 +382,16 @@ def act(intent, text, ts):
         what, fn = undo_stack.pop()
         fn()
         return f"Undid {what}."
+    if intent == "teach_word":
+        word = lesson_word(text)
+        if not word:
+            return "Which word should I learn? Put it in quotes, like: 'nuke' means close."
+        target, conf = lesson_meaning(text, word)
+        note = f"⚖️ *Jev* picked what '{word}' means · {target} {conf:.0%}"
+        if conf < JEV_MIN:
+            return (f"I'm not sure what '{word}' should mean. Try: '{word}' means close "
+                    "(or any action from help)."), note
+        return teach(word, target), note
     if intent == "rewind_brain":
         return rewind(ts)
     if intent == "brain_status":
@@ -410,13 +437,57 @@ def triage():
 
 # --- lessons and rewind ---------------------------------------------------
 
-LESSON = [re.compile(r"^when i say [\"“']?([\w-]+)[\"”']?,? i mean (.+)$", re.I),
-          re.compile(r"^[\"“']?([\w-]+)[\"”']? means (.+)$", re.I)]
+# Once the brain says a message is teach_word, these pull out the word and its meaning.
+# They only extract; they never decide whether a message is a lesson.
+LESSON_SHAPES = [
+    r"when i (?:say|type|write) [\"“'‘]?(.+?)[\"”'’]?,? (?:i mean|i want|that means|just|do|then)\s+(.+)",
+    r"if i (?:say|type|write) [\"“'‘]?(.+?)[\"”'’]?,? (?:just |then )?(?:do |it means )?(.+)",
+    r"treat [\"“'‘]?(.+?)[\"”'’]? (?:as|like) (.+)",
+    r"[\"“'‘](.+?)[\"”'’]\s*(?:means|=|->|→|is short for|stands for|is|should mean)\s+(.+)",
+    r"([\w-]+(?: [\w-]+)?)\s*(?:means|=|->|→|is short for|stands for|should mean)\s+(.+)",
+]
 
 
-def teach(word, target):
-    target = target.strip().rstrip(".!")
-    intent = target if target in INTENTS else predict(model, target)[0]
+def lesson_parts(text):
+    t = re.sub(r"^(?:ok(?:ay)?|hey|so|fyi|note|learn this|remember|from now on)[\s,:]*", "",
+               text.strip(), flags=re.I)
+    t = re.sub(r"^(?:from now on|going forward)[\s,:]*", "", t, flags=re.I)
+    for shape in LESSON_SHAPES:
+        if m := re.search(shape, t, re.I):
+            return m.group(1).strip(" '\"").lower(), m.group(2).strip()
+    return None, None
+
+
+LESSON_ACTIONS = {k: v["description"] for k, v in INTENTS.items()
+                  if k not in ("teach_word", "other", "help")}
+
+
+def lesson_word(text):
+    """The word being taught: a quoted word if there is one (an exact pattern), else the
+    common sentence shapes. None means ask the user."""
+    if q := re.search(r"(?:^|[\s:(=])[\"“'‘]([^\"”'’]{1,30})[\"”'’]", text):
+        return q.group(1).strip().lower()
+    return lesson_parts(text)[0]
+
+
+def lesson_meaning(text, word):
+    """Jev decides which action the taught word stands for, from the action descriptions."""
+    a = jev(text, {"means": {
+        "type": "choice",
+        "instructions": f"The user is teaching the bot that '{word}' should mean one of these "
+                        "actions from now on. Which action?",
+        "criteria": LESSON_ACTIONS}})["means"]
+    return a["choice"], a["confidence"]
+
+
+def lesson_in(text):
+    """The taught word (or phrase) this message uses, if any."""
+    low = text.lower()
+    return next((w for w in sorted(lessons, key=len, reverse=True)
+                 if re.search(rf"(?<![\w-]){re.escape(w)}(?![\w-])", low)), None)
+
+
+def teach(word, intent):
     cp = checkpoint(f"before lesson '{word.lower()}'")
     lessons[word.lower()] = intent
     LESSONS.write_text(json.dumps(lessons))
@@ -507,8 +578,7 @@ def api_state():
 def api_try(text):
     """What would Fired do with this message? Brain and keyword rules only: no Jev, no GitHub."""
     text = text[:300]
-    words = set(re.findall(r"[\w'-]+", text.lower()))
-    lesson = next((w for w in lessons if w in words), None)
+    lesson = lesson_in(text)
     t = time.perf_counter()
     intent, conf, reasons = predict(model, text)
     took = ms(t)
@@ -541,9 +611,6 @@ def run(intent, text, why, ts):
 
 
 def handle(text, ts):
-    for pattern in LESSON:
-        if m := pattern.match(text):
-            return say(teach(m.group(1), m.group(2)), ts)
     t = time.perf_counter()
     intent, why, options, source = decide(text)
     recent.appendleft({"at": time.strftime("%H:%M:%S"), "text": text[:90],
@@ -558,8 +625,17 @@ def handle(text, ts):
 
 
 def answer(thread, p, reply):
-    reply = reply.strip().lower()
+    raw = reply.strip()
+    reply = raw.lower()
     del pending[thread]
+    if p["kind"] == "title":
+        return say(create(raw, p["labels"]), thread)
+    if p["kind"] == "dup":
+        n = int(reply.lstrip("#")) if reply.lstrip("#").isdigit() else None
+        if n not in p["pair"]:
+            return say("Okay, left both open.", thread)
+        a, b = p["pair"]
+        return say(close_duplicate(n, b if n == a else a), thread)
     if p["kind"] == "confirm":
         if reply not in ("yes", "y", "go", "ok"):
             return say("Okay, left them open.", thread)
@@ -575,7 +651,7 @@ def answer(thread, p, reply):
     run(pick, p["text"], "🙋 *You* picked it", thread)
 
 
-ANSWER = re.compile(r"^\s*(yes|y|yep|ok|go|no|n|nope|\d)\s*[.!]?\s*$", re.I)
+ANSWER = re.compile(r"^\s*(yes|y|yep|ok|go|no|n|nope|#?\d{1,4})\s*[.!]?\s*$", re.I)
 
 
 def worker():
